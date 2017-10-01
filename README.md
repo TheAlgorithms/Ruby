@@ -59,3 +59,17 @@ __Properties__
 [insertion-toptal]: https://www.toptal.com/developers/sorting-algorithms/insertion-sort
 [insertion-wiki]: https://en.wikipedia.org/wiki/Insertion_sort
 [insertion-image]: https://upload.wikimedia.org/wikipedia/commons/7/7e/Insertionsort-edited.png "Insertion Sort"
+
+
+### Gnome Sort (aka "Stupid Sort")
+![alt text][gnome-image]
+
+From [Wikipedia][gnome-wiki]: The algorithm always finds the first place where two adjacent elements are in the wrong order, and swaps them. It takes advantage of the fact that performing a swap can introduce a new out-of-order adjacent pair only next to the two swapped elements. It does not assume that elements forward of the current position are sorted, so it only needs to check the position directly previous to the swapped elements.
+
+__Properties__
+* Worst case performance  O(n^2)
+* Best case performance O(n)
+* Average case performance  O(n^2)
+
+[gnome-wiki]: https://en.wikipedia.org/wiki/Gnome_sort
+[gnome-image]: https://upload.wikimedia.org/wikipedia/commons/3/37/Sorting_gnomesort_anim.gif "Gnome Sort"

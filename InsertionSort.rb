@@ -10,8 +10,8 @@ def insertion_sort(array)
   end
   array
 end
-puts "Enter a list of numbers seprated by space"
+puts "Enter a list of numbers separated by spaces"
 
-list = gets 
+list = gets
 insertion_sort(list)
 print list

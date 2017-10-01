@@ -1,7 +1,7 @@
-# The Algorithms - Ruby 
+# The Algorithms - Ruby
 ### All algorithms implemented in Ruby (for education)
 
-These are for demonstration purposes only. 
+These are for demonstration purposes only.
 ## Sorting Algorithms
 
 ### Bogo Sort

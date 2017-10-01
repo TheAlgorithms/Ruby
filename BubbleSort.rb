@@ -15,8 +15,8 @@ def bubble_sort(array)
 
   array
 end
-puts "Enter a list of numbers seprated by space"
+puts "Enter a list of numbers separated by spaces"
 
-list = gets 
+list = gets
 bubble_sort(list)
 print list

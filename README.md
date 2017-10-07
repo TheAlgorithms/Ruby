@@ -1,7 +1,7 @@
-# The Algorithms - Ruby 
+# The Algorithms - Ruby
 ### All algorithms implemented in Ruby (for education)
 
-These are for demonstration purposes only. 
+These are for demonstration purposes only.
 ## Sorting Algorithms
 
 ### Bogo Sort
@@ -47,10 +47,21 @@ __Properties__
 ###### View the algorithm in [action][selection-toptal]
 
 
+
+### Comb Sort
+![alt text][comb-image]
+
+From [Wikipedia][comb-wiki]: Comb sort is a relatively simple sorting algorithm originally designed by Włodzimierz Dobosiewicz in 1980. [...] Comb sort improves on bubble sort. The basic idea is to eliminate turtles, or small values near the end of the list, since in a bubble sort these slow the sorting down tremendously. Rabbits, large values around the beginning of the list, do not pose a problem in bubble sort.
+
+__Properties__
+* Worst case performance  O(n^2)
+* Best case performance O(n log)
+* Average case performance  O(n^2 / 2^p) where p is the number of increments
+
+
 [selection-toptal]: https://www.toptal.com/developers/sorting-algorithms/selection-sort
 [selection-wiki]: https://en.wikipedia.org/wiki/Selection_sort
 [selection-image]: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Selection_sort_animation.gif/250px-Selection_sort_animation.gif "Selection Sort Sort"
-
 
 [bubble-toptal]: https://www.toptal.com/developers/sorting-algorithms/bubble-sort
 [bubble-wiki]: https://en.wikipedia.org/wiki/Bubble_sort
@@ -59,3 +70,6 @@ __Properties__
 [insertion-toptal]: https://www.toptal.com/developers/sorting-algorithms/insertion-sort
 [insertion-wiki]: https://en.wikipedia.org/wiki/Insertion_sort
 [insertion-image]: https://upload.wikimedia.org/wikipedia/commons/7/7e/Insertionsort-edited.png "Insertion Sort"
+
+[comb-wiki]: https://en.wikipedia.org/wiki/Comb_sort
+[comb-image]: https://upload.wikimedia.org/wikipedia/commons/4/46/Comb_sort_demo.gif "Comb Sort"

@@ -47,6 +47,18 @@ __Properties__
 ###### View the algorithm in [action][selection-toptal]
 
 
+### Shell Sort
+![alt text][shell-image]
+
+From [Wikipedia][shell-wiki]: Shellsort, also known as Shell sort or Shell's method, is an in-place comparison sort. It can be seen as either a generalization of sorting by exchange (bubble sort) or sorting by insertion (insertion sort).[3] The method starts by sorting pairs of elements far apart from each other, then progressively reducing the gap between elements to be compared. Starting with far apart elements, it can move some out-of-place elements into position faster than a simple nearest neighbor exchange. Donald Shell published the first version of this sort in 1959.[4][5] The running time of Shellsort is heavily dependent on the gap sequence it uses. For many practical variants, determining their time complexity remains an open problem.
+
+__Properties__
+* Worst case performance	O(n^2)
+* Best case performance	O(n log n)
+* Average case performance	depends on gap sequence
+
+###### View the algorithm in [action][shell-toptal]
+
 [selection-toptal]: https://www.toptal.com/developers/sorting-algorithms/selection-sort
 [selection-wiki]: https://en.wikipedia.org/wiki/Selection_sort
 [selection-image]: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Selection_sort_animation.gif/250px-Selection_sort_animation.gif "Selection Sort Sort"
@@ -59,3 +71,7 @@ __Properties__
 [insertion-toptal]: https://www.toptal.com/developers/sorting-algorithms/insertion-sort
 [insertion-wiki]: https://en.wikipedia.org/wiki/Insertion_sort
 [insertion-image]: https://upload.wikimedia.org/wikipedia/commons/7/7e/Insertionsort-edited.png "Insertion Sort"
+
+[shell-toptal]: https://www.toptal.com/developers/sorting-algorithms/shell-sort
+[shell-wiki]: https://en.wikipedia.org/wiki/Shellsort
+[shell-image]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Shell_sorting_algorithm_color_bars.svg/267px-Shell_sorting_algorithm_color_bars.svg.png "Shell Sort"

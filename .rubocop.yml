@@ -1,0 +1,24 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockNesting:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false

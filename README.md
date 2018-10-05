@@ -5,7 +5,14 @@ These are for demonstration purposes only.
 ## Sorting Algorithms
 
 ### Bogo Sort
-Add comments here
+![alt text][bogo-image]
+
+From [Wikipedia][bogo-wiki]: Bogo sort is a highly ineffective sorting function based on the generate and test paradigm. The function successively generates permutations of its input until it finds one that is sorted. It is not useful for sorting, but may be used for educational purposes, to contrast it with more efficient algorithms. 
+
+__Properties__
+* Unbounded (randomized version), O((n+1)!) (deterministic version)
+* Best case performance	O(n)
+* Average case performance	O((n+1)!)
 
 ### Bubble Sort
 ![alt text][bubble-image]
@@ -75,3 +82,6 @@ __Properties__
 [shell-toptal]: https://www.toptal.com/developers/sorting-algorithms/shell-sort
 [shell-wiki]: https://en.wikipedia.org/wiki/Shellsort
 [shell-image]: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Shell_sorting_algorithm_color_bars.svg/267px-Shell_sorting_algorithm_color_bars.svg.png "Shell Sort"
+
+[bogo-wiki]: https://en.wikipedia.org/wiki/Bogosort
+[bogo-image]: http://www.siafoo.net/graph/d174e8328044fa36d07b25a4c0ad6631

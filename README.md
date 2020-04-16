@@ -2,6 +2,7 @@
 ### All algorithms implemented in Ruby (for education)
 
 These are for demonstration purposes only. 
+For a full list of all algorithms, please see:[DIRECTORY.md](https://github.com/TheAlgorithms/Ruby/blob/master/DIRECTORY.md)
 ## Sorting Algorithms
 
 ### Bogo Sort

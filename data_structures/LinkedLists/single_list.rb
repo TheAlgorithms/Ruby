@@ -76,5 +76,4 @@ class SingleList
   def isEmpty()
     return (@head==nil)
   end
-
 end

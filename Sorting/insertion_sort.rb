@@ -12,6 +12,6 @@ def insertion_sort(array)
 end
 puts "Enter a list of numbers seprated by space"
 
-list = gets 
+list = gets
 insertion_sort(list)
 print list

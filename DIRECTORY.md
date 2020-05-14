@@ -6,8 +6,8 @@
     * [Postorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/postorder_traversal.rb)
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
   * Linkedlists
-    * [Doublelist](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/LinkedLists/DoubleList.rb)
-    * [Singlelist](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/LinkedLists/SingleList.rb)
+    * [Double List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/LinkedLists/double_list.rb)
+    * [Single List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/LinkedLists/single_list.rb)
 
 ## Discrete Mathematics
   * [Euclidean Gcd](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/euclidean_gcd.rb)
@@ -31,7 +31,7 @@
 ## Sorting
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/Sorting/bogo_sort.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/Sorting/bubble_sort.rb)
-  * [Bucketsort](https://github.com/TheAlgorithms/Ruby/blob/master/Sorting/BucketSort.rb)
+  * [Bucket Sort](https://github.com/TheAlgorithms/Ruby/blob/master/Sorting/bucket_sort.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/Sorting/heap_sort.rb)
   * [Insertion Sort](https://github.com/TheAlgorithms/Ruby/blob/master/Sorting/insertion_sort.rb)
   * [Merge Sort](https://github.com/TheAlgorithms/Ruby/blob/master/Sorting/merge_sort.rb)

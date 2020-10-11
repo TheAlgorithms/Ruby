@@ -26,6 +26,7 @@
 
 ## Searches
   * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/binary_search.rb)
+  * [Depth First Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/depth_first_search.rb)
   * [Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/linear_search.rb)
 
 ## Sorting

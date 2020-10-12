@@ -10,15 +10,16 @@ end
 
 # A Class for double linked lists (each element links to the next one, and to the previous one)
 class DoubleList
+  include Enumerable
   attr_accessor :head, :tail
-  def initialize()
+  def initialize
     @head = nil
     @tail = nil
   end
 
   def insert_tail(value)
     new_node = Node.new(value)
-    if (@head == nil)
+    if @head.nil?
       @head = new_node
       @tail = new_node
     else
@@ -30,7 +31,7 @@ class DoubleList
 
   def insert_head(value)
     new_node = Node.new(value)
-    if (@head == nil)
+    if @head.nil?
       @head = new_node
       @tail = new_node
     else
@@ -40,41 +41,36 @@ class DoubleList
     end
   end
 
-  def delete_tail()
-    if (@tail != nil)
+  def delete_tail
+    until @tail.nil?
       @tail = @tail.prev
-      if (@tail != nil)
-        @tail.next = nil
-      end
+      @tail.next = nil unless @tail.nil?
     end
   end
 
-  def delete_head()
-    if (@head != nil)
+  def delete_head
+    until @head.nil?
       @head = @head.next
-      if (@head != nil)
-        @head.prev = nil
-      end
+      @head.prev = nil unless @head.nil?
     end
   end
 
-  def print_list()
-    print "["
-    if (@head != nil)
-      printNode = @head
-      while (printNode != nil)
-        print "#{printNode.value}"
-        if (printNode != @tail)
-          print ", "
-        end
-        printNode = printNode.next
-      end
+  def each
+    return if @head.nil?
+
+    current = @head
+    until current.nil?
+      yield current.value
+      current = current.next
     end
-    print "]"
-    STDOUT.flush
   end
 
-  def is_empty()
-    return (@head==nil)
+  def print_list
+    # the to_a method is from Enumerable, will call each to get the values, and return an array
+    puts '[' + self.to_a.join(', ') + ']'
+  end
+
+  def empty?
+    @head.nil?
   end
 end

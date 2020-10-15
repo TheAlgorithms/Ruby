@@ -10,27 +10,26 @@ end
 # A Class for single linked lists (each element links to the next one, but not to the previous one)
 
 class SingleList
+  include Enumerable
   attr_accessor :head
-  def initialize()
+  def initialize
     @head = nil
   end
 
   def insert_tail(value)
     newNode = Node.new(value)
-    if (@head == nil)
+    if @head.nil?
       @head = newNode
     else
       tempNode = @head
-      while (tempNode.next != nil)
-        tempNode = tempNode.next
-      end
+      tempNode = tempNode.next until tempNode.next.nil?
       tempNode.next = newNode
     end
   end
 
   def insert_head(value)
     newNode = Node.new(value)
-    if (@head == nil)
+    if @head.nil?
       @head = newNode
     else
       newNode.next = @head
@@ -38,42 +37,38 @@ class SingleList
     end
   end
 
-  def print_list()
-    print "["
-    if (@head != nil)
-      printNode = @head
-      while (printNode != nil)
-        print "#{printNode.value}"
-        if (printNode.next != nil)
-          print ", "
-        end
-        printNode = printNode.next
-      end
+  def each
+    return if @head.nil?
+
+    current = @head
+    until current.nil?
+      yield current.value
+      current = current.next
     end
-    print "]"
-    STDOUT.flush
+  end
+
+  def print_list
+    puts '[' + self.to_a.join(', ') + ']'
   end
 
   def delete_head
-    if (@head != nil) && (@head.next != nil)
+    if !@head.nil? && !@head.next.nil?
       newHead = @head.next
       @head = newHead
-    elsif (@head != nil) && (@head.next == nil)
+    elsif !@head.nil? && @head.next.nil?
       @head = nil
     end
   end
 
   def delete_tail
-    if (@head != nil)
-      tempNode = @head
-      while (tempNode.next.next != nil)
-        tempNode = tempNode.next
-      end
-      tempNode.next = nil
-    end
+    return if @head.nil?
+
+    tempNode = @head
+    tempNode = tempNode.next until tempNode.next.next.nil?
+    tempNode.next = nil
   end
 
-  def isEmpty()
-    return (@head==nil)
+  def empty?
+    @head.nil?
   end
 end

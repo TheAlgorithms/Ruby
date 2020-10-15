@@ -1,4 +1,7 @@
 
+## Ciphers
+  * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)
+
 ## Data Structures
   * Binary Trees
     * [Inorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/inorder_traversal.rb)

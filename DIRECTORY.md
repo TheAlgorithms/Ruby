@@ -24,6 +24,8 @@
     * [Problem1 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%201/problem1_sol1.rb)
   * Problem 2
     * [Problem2 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%202/problem2_sol1.rb)
+  * Problem 3
+    * [Problem3 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%203/problem3_sol1.rb)
   * Problem 5
     * [Problem5 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%205/problem5_sol1.rb)
 

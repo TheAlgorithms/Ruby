@@ -14,7 +14,7 @@
 # What is the total of all the name scores in the file?
 
 # reading the contents of the file
-file_contents = File.open('p022_names.txt', 'r').read
+file_contents = File.read('p022_names.txt')
 
 # replacing the occuerance of \" to '' and spliting the result by ','
 # to get an array of sorted words
@@ -23,7 +23,7 @@ words = file_contents.tr('\"', '').split(',').sort
 # this method calculates the worth of a word based on the ASCII
 # values of the characters
 def word_worth(word)
-  word.split('').inject(0) { |result, char| result + char.ord - 'A'.ord + 1 }
+  word.chars.sum { |char| char.ord - 'A'.ord + 1 }
 end
 
 # this method takes the words as an input

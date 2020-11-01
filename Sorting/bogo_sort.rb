@@ -4,8 +4,8 @@ class Array
     for i in 1...self.length
       return false if self[i-1] > self[i]
     end
-		return true
-	end
+    return true
+  end
   def bogosort
     ### randomly shuffles until sorted
     self.shuffle! until self.sorted?

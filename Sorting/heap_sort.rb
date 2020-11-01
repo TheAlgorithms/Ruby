@@ -1,7 +1,5 @@
-"""
-Algorithm: Heap-Sort
-Time-Complexity: O(nlogn)
-"""
+# Algorithm: Heap-Sort
+# Time-Complexity: O(nlogn)
 def heap_sort(array)
   array_size = array.size
   adjusted_array = [nil] + array

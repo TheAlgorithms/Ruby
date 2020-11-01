@@ -27,6 +27,6 @@ def merge_sort(array)
   result
 end
 
-puts "Enter a list of numbers seprated by space"
+puts "Enter a list of numbers separated by space"
 list = gets
 print merge_sort list.split(" ").map(&:to_i)

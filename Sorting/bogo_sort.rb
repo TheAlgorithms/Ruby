@@ -13,6 +13,6 @@ class Array
   end
 end
 
-puts "Enter a list of numbers seprated by space"
+puts "Enter a list of numbers separated by space"
 str = gets.chomp.split('')
 puts str.bogosort.join('')

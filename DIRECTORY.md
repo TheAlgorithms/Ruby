@@ -8,9 +8,9 @@
     * [Invert](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/invert.rb)
     * [Postorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/postorder_traversal.rb)
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
-  * Linkedlists
-    * [Double List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/LinkedLists/double_list.rb)
-    * [Single List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/LinkedLists/single_list.rb)
+  * Linked Lists
+    * [Double List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/double_list.rb)
+    * [Single List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/single_list.rb)
 
 ## Discrete Mathematics
   * [Euclidean Gcd](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/euclidean_gcd.rb)
@@ -21,19 +21,19 @@
 
 ## Project Euler
   * Problem 1
-    * [Problem1 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%201/problem1_sol1.rb)
+    * [Problem1 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_1/problem1_sol1.rb)
   * Problem 2
-    * [Problem2 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%202/problem2_sol1.rb)
+    * [Problem2 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_2/problem2_sol1.rb)
   * Problem 20
-    * [Problem20 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%2020/problem20_sol1.rb)
+    * [Problem20 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_20/problem20_sol1.rb)
   * Problem 21
-    * [Problem21 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%2021/problem21_sol1.rb)
+    * [Problem21 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_21/problem21_sol1.rb)
   * Problem 22
-    * [Problem22 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%2022/problem22_sol1.rb)
+    * [Problem22 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_22/problem22_sol1.rb)
   * Problem 3
-    * [Problem3 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%203/problem3_sol1.rb)
+    * [Problem3 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/problem3_sol1.rb)
   * Problem 5
-    * [Problem5 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%205/problem5_sol1.rb)
+    * [Problem5 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_5/problem5_sol1.rb)
 
 ## Searches
   * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/binary_search.rb)

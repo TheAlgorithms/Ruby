@@ -7,19 +7,19 @@
 
 #
 # 1. Brute force solution
-# 
+#
 def calculate_products_of_all_other_elements(nums)
-  products_other_elements = Array.new(nums.length, 1)
+  product_of_other_elements = Array.new(nums.length, 1)
 
   nums.each_with_index do |num1, i|
     nums.each_with_index do |num2, j|
       if (i != j)
-        products_other_elements[i] = products_other_elements[i] * num2
+        product_of_other_elements[i] = product_of_other_elements[i] * num2
       end
     end
   end
 
-  products_other_elements
+  product_of_other_elements
 end
 
 puts(calculate_products_of_all_other_elements([1, 2, 3]))

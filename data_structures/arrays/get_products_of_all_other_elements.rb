@@ -5,7 +5,9 @@
 # each element at index `i` of the new array is the product of
 # all the numbers in the original array except the one at `i`.
 
+#
 # 1. Brute force solution
+# 
 def calculate_products_of_all_other_elements(nums)
   products_other_elements = Array.new(nums.length, 1)
 
@@ -22,8 +24,10 @@ end
 
 puts(calculate_products_of_all_other_elements([1, 2, 3]))
 
+#
 # 2. O(n) time and space
 # Arrays - Get Products of all other elements in Ruby
+#
 
 # Generates prefix products
 def build_prefix_products(nums)

@@ -5,18 +5,15 @@ def double_linear_search(array, search_item)
   end_ind = array.length - 1
 
   while start_ind <= end_ind
-    if array[start_ind] == search_item
-      return start_ind
-    elsif array[end_ind] == search_item
-      return end_ind
-    else
-      start_ind += 1
-      end_ind -= 1
-    end
+    return start_ind if array[start_ind] == search_item
+    return end_ind if array[end_ind] == search_item
+
+    start_ind += 1
+    end_ind -= 1
   end
 
   # returns -1 if search_item is not found in array
-  return -1
+  -1
 end
 
 puts(double_linear_search([1, 5, 5, 10], 1))

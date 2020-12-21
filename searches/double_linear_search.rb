@@ -18,9 +18,12 @@ end
 
 puts(double_linear_search([1, 5, 5, 10], 1))
 # => 0
+
 puts(double_linear_search([1, 5, 5, 10], 5))
 # => 1
+
 puts(double_linear_search([1, 5, 5, 10], 100))
 # => -1
+
 puts(double_linear_search([1, 5, 5, 10], 10))
 # => 3

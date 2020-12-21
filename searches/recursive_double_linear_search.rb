@@ -6,7 +6,6 @@ def recursive_double_linear_search(data, key, left = 0, right = 0)
   return -1 if left > right
 
   return left if data[left] == key
-
   return right if data[right] == key
 
   recursive_double_linear_search(data, key, left + 1, right - 1)

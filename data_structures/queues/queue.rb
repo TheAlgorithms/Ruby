@@ -1,5 +1,5 @@
 # A queue is like a waiting list.
-# Imagine you’re waiting in line to buy the latest Android product
+# Imagine you are waiting in line to buy the latest Android product
 # or getting a parking ticket. These are queues!
 
 #
@@ -7,9 +7,9 @@
 # 1. An array can behave like a Queue if you use the right methods.
 #
 # These methods are:
-# - unshift (or prepend with Ruby 2.5+): when you unshift,
-# you are adding one item to the queue
+# - unshift: when you unshift, you are adding one item to the queue
 # - pop
+# 
 
 class ArrayQueue
   def initialize(queue = [])
@@ -53,6 +53,8 @@ puts(queue.peek)
 # Ruby has a proper thread-safe, blocking, Queue class.
 # You can use this queue for coordinating work in a multi-threaded program.
 #
+# Reference: https://ruby-doc.org/core-2.5.0/Queue.html
+#
 
 que = Queue.new
 
@@ -71,8 +73,10 @@ que.pop
 
 #
 #
-# 3. How to Use A Sized Queue
+# 3. How to Use a Ruby SizedQueue
 # A sized queue is the same as a regular queue but with a size limit.
+#
+# Reference: https://ruby-doc.org/core-2.5.0/SizedQueue.html
 #
 
 que = SizedQueue.new(5)

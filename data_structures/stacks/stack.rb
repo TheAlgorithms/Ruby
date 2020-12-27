@@ -7,19 +7,17 @@
 class StackOverflowError < StandardError; end
 
 class Stack
-  def initialize(stack, limit)
-    @stack = []
+  def initialize(limit, stack = [])
+    @stack = stack
     @limit = limit
   end
 
   attr_accessor :stack, :limit
 
   def push(item)
-    if stack.count < limit
-      stack << item
-    else
-      raise StackOverflowError
-    end
+    raise StackOverflowError unless stack.count < limit
+
+    stack << item
   end
 
   def pop
@@ -30,11 +28,11 @@ class Stack
     stack.last
   end
 
-  def is_empty?
-    stack.count == 0
+  def empty?
+    stack.count.zero?
   end
 
-  def is_full
+  def full?
     stack.count == limit
   end
 
@@ -47,9 +45,9 @@ class Stack
   end
 end
 
-stack = Stack.new([], 10)
+stack = Stack.new(10, [])
 
-puts stack.is_empty?
+puts stack.empty?
 # => true
 
 stack.push(3)
@@ -57,7 +55,7 @@ stack.push(5)
 stack.push(7)
 stack.push(9)
 
-puts stack.is_full
+puts stack.full?
 # => false
 
 puts stack.contains?(5)

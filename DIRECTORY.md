@@ -11,6 +11,9 @@
   * Linked Lists
     * [Double List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/double_list.rb)
     * [Single List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/single_list.rb)
+  * Stacks
+    * [Stack](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/stacks/stack.rb)
+
 
 ## Discrete Mathematics
   * [Euclidean Gcd](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/euclidean_gcd.rb)

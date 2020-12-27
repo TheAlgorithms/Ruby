@@ -72,3 +72,16 @@ puts stack.size
 
 puts stack.inspect
 # => #<Stack:0x00007fceed83eb40 @stack=[3, 5, 7], @limit=10>
+
+stack.push(13)
+stack.push(15)
+stack.push(17)
+stack.push(19)
+stack.push(23)
+stack.push(25)
+stack.push(27)
+# At this point, the stack is full
+
+stack.push(29)
+# => data_structures/stacks/stack.rb:18:in `push': StackOverflowError (StackOverflowError)
+# from data_structures/stacks/stack.rb:83:in `<main>'

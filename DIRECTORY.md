@@ -4,7 +4,7 @@
 
 ## Data Structures
   * Arrays
-    * [Get products of all other elements in Ruby](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
+    * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
   * Binary Trees
     * [Inorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/inorder_traversal.rb)
     * [Invert](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/invert.rb)

@@ -16,4 +16,3 @@ def solution(n)
 end
 
 puts solution(600851475143)
-

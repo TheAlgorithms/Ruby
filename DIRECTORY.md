@@ -28,26 +28,23 @@
   * [Fisher Yates](https://github.com/TheAlgorithms/Ruby/blob/master/other/fisher_yates.rb)
 
 ## Project Euler
-  * Problem 3
-    * [Problem3 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%203/problem3_sol1.rb)
-  * Problem 4
-    * [Problem4 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%204/problem4_sol1.rb)
-
-## Project Euler
   * Problem 1
-    * [Problem1 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_1/problem1_sol1.rb)
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_1/sol1.rb)
   * Problem 2
-    * [Problem2 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_2/problem2_sol1.rb)
-  * Problem 20
-    * [Problem20 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_20/problem20_sol1.rb)
-  * Problem 21
-    * [Problem21 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_21/problem21_sol1.rb)
-  * Problem 22
-    * [Problem22 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_22/problem22_sol1.rb)
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_2/sol1.rb)
   * Problem 3
-    * [Problem3 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/problem3_sol1.rb)
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/sol1.rb)
+    * [Sol2](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/sol2.rb)
+  * Problem 4
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_4/sol1.rb)
   * Problem 5
-    * [Problem5 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_5/problem5_sol1.rb)
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_5/sol1.rb)
+  * Problem 20
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_20/sol1.rb)
+  * Problem 21
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_21/sol1.rb)
+  * Problem 22
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_22/sol1.rb)
 
 ## Searches
   * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/binary_search.rb)
@@ -59,7 +56,6 @@
 
 ## Sorting
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)
-  * [Bogo Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort_test.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort.rb)
   * [Bucket Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bucket_sort.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort.rb)

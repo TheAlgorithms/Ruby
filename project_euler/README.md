@@ -16,5 +16,5 @@ Welcome to [TheAlgorithms/Ruby](https://github.com/TheAlgorithms/Ruby)! Before r
   * Please name the project **directory** as `problem_<problem_number>` where `problem_number` should be filled with 0s so as to occupy 3 digits. Example: `problem_001`, `problem_002`, `problem_067`, `problem_145`, and so on.
 
 * You can have as many helper functions as you want but there should be one main function called `solution` which should satisfy the conditions as stated below:
-  * It should contain positional argument(s) whose default value is the question input. Example: Please take a look at [Problem 1](https://projecteuler.net/problem=1) where the question is to *Find the sum of all the multiples of 3 or 5 below 1000.* In this case the main solution function will be `solution(limit: int = 1000)`.
+  * It should contain positional argument(s) whose default value is the question input. Example: Please take a look at [Problem 1](https://projecteuler.net/problem=1) where the question is to *Find the sum of all the multiples of 3 or 5 below 1000.* In this case the main solution function will be `solution(limit = 1000)`.
   * When the `solution` function is called without any arguments like so: `solution()`, it should return the answer to the problem.

@@ -13,6 +13,8 @@
   * Linked Lists
     * [Double List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/double_list.rb)
     * [Single List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/single_list.rb)
+  * Stacks
+    * [Stack](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/stacks/stack.rb)
   * Tries
     * [Trie](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/tries/trie.rb)
 

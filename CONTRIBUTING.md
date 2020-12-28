@@ -64,4 +64,4 @@ Algorithms in this repo should not be how-to examples for existing Ruby packages
   - **Join** [Gitter](https://gitter.im/TheAlgorithms) **now!**
   - Happy coding!
 
-Writer [@poyea](https://github.com/poyea), Jun 2019.
+Writer [@vbrazo](https://github.com/vbrazo), Dec 2020.

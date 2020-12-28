@@ -7,7 +7,7 @@ insights to solve. Project Euler is ideal for mathematicians who are learning to
 
 ## Solution Guidelines
 
-Welcome to [TheAlgorithms/Ruby](https://github.com/TheAlgorithms/Ruby)! Before reading the solution guidelines, make sure you read the whole [Contributing Guidelines](https://github.com/TheAlgorithms/Ruby/blob/master/CONTRIBUTING.md) as it won't be repeated in here. If you have any doubt on the guidelines, please feel free to [state it clearly in an issue](https://github.com/TheAlgorithms/Ruby/issues/new) or ask the community in [Gitter](https://gitter.im/TheAlgorithms). You can use the [template](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/README.md#solution-template) we have provided below as your starting point but be sure to read the [Coding Style](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/README.md#coding-style) part first.
+Welcome to [TheAlgorithms/Ruby](https://github.com/TheAlgorithms/Ruby)! Before reading the solution guidelines, make sure you read the whole [Contributing Guidelines](https://github.com/TheAlgorithms/Ruby/blob/master/CONTRIBUTING.md) as it won't be repeated in here. If you have any doubt on the guidelines, please feel free to [state it clearly in an issue](https://github.com/TheAlgorithms/Ruby/issues/new) or ask the community in [Gitter](https://gitter.im/TheAlgorithms). Be sure to read the [Coding Style](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/README.md#coding-style) before starting solution.
 
 ### Coding Style
 
@@ -18,7 +18,3 @@ Welcome to [TheAlgorithms/Ruby](https://github.com/TheAlgorithms/Ruby)! Before r
 * You can have as many helper functions as you want but there should be one main function called `solution` which should satisfy the conditions as stated below:
   * It should contain positional argument(s) whose default value is the question input. Example: Please take a look at [Problem 1](https://projecteuler.net/problem=1) where the question is to *Find the sum of all the multiples of 3 or 5 below 1000.* In this case the main solution function will be `solution(limit: int = 1000)`.
   * When the `solution` function is called without any arguments like so: `solution()`, it should return the answer to the problem.
-
-### Solution Template
-
-You can use the below template as your starting point but please read the [Coding Style](https://github.com/TheAlgorithms/Python/blob/master/project_euler/README.md#coding-style) first to understand how the template works.

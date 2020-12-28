@@ -20,6 +20,10 @@
   * [Fisher Yates](https://github.com/TheAlgorithms/Ruby/blob/master/other/fisher_yates.rb)
 
 ## Project Euler
+  * Problem 4
+    * [Problem4 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%204/problem4_sol1.rb)
+
+## Project Euler
   * Problem 1
     * [Problem1 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_1/problem1_sol1.rb)
   * Problem 2

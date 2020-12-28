@@ -42,7 +42,6 @@
 
 ## Sorting
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)
-  * [Bogo Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort_test.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort.rb)
   * [Bucket Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bucket_sort.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort.rb)

@@ -32,6 +32,12 @@
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_1/sol1.rb)
   * Problem 2
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_2/sol1.rb)
+  * Problem 20
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_20/sol1.rb)
+  * Problem 21
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_21/sol1.rb)
+  * Problem 22
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_22/sol1.rb)
   * Problem 3
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/sol1.rb)
     * [Sol2](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/sol2.rb)
@@ -39,12 +45,6 @@
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_4/sol1.rb)
   * Problem 5
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_5/sol1.rb)
-  * Problem 20
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_20/sol1.rb)
-  * Problem 21
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_21/sol1.rb)
-  * Problem 22
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_22/sol1.rb)
 
 ## Searches
   * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/binary_search.rb)
@@ -56,6 +56,7 @@
 
 ## Sorting
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)
+  * [Bogo Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort_test.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort.rb)
   * [Bucket Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bucket_sort.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort.rb)

@@ -13,6 +13,8 @@ class Array
   end
 end
 
-puts "Enter a list of numbers separated by space"
-str = gets.chomp.split('')
-puts str.bogosort.join('')
+if $0 == __FILE__
+  puts "Enter a list of numbers separated by space"
+  str = gets.chomp.split('')
+  puts str.bogosort.join('')
+end

@@ -3,6 +3,8 @@
   * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)
 
 ## Data Structures
+  * Arrays
+    * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
   * Binary Trees
     * [Inorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/inorder_traversal.rb)
     * [Invert](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/invert.rb)
@@ -18,6 +20,12 @@
 
 ## Other
   * [Fisher Yates](https://github.com/TheAlgorithms/Ruby/blob/master/other/fisher_yates.rb)
+
+## Project Euler
+  * Problem 3
+    * [Problem3 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%203/problem3_sol1.rb)
+  * Problem 4
+    * [Problem4 Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/Project%20Euler/Problem%204/problem4_sol1.rb)
 
 ## Project Euler
   * Problem 1
@@ -40,9 +48,11 @@
   * [Depth First Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/depth_first_search.rb)
   * [Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/linear_search.rb)
   * [Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/double_linear_search.rb)
+  * [Recursive Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/recursive_linear_search.rb)
 
 ## Sorting
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)
+  * [Bogo Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort_test.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort.rb)
   * [Bucket Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bucket_sort.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort.rb)

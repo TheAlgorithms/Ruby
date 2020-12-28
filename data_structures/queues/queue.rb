@@ -9,7 +9,7 @@
 # These methods are:
 # - unshift: when you unshift, you are adding one item to the queue
 # - pop
-# 
+#
 
 class ArrayQueue
   def initialize(queue = [])
@@ -56,16 +56,16 @@ puts(queue.peek)
 # Reference: https://ruby-doc.org/core-2.5.0/Queue.html
 #
 
-que = Queue.new
+queue = Queue.new
 
-que << 1
-que << 2
-que << 3
+queue << 1
+queue << 2
+queue << 3
 
-que.pop
+queue.pop
 # 1
 
-que.pop
+queue.pop
 # 2
 
 # If the queue is empty, calling pop will put your current
@@ -79,19 +79,19 @@ que.pop
 # Reference: https://ruby-doc.org/core-2.5.0/SizedQueue.html
 #
 
-que = SizedQueue.new(5)
+queue = SizedQueue.new(5)
 
 # When the queue is full, the push (same as <<) operation
 # will suspend the current thread until an item is taken off the queue.
 
-que.push(:oranges)
-que.push(:apples)
-que.push(:blue)
-que.push(:orange)
-que.push(:green)
+queue.push(:oranges)
+queue.push(:apples)
+queue.push(:blue)
+queue.push(:orange)
+queue.push(:green)
 # At this point, the SizedQueue is full
 
-que.push(:throw_expection)
+queue.push(:throw_expection)
 # data_structures/queues/queue.rb:81:in `push': No live threads left. Deadlock? (fatal)
 # 1 threads, 1 sleeps current:0x00007ff54f407130 main thread:0x00007ff54f407130
 # * #<Thread:0x00007ff54f86ef38 sleep_forever>
@@ -101,6 +101,6 @@ que.push(:throw_expection)
 # 	from data_structures/queues/queue.rb:81:in `<main>'
 
 # You can choose to raise an exception, passing true as an argument as follows:
-que.push(:throw_expection, true)
+queue.push(:throw_expection, true)
 # data_structures/queues/queue.rb:83:in `push': queue full (ThreadError)
 # 	from data_structures/queues/queue.rb:83:in `<main>'

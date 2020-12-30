@@ -43,6 +43,7 @@
     * [Sol2](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/sol2.rb)
   * Problem 4
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_4/sol1.rb)
+    * [Sol2](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_4/sol2.rb)
   * Problem 5
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_5/sol1.rb)
 

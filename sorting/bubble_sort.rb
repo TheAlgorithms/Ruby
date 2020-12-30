@@ -15,8 +15,11 @@ def bubble_sort(array)
 
   array
 end
-puts 'Enter a list of numbers separated by space'
 
-list = gets
-bubble_sort(list)
-print list
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets
+  bubble_sort(list)
+  print list
+end

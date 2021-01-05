@@ -24,6 +24,12 @@
   * [Euclidean Gcd](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/euclidean_gcd.rb)
   * [Lcm](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/lcm.rb)
 
+## Maths
+  * [Absolute Value](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
+  * [Aliquot Sum](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot.rb)
+  * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
+  * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
+
 ## Other
   * [Fisher Yates](https://github.com/TheAlgorithms/Ruby/blob/master/other/fisher_yates.rb)
 

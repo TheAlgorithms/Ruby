@@ -5,7 +5,9 @@ require_relative './square_root'
 
 class SquareRootTest < Minitest::Test
   def test_negative_number
-    assert_raises { SquareRoot.call(-1) }
+    assert_raises DomainError do
+      SquareRoot.call(-1)
+    end
   end
 
   def test_zero

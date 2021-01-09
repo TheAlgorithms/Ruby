@@ -25,10 +25,14 @@
   * [Lcm](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/lcm.rb)
 
 ## Maths
-  * [Absolute Value](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
-  * [Aliquot Sum](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot.rb)
+  * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
+  * [Abs Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_test.rb)
+  * [Aliquot Sum](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot_sum.rb)
+  * [Aliquot Sum Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot_sum_test.rb)
   * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
+  * [Ceil Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil_test.rb)
   * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
+  * [Square Root Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root_test.rb)
 
 ## Other
   * [Fisher Yates](https://github.com/TheAlgorithms/Ruby/blob/master/other/fisher_yates.rb)

@@ -7,6 +7,6 @@ jobs:
       - uses: actions/checkout@master
       - uses: actions/setup-ruby@master
         with:
-          ruby-version: '2.7'
+          ruby-version: '3.0'
       - name: Run tests
         run: rake test

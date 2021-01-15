@@ -64,6 +64,7 @@
   * [Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/linear_search.rb)
   * [Recursive Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/recursive_double_linear_search.rb)
   * [Recursive Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/recursive_linear_search.rb)
+  * [Ternary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/ternary_search.rb)
 
 ## Sorting
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)

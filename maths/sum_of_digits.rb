@@ -1,5 +1,6 @@
-def digits_sum(n)
+# Given a number, find sum of its digits.
 
+def digits_sum(n)
   a, sum = 0, 0
   until n.zero?
     a = n % 10

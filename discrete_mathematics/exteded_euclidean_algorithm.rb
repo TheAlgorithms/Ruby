@@ -14,7 +14,7 @@ def extended_euclidean_gcd(a, b)
 end
 
 puts "GCD(3, 5) = " + extended_euclidean_gcd(3, 5).to_s
-# GCD(3, 6) = 3
+# GCD(3, 5) = 1
 puts "GCD(3, 6) = " + extended_euclidean_gcd(3, 6).to_s
 # GCD(3, 6) = 3
 puts "GCD(6, 3) = " + extended_euclidean_gcd(6, 3).to_s

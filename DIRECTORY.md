@@ -32,6 +32,7 @@
   * [Aliquot Sum Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot_sum_test.rb)
   * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
   * [Ceil Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil_test.rb)
+  * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
   * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
   * [Square Root Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root_test.rb)
   * [Sum Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/sum_of_digits.rb)

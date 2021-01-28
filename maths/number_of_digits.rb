@@ -5,7 +5,7 @@ def count_digits(n)
     temp = n
     
     if (n == 0)
-        return count + 1
+        return 1
     end
     
     until temp.zero?

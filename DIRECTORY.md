@@ -22,6 +22,7 @@
 
 ## Discrete Mathematics
   * [Euclidean Gcd](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/euclidean_gcd.rb)
+  * [Exteded Euclidean Algorithm](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/exteded_euclidean_algorithm.rb)
   * [Lcm](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/lcm.rb)
 
 ## Maths

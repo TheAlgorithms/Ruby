@@ -1,5 +1,6 @@
 # Define a node in the list
 class Node
+  # Initialize the data structure here.
   attr_accessor :value, :next
 
   def initialize(value)
@@ -9,7 +10,6 @@ class Node
 end
 
 # A Class for single linked lists (each element links to the next one, but not to the previous one)
-
 class SinglyLinkedList
   include Enumerable
   attr_accessor :head

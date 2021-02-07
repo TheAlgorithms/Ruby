@@ -1,5 +1,5 @@
 class DoublyLinkedList
-  # Initialize your data structure here.
+  # Initialize the data structure here.
   attr_reader :head, :tail, :size
 
   def initialize
@@ -84,7 +84,6 @@ class DoublyLinkedList
           cnt -= 1
         end
       end
-      # else put "illegal input"
     end
   end
 
@@ -126,7 +125,6 @@ class DoublyLinkedList
           cnt -= 1
         end
       end
-      # else put "illegal input"
     end
   end
 

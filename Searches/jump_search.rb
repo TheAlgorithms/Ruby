@@ -2,7 +2,7 @@
 # Finding element by creating step in array and jump ahead by fixed steps and finding element using linear search inside that steped array.
 # Time Complexity : O(√n)
 
-def jumpsearch(arr, x)
+def jump_search(arr, x)
   n = arr.length;
 
   # Finding block size to be jumped 

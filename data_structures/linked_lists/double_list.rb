@@ -1,4 +1,4 @@
-class DoubleList
+class DoublyLinkedList
   # Initialize your data structure here.
   attr_reader :head, :tail, :size
 
@@ -165,7 +165,7 @@ class Node
   end
 end
 
-obj = DoubleList.new
+obj = DoublyLinkedList.new
 obj.get(1)
 
 obj.add_at_head(2)

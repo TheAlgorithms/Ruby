@@ -10,7 +10,7 @@ end
 
 # A Class for single linked lists (each element links to the next one, but not to the previous one)
 
-class SingleList
+class SinglyLinkedList
   include Enumerable
   attr_accessor :head
 
@@ -75,7 +75,7 @@ class SingleList
   end
 end
 
-obj = SingleList.new
+obj = SinglyLinkedList.new
 
 obj.insert_head(1)
 obj.insert_head(2)

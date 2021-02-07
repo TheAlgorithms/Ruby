@@ -13,6 +13,6 @@ def selection_sort(array)
   end
 end
 
-arr = ([9,8,3,1,2,55,68,48].shuffle) #We have taken a rondom example and also shuffling it
+arr = [9, 8, 3, 1, 2, 55, 68, 48].shuffle # We have taken a rondom example and also shuffling it
 selection_sort(arr)
 puts "Sorted array is: #{arr.inspect}"

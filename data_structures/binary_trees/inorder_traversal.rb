@@ -12,12 +12,12 @@
 def inorder_traversal(root)
   ans = []
   def traverse(node, ans)
-    if node != nil
+    unless node.nil?
       traverse(node.left, ans)
       ans.push(node.val)
       traverse(node.right, ans)
     end
   end
   traverse(root, ans)
-  return ans
+  ans
 end

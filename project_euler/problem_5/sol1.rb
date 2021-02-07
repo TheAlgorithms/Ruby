@@ -3,7 +3,6 @@
 # What is the smallest positive number that is evenly
 # divisible by all of the numbers from 1 to 20?
 
-
 # Euclid's algorithm for the greatest common divisor
 def gcd(a, b)
   b.zero? ? a : gcd(b, a % b)

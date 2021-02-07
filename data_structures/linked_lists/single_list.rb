@@ -1,6 +1,7 @@
 # Define a node in the list
 class Node
   attr_accessor :value, :next
+
   def initialize(value)
     @value = value
     @next = nil
@@ -12,6 +13,7 @@ end
 class SingleList
   include Enumerable
   attr_accessor :head
+
   def initialize
     @head = nil
   end
@@ -48,7 +50,7 @@ class SingleList
   end
 
   def print_list
-    puts '[' + self.to_a.join(', ') + ']'
+    puts '[' + to_a.join(', ') + ']'
   end
 
   def delete_head

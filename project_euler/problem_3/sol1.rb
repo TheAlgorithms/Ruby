@@ -26,4 +26,4 @@ def largest_prime_factor(number)
   prime_factors.max
 end
 
-puts largest_prime_factor(600851475143)
+puts largest_prime_factor(600_851_475_143)

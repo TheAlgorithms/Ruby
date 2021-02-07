@@ -1,4 +1,4 @@
-#https://en.wikipedia.org/wiki/Euclidean_algorithm
+# https://en.wikipedia.org/wiki/Euclidean_algorithm
 
 def euclidean_gcd(a, b)
   while b != 0
@@ -6,9 +6,9 @@ def euclidean_gcd(a, b)
     b = a % b
     a = t
   end
-  return a
+  a
 end
 
-puts "GCD(3, 5) = " + euclidean_gcd(3, 5).to_s
-puts "GCD(3, 6) = " + euclidean_gcd(3, 6).to_s
-puts "GCD(6, 3) = " + euclidean_gcd(6, 3).to_s
+puts 'GCD(3, 5) = ' + euclidean_gcd(3, 5).to_s
+puts 'GCD(3, 6) = ' + euclidean_gcd(3, 6).to_s
+puts 'GCD(6, 3) = ' + euclidean_gcd(6, 3).to_s

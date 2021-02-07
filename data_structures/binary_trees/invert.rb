@@ -10,11 +10,10 @@
 # @param {TreeNode} root
 # @return {TreeNode}
 def invert_tree(root)
-  if root == nil
-    return nil
-  end
+  return nil if root.nil?
+
   temp = root.left
   root.left = invert_tree(root.right)
   root.right = invert_tree(temp)
-  return root
+  root
 end

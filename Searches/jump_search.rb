@@ -3,46 +3,40 @@
 # Time Complexity: O(√n)
 
 def jump_search(arr, x)
-  n = arr.length;
+  n = arr.length
 
-  # Finding block size to be jumped 
-  step = Math.sqrt(n);
-  prev = 0;
+  # Finding block size to be jumped
+  step = Math.sqrt(n)
+  prev = 0
 
-  # Finding the block where element is 
-  # present (if it is present) 
-  while (arr[[step, n].min - 1] < x) do
-    prev = step;
-    step += Math.sqrt(n);
-    if (prev >= n)
-      return -1;
-    end
+  # Finding the block where element is
+  # present (if it is present)
+  while arr[[step, n].min - 1] < x
+    prev = step
+    step += Math.sqrt(n)
+    return -1 if prev >= n
   end
 
-  # Doing a linear search for x in block 
-  # beginning with prev. 
-  while (arr[prev] < x) do
-    prev = prev + 1;
-    # If we reached next block or end of 
-    # array, element is not present. 
-    if (prev == [step, n].min)
-      return -1;
-    end
+  # Doing a linear search for x in block
+  # beginning with prev.
+  while arr[prev] < x
+    prev += 1
+    # If we reached next block or end of
+    # array, element is not present.
+    return -1 if prev == [step, n].min
   end
 
   # If element is found
-  if (arr[prev] == x)
-    return prev;
-  end
+  return prev if arr[prev] == x
 
-  return -1;
+  -1
 end
 
-puts "Enter a sorted space-separated list:"
+puts 'Enter a sorted space-separated list:'
 arr = gets.chomp.split(' ').map(&:to_i)
-puts "Enter the value to be searched:"
+puts 'Enter the value to be searched:'
 value = gets.chomp.to_i
 
 index = jump_search(arr, value)
 
-puts index == -1 ? "Element not found" : "Number #{value} is at #{index}"
+puts index == -1 ? 'Element not found' : "Number #{value} is at #{index}"

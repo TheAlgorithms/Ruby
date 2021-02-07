@@ -15,4 +15,4 @@ def solution(n)
   prime.to_i
 end
 
-puts solution(600851475143)
+puts solution(600_851_475_143)

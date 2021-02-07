@@ -1,4 +1,3 @@
-
 DEFAULT_BUCKET_SIZE = 5
 
 def bucket_sort(input, bucket_size = DEFAULT_BUCKET_SIZE)
@@ -24,7 +23,7 @@ def bucket_sort(input, bucket_size = DEFAULT_BUCKET_SIZE)
 
   buckets.flatten.join(' ')
 end
-puts "Enter a list of numbers separated by space"
+puts 'Enter a list of numbers separated by space'
 
 list = gets
 print bucket_sort(list)

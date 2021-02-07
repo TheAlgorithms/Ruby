@@ -8,7 +8,7 @@ def quicksort(arr)
   left, right = arr.partition(&pivot.method(:>))
 
   # recursively calling the quicksort method on itself
-  return *quicksort(left), pivot, *quicksort(right)
+  [*quicksort(left), pivot, *quicksort(right)]
 end
 
 arr = [34, 2, 1, 5, 3]

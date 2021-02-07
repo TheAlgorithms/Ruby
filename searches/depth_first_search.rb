@@ -8,6 +8,7 @@ def dfs(start, target, adjacency_list)
   stack = [start]
   loop do
     break if stack.empty?
+
     current_node = stack.pop
     is_visited[current_node] = true
 
@@ -15,6 +16,7 @@ def dfs(start, target, adjacency_list)
 
     adjacency_list[current_node].each do |neighbor|
       next if is_visited[neighbor]
+
       stack << neighbor
       is_visited[neighbor] = true
       parent[neighbor] = current_node
@@ -38,12 +40,12 @@ end
 
 def main
   adjacency_list = [
-      [1, 2], #0
-      [0, 3], #1
-      [0, 3], #2
-      [1, 2, 4], #3
-      [3, 5], #4
-      [4] #5
+    [1, 2], # 0
+    [0, 3], # 1
+    [0, 3], # 2
+    [1, 2, 4], # 3
+    [3, 5], # 4
+    [4] # 5
   ]
   p dfs(0, 5, adjacency_list)
 end

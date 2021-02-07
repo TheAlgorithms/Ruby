@@ -1,6 +1,7 @@
 # Define a node in the list
 class Node
   attr_accessor :value, :next, :prev
+
   def initialize(value)
     @value = value
     @next = nil
@@ -12,6 +13,7 @@ end
 class DoubleList
   include Enumerable
   attr_accessor :head, :tail
+
   def initialize
     @head = nil
     @tail = nil
@@ -67,7 +69,7 @@ class DoubleList
 
   def print_list
     # the to_a method is from Enumerable, will call each to get the values, and return an array
-    puts '[' + self.to_a.join(', ') + ']'
+    puts '[' + to_a.join(', ') + ']'
   end
 
   def empty?

@@ -11,11 +11,9 @@
 def calculate_products_of_all_other_elements(nums)
   product_of_other_elements = Array.new(nums.length, 1)
 
-  nums.each_with_index do |num1, i|
+  nums.each_with_index do |_num1, i|
     nums.each_with_index do |num2, j|
-      if (i != j)
-        product_of_other_elements[i] = product_of_other_elements[i] * num2
-      end
+      product_of_other_elements[i] = product_of_other_elements[i] * num2 if i != j
     end
   end
 
@@ -34,14 +32,14 @@ def build_prefix_products(nums)
   prefix_products = []
 
   nums.each do |num|
-    if prefix_products.count > 0
-      prefix_products << (prefix_products.last * num)
-    else
-      prefix_products << num
-    end
+    prefix_products << if prefix_products.count > 0
+                         (prefix_products.last * num)
+                       else
+                         num
+                       end
   end
 
-  return prefix_products
+  prefix_products
 end
 
 # Generates suffix products
@@ -49,31 +47,31 @@ def build_suffix_products(nums)
   suffix_products = []
 
   nums.reverse.each do |num|
-    if suffix_products.count > 0
-      suffix_products << (suffix_products.last * num)
-    else
-      suffix_products << num
-    end
+    suffix_products << if suffix_products.count > 0
+                         (suffix_products.last * num)
+                       else
+                         num
+                       end
   end
 
-  return suffix_products
+  suffix_products
 end
 
 # Builds output
 def output(prefix_products, suffix_products, nums)
   result = []
 
-  nums.reverse.each_with_index do |num, index|
-    if index == 0
-      result << suffix_products[index + 1]
-    elsif index == nums.length - 1
-      result << prefix_products[index - 1]
-    else
-      result << (prefix_products[index - 1] * suffix_products[index + 1])
-    end
+  nums.reverse.each_with_index do |_num, index|
+    result << if index == 0
+                suffix_products[index + 1]
+              elsif index == nums.length - 1
+                prefix_products[index - 1]
+              else
+                (prefix_products[index - 1] * suffix_products[index + 1])
+              end
   end
 
-  return result
+  result
 end
 
 # Generate result from the product of prefixes and suffixes
@@ -82,7 +80,7 @@ def products(nums)
   suffix_products = build_suffix_products(nums)
   suffix_products = suffix_products.reverse
 
-  return output(prefix_products, suffix_products, nums)
+  output(prefix_products, suffix_products, nums)
 end
 
 puts(products([1, 2, 3]))

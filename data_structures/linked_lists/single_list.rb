@@ -74,3 +74,21 @@ class SingleList
     @head.nil?
   end
 end
+
+obj = SingleList.new
+
+obj.insert_head(1)
+obj.insert_head(2)
+obj.insert_head(3)
+obj.insert_head(4)
+obj.insert_head(5)
+obj.print_list
+
+obj.insert_tail(6)
+obj.print_list
+
+obj.delete_head
+obj.print_list
+
+obj.delete_tail
+obj.print_list

@@ -1,6 +1,6 @@
 # Works only on sorted arrays.
 # Finding element by creating step in array and jump ahead by fixed steps and finding element using linear search inside that steped array.
-# Time Complexity : O(√n)
+# Time Complexity: O(√n)
 
 def jump_search(arr, x)
   n = arr.length;

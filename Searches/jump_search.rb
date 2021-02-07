@@ -43,6 +43,6 @@ arr = gets.chomp.split(' ').map(&:to_i)
 puts "Enter the value to be searched:"
 value = gets.chomp.to_i
 
-index = jumpsearch(arr, value)
+index = jump_search(arr, value)
 
 puts index == -1 ? "Element not found" : "Number #{value} is at #{index}"

@@ -166,7 +166,8 @@ class Node
 end
 
 obj = DoubleList.new
-param_1 = obj.get(1)
+obj.get(1)
+
 obj.add_at_head(2)
 obj.print_values
 

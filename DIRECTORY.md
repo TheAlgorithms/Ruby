@@ -65,6 +65,11 @@
   * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/binary_search.rb)
   * [Depth First Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/depth_first_search.rb)
   * [Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/double_linear_search.rb)
+
+## Searches
+  * [Jump Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/jump_search.rb)
+
+## Searches
   * [Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/linear_search.rb)
   * [Recursive Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/recursive_double_linear_search.rb)
   * [Recursive Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/recursive_linear_search.rb)

@@ -1,78 +1,180 @@
-# Define a node in the list
-class Node
-  attr_accessor :value, :next, :prev
-
-  def initialize(value)
-    @value = value
-    @next = nil
-    @prev = nil
-  end
-end
-
-# A Class for double linked lists (each element links to the next one, and to the previous one)
 class DoubleList
-  include Enumerable
-  attr_accessor :head, :tail
+  # Initialize your data structure here.
+  attr_reader :head, :tail, :size
 
   def initialize
     @head = nil
     @tail = nil
+    @size = 0
   end
 
-  def insert_tail(value)
-    new_node = Node.new(value)
-    if @head.nil?
-      @head = new_node
-      @tail = new_node
+  # Get the value of the index-th node in the linked list.
+  # If the index is invalid, return -1.
+  def get(index)
+    return -1 if @head.nil?
+    return -1 if index > @size - 1
+
+    if index < @size - index
+      iter = @head
+      cnt = 0
+      until iter.nil?
+        return iter.val if cnt == index
+
+        iter = iter.next
+        cnt += 1
+      end
     else
-      @tail.next = new_node
-      new_node.prev = @tail
-      @tail = new_node
+      iter = @tail
+      cnt = @size - 1
+      until iter.nil?
+        return iter.val if cnt == index
+
+        iter = iter.prev
+        cnt -= 1
+      end
+    end
+    -1
+  end
+
+  # Add a node of value val before the first element of the linked list.
+  # After the insertion, the new node will be the first node of the linked list.
+  def add_at_head(val)
+    node = Node.new(val, nil, @head)
+    @tail = node unless @head
+    @head.prev = node if @head
+    @head = node
+    @size += 1
+  end
+
+  # Append a node of value val to the last element of the linked list.
+  def add_at_tail(val)
+    return add_at_head(val) unless @head
+
+    node = Node.new(val, @tail, nil)
+    @tail.next = node
+    @tail = node
+    @size += 1
+  end
+
+  # Add a node of value val before the index-th node in the linked list.
+  # If index equals to the length of linked list, the node will be appended
+  # to the end of linked list. If index is greater than the length, the node
+  # will not be inserted.
+  def add_at_index(index, val)
+    case index
+    when 0 then add_at_head(val)
+    when @size then add_at_tail(val)
+    when 1...@size
+      if index < @size - index
+        iter = @head
+        cnt = 0
+        until iter.nil?
+          return insert(iter, Node.new(val)) if cnt == index - 1
+
+          iter = iter.next
+          cnt += 1
+        end
+      else
+        iter = @tail
+        cnt = @size - 1
+        until iter.nil?
+          return insert(iter, Node.new(val)) if cnt == index - 1
+
+          iter = iter.prev
+          cnt -= 1
+        end
+      end
+      # else put "illegal input"
     end
   end
 
-  def insert_head(value)
-    new_node = Node.new(value)
-    if @head.nil?
-      @head = new_node
-      @tail = new_node
-    else
-      new_node.next = @head
-      @head.prev = new_node
-      @head = new_node
+  def insert(node, new_node)
+    new_node.prev = node
+    new_node.next = node.next
+    node.next.prev = new_node
+    node.next = new_node
+    @size += 1
+  end
+
+  # Delete the index-th node in the linked list, if the index is valid.
+  def delete_at_index(index)
+    case index
+    when 0
+      return unless @head
+      return @head, @tail, @size = nil, nil, 0 if @size == 1
+
+      remove(@head)
+    when @size - 1
+      remove(@tail)
+    when 1...@size - 1
+      if index < @size - index
+        iter = @head
+        cnt = 0
+        until iter.nil?
+          return remove(iter) if cnt == index
+
+          iter = iter.next
+          cnt += 1
+        end
+      else
+        iter = @tail
+        cnt = @size - 1
+        until iter.nil?
+          return remove(iter) if cnt == index
+
+          iter = iter.prev
+          cnt -= 1
+        end
+      end
+      # else put "illegal input"
     end
   end
 
-  def delete_tail
-    until @tail.nil?
-      @tail = @tail.prev
-      @tail.next = nil unless @tail.nil?
-    end
-  end
-
-  def delete_head
-    until @head.nil?
+  def remove(node)
+    if node == @head
       @head = @head.next
-      @head.prev = nil unless @head.nil?
+      @head.prev = nil
+    elsif node == @tail
+      @tail = tail.prev
+      @tail.next = nil
+    else
+      node.prev.next = node.next
+      node.next.prev = node.prev
     end
+    @size -= 1
   end
 
-  def each
-    return if @head.nil?
-
-    current = @head
-    until current.nil?
-      yield current.value
-      current = current.next
+  def print_values(head = @head)
+    print "#{head.val} --> "
+    if head.next.nil?
+      puts("nil\n")
+      return
+    else
+      print_values(head.next)
     end
-  end
-
-  def print_list
-    # the to_a method is from Enumerable, will call each to get the values, and return an array
-    puts '[' + to_a.join(', ') + ']'
-  end
-
-  def empty?
-    @head.nil?
   end
 end
+
+class Node
+  attr_accessor :val, :prev, :next
+
+  def initialize(val = nil, prev = nil, next_ = nil)
+    @val = val
+    @prev = prev
+    @next = next_
+  end
+end
+
+obj = DoubleList.new
+param_1 = obj.get(1)
+obj.add_at_head(2)
+obj.print_values
+
+obj.add_at_tail(3)
+obj.print_values
+
+obj.add_at_index(3, 5)
+obj.print_values
+
+obj.delete_at_index(1)
+obj.print_values

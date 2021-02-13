@@ -11,6 +11,7 @@
     * [Postorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/postorder_traversal.rb)
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
   * Linked Lists
+    * [Base Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/base_linked_list.rb)
     * [Circular Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/circular_linked_list.rb)
     * [Doubly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/doubly_linked_list.rb)
     * [Singly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/singly_linked_list.rb)

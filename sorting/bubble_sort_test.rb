@@ -1,11 +1,11 @@
 require 'minitest/autorun'
 require_relative './sort_tests'
-require_relative './bogo_sort'
+require_relative './bubble_sort'
 
-class TestBogoSort < Minitest::Test
+class TestBubbleSort < Minitest::Test
   include SortTests
 
   def sort(input)
-    input.bogosort
+    bubble_sort(input)
   end
 end

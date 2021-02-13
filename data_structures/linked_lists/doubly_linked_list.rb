@@ -38,7 +38,7 @@ class DoublyLinkedList
 
   # Add a node of value val before the first element of the linked list.
   # After the insertion, the new node will be the first node of the linked list.
-  def add_at_head(val)
+  def insert_head(val)
     node = Node.new(val, nil, @head)
     @tail = node unless @head
     @head.prev = node if @head
@@ -47,8 +47,8 @@ class DoublyLinkedList
   end
 
   # Append a node of value val to the last element of the linked list.
-  def add_at_tail(val)
-    return add_at_head(val) unless @head
+  def insert_tail(val)
+    return insert_head(val) unless @head
 
     node = Node.new(val, @tail, nil)
     @tail.next = node
@@ -62,8 +62,8 @@ class DoublyLinkedList
   # will not be inserted.
   def add_at_index(index, val)
     case index
-    when 0 then add_at_head(val)
-    when @size then add_at_tail(val)
+    when 0 then insert_head(val)
+    when @size then insert_tail(val)
     when 1...@size
       if index < @size - index
         iter = @head
@@ -166,10 +166,10 @@ end
 obj = DoublyLinkedList.new
 obj.get(1)
 
-obj.add_at_head(2)
+obj.insert_head(2)
 obj.print_values
 
-obj.add_at_tail(3)
+obj.insert_tail(3)
 obj.print_values
 
 obj.add_at_index(3, 5)

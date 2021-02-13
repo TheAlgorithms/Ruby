@@ -16,7 +16,7 @@ class CircularList
     @head = nil
   end
 
-  def insert_end(value)
+  def insert_tail(value)
     newNode = Node.new(value)
     if @head.nil?
       @head = newNode
@@ -59,8 +59,10 @@ class CircularList
     puts(STDOUT.flush)
   end
 
-  def delete_head
-    if !@head.nil? && (@head.next != @head)
+  def delete_tail
+    return if @head.nil?
+
+    if @head.next != @head
       newHead = @head.next
       tempNode = newHead
       tempNode = tempNode.next while tempNode.next != @head
@@ -88,17 +90,17 @@ end
 
 obj = CircularList.new
 
-obj.insert_end(1)
-obj.insert_end(2)
-obj.insert_end(3)
-obj.insert_end(4)
-obj.insert_end(5)
+obj.insert_tail(1)
+obj.insert_tail(2)
+obj.insert_tail(3)
+obj.insert_tail(4)
+obj.insert_tail(5)
 obj.print_list
 
 obj.insert_head(6)
 obj.print_list
 
-obj.delete_head
+obj.delete_tail
 obj.print_list
 
 obj.delete_tail

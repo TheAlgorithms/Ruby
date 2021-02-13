@@ -85,7 +85,7 @@ class CircularList
     end
   end
 
-  def isEmpty
+  def is_empty
     @head.nil?
   end
 end

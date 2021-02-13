@@ -79,6 +79,7 @@
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)
   * [Bogo Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort_test.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort.rb)
+  * [Bubble Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort_test.rb)
   * [Bucket Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bucket_sort.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort.rb)
   * [Insertion Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/insertion_sort.rb)
@@ -87,3 +88,4 @@
   * [Radix Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/radix_sort.rb)
   * [Selection Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/selection_sort.rb)
   * [Shell Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/shell_sort.rb)
+  * [Sort Tests](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/sort_tests.rb)

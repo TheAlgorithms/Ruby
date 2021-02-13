@@ -19,7 +19,10 @@ def bucket_sort(array, bucket_size = DEFAULT_BUCKET_SIZE)
 
   buckets.flatten
 end
-puts 'Enter a list of numbers separated by space'
 
-list = gets
-print bucket_sort(list)
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets.split.map(&:to_i)
+  p bucket_sort(list)
+end

@@ -10,7 +10,7 @@ end
 
 # Class for circular linked list (last node points to the head node)
 class CircularList
-  attr_accessor :head
+  attr_reader :head
 
   def initialize
     @head = nil

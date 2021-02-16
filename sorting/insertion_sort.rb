@@ -10,8 +10,10 @@ def insertion_sort(array)
   end
   array
 end
-puts 'Enter a list of numbers separated by space'
 
-list = gets
-insertion_sort(list)
-print list
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets.split.map(&:to_i)
+  p insertion_sort(list)
+end

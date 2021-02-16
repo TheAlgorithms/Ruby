@@ -11,8 +11,12 @@ def selection_sort(array)
     array[i], array[smallest] = array[smallest], array[i] if i != smallest
     i += 1
   end
+  array
 end
 
-arr = [9, 8, 3, 1, 2, 55, 68, 48].shuffle # We have taken a rondom example and also shuffling it
-selection_sort(arr)
-puts "Sorted array is: #{arr.inspect}"
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets.split.map(&:to_i)
+  p selection_sort(list)
+end

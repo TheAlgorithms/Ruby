@@ -11,5 +11,9 @@ def quicksort(arr)
   [*quicksort(left), pivot, *quicksort(right)]
 end
 
-arr = [34, 2, 1, 5, 3]
-p quicksort(arr)
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets.split.map(&:to_i)
+  p quicksort(list)
+end

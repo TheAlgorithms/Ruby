@@ -1,10 +1,6 @@
 DEFAULT_BUCKET_SIZE = 5
 
-def bucket_sort(input, bucket_size = DEFAULT_BUCKET_SIZE)
-  print 'Array is empty' if input.empty?
-
-  array = input.split(' ').map(&:to_i)
-
+def bucket_sort(array, bucket_size = DEFAULT_BUCKET_SIZE)
   bucket_count = ((array.max - array.min) / bucket_size).floor + 1
 
   # create buckets
@@ -21,9 +17,12 @@ def bucket_sort(input, bucket_size = DEFAULT_BUCKET_SIZE)
     bucket.sort!
   end
 
-  buckets.flatten.join(' ')
+  buckets.flatten
 end
-puts 'Enter a list of numbers separated by space'
 
-list = gets
-print bucket_sort(list)
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets.split.map(&:to_i)
+  p bucket_sort(list)
+end

@@ -27,6 +27,9 @@ def adjusted_down(adjusted_array, parent, limit)
   adjusted_array[parent] = top
 end
 
-# Code for testing heapsort
-array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].shuffle
-print heap_sort(array)
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets.split.map(&:to_i)
+  p heap_sort(list)
+end

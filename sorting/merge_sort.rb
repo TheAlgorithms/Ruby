@@ -28,6 +28,9 @@ def merge_sort(array)
   result
 end
 
-puts 'Enter a list of numbers separated by space'
-list = gets
-print merge_sort list.split(' ').map(&:to_i)
+if $0 == __FILE__
+  puts 'Enter a list of numbers separated by space'
+
+  list = gets.split.map(&:to_i)
+  p merge_sort(list)
+end

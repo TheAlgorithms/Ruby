@@ -5,7 +5,8 @@
 #     # SortTests adds some test_* methods.
 #     include SortTests
 #
-#     # SortTests requires sort method.
+#     # SortTests requires sort method which receives an array of integers
+#     # and returns a sorted one.
 #     def sort(input)
 #       input.sort
 #     end

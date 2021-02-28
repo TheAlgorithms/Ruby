@@ -29,7 +29,6 @@ puts(calculate_products_of_all_other_elements([1, 2, 3]))
 
 #
 # Approach 2: Left and Right product lists
-# Arrays - Get Products of all other elements in Ruby
 #
 
 # Complexity analysis
@@ -103,6 +102,65 @@ def products(nums)
   suffix_products = suffix_products.reverse
 
   output(prefix_products, suffix_products, nums)
+end
+
+puts(products([1, 2, 3]))
+# => [6, 3, 2]
+
+
+#
+# Approach 3: O(1) space approach
+#
+
+# Although the above solution is good enough to solve the problem since
+# we are not using division anymore, there's a follow-up component as
+# well which asks us to solve this using constant space. Understandably so,
+# the output array does not count towards the space complexity.
+# This approach is essentially an extension of the approach above.
+# Basically, we will be using the output array as one of L or R and we will
+# be constructing the other one on the fly. Let's look at the algorithm based
+# on this idea.
+
+# Complexity analysis
+#
+# Time complexity: O(N) where N represents the number of elements in the input
+# array. We use one iteration to construct the array L, one to update the array
+# answer.
+
+# Space complexity: O(1) since don't use any additional array for our
+# computations. The problem statement mentions that using the answeranswer
+# array doesn't add to the space complexity.
+
+def products(nums)
+  return [] if nums.size < 2
+
+  # The answer array to be returned
+  res = [1]
+
+  # answer[i] contains the product of all the elements to the left
+  # Note: for the element at index '0', there are no elements to the left,
+  # so the answer[0] would be 1
+  (0..(nums.size - 2)).each do |idx|
+    # answer[i - 1] already contains the product of elements to the left of 'i - 1'
+    # Simply multiplying it with nums[i - 1] would give the product of all
+    # elements to the left of index 'i'
+    num = nums[idx]
+    res << num * res[idx]
+  end
+
+  # R contains the product of all the elements to the right
+  # Note: for the element at index 'length - 1', there are no elements to the right,
+  # so the R would be 1
+  product = 1
+  (nums.size - 1).downto(1).each do |idx|
+      num = nums[idx]
+      # For the index 'i', R would contain the
+      # product of all elements to the right. We update R accordingly
+      res[idx - 1] *= (product * num)
+      product *= num
+  end
+
+  res
 end
 
 puts(products([1, 2, 3]))

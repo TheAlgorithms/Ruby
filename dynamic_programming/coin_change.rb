@@ -1,4 +1,4 @@
-def coinChangeMinimum(coins, amount)
+def coin_change_minimum(coins, amount)
     dp = Array.new(amount+1,-1)
     dp[0] = 0
       
@@ -13,7 +13,7 @@ def coinChangeMinimum(coins, amount)
     dp[amount]
   end
   
-  def coinChangeCombinations(coins, amount)
+  def coin_change_combinations(coins, amount)
     dp = Array.new(coins.length+1) { Array.new(amount+1,0) }
     dp[0][0] = 1
     (1..coins.length).each do |i|
@@ -26,5 +26,5 @@ def coinChangeMinimum(coins, amount)
   
   coins = Array[2,4,5]
   amount = 12
-  puts "Number of combinations of getting change for " + amount.to_s + " is "+ coinChangeCombinations(coins, amount).to_s + "."
-  puts "Minimum number of coins required for " + amount.to_s + " is "+ coinChangeMinimum(coins, amount).to_s + "."
+  puts "Number of combinations of getting change for " + amount.to_s + " is "+ coin_change_combinations(coins, amount).to_s + "."
+  puts "Minimum number of coins required for " + amount.to_s + " is "+ coin_change_minimum(coins, amount).to_s + "."

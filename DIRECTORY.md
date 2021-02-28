@@ -26,6 +26,9 @@
   * [Exteded Euclidean Algorithm](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/exteded_euclidean_algorithm.rb)
   * [Lcm](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/lcm.rb)
 
+## Dynamic Programming
+  * [Coin Change](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/coin_change.rb)
+
 ## Maths
   * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
   * [Abs Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_test.rb)

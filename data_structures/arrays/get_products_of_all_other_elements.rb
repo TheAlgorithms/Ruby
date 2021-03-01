@@ -87,7 +87,7 @@ end
 def output(prefix_products, suffix_products, nums)
   result = []
 
-  nums.reverse.each_with_index do |_num, index|
+  nums.count.times do |index|
     result << if index == 0
                 suffix_products[index + 1]
               elsif index == nums.length - 1
@@ -150,6 +150,7 @@ def products(nums)
   # Note: for the element at index 'length - 1', there are no elements to the right,
   # so the R would be 1
   product = 1
+
   (nums.size - 1).downto(1).each do |i|
     num = nums[i]
     # For the index 'i', R would contain the

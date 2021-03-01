@@ -135,26 +135,23 @@ def products(nums)
 
   res = [1]
 
-  # answer[i] contains the product of all the elements to the left
+  # res[i] contains the product of all the elements to the left
   # Note: for the element at index '0', there are no elements to the left,
-  # so the answer[0] would be 1
+  # so the res[0] would be 1
   (0..(nums.size - 2)).each do |i|
-    # answer[i - 1] already contains the product of elements to the left of 'i - 1'
-    # Simply multiplying it with nums[i - 1] would give the product of all
-    # elements to the left of index 'i'
     num = nums[i]
     res << num * res[i]
   end
 
-  # R contains the product of all the elements to the right
+  # product contains the product of all the elements to the right
   # Note: for the element at index 'length - 1', there are no elements to the right,
-  # so the R would be 1
+  # so the product would be 1
   product = 1
 
   (nums.size - 1).downto(1).each do |i|
     num = nums[i]
-    # For the index 'i', R would contain the
-    # product of all elements to the right. We update R accordingly
+    # For the index 'i', product would contain the
+    # product of all elements to the right. We update product accordingly.
     res[i - 1] *= (product * num)
     product *= num
   end

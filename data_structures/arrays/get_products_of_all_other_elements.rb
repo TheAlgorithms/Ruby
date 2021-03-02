@@ -17,7 +17,7 @@
 # 1. Brute force solution
 #
 def calculate_products_of_all_other_elements(nums)
-  product_of_other_elements = Array.new(nums.length, 1)
+  product_of_other_elements = Array.new(nums.count, 1)
 
   nums.count.times do |i|
     nums.count.times do |j|
@@ -90,7 +90,7 @@ def output(prefix_products, suffix_products, nums)
   nums.count.times do |index|
     result << if index == 0
                 suffix_products[index + 1]
-              elsif index == nums.length - 1
+              elsif index == nums.count - 1
                 prefix_products[index - 1]
               else
                 (prefix_products[index - 1] * suffix_products[index + 1])
@@ -131,14 +131,14 @@ puts(products([1, 2, 3]))
 # array doesn't add to the space complexity.
 
 def products(nums)
-  return [] if nums.size < 2
+  return [] if nums.count < 2
 
   res = [1]
 
   # res[i] contains the product of all the elements to the left
   # Note: for the element at index '0', there are no elements to the left,
   # so the res[0] would be 1
-  (0..(nums.size - 2)).each do |i|
+  (0..(nums.count - 2)).each do |i|
     num = nums[i]
     res << num * res[i]
   end
@@ -148,7 +148,7 @@ def products(nums)
   # so the product would be 1
   product = 1
 
-  (nums.size - 1).downto(1).each do |i|
+  (nums.count - 1).downto(1).each do |i|
     num = nums[i]
     # For the index 'i', product would contain the
     # product of all elements to the right. We update product accordingly.

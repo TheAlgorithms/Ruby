@@ -148,7 +148,7 @@ def products(nums)
   # so the product would be 1
   product = 1
 
-  (nums.count - 1).downto(1).each do |i|
+  (nums.count - 1).downto(1) do |i|
     num = nums[i]
     # For the index 'i', product would contain the
     # product of all elements to the right. We update product accordingly.

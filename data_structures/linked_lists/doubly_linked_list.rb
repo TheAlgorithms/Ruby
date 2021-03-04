@@ -146,7 +146,6 @@ class DoublyLinkedList
     print "#{head.val} --> "
     if head.next.nil?
       puts("nil\n")
-      return
     else
       print_values(head.next)
     end

@@ -24,7 +24,6 @@ puts 'Binary value of 31 is ' + decimal_to_binary(31).to_s
 puts 'Binary value of 64 is ' + decimal_to_binary(64).to_s
 # Binary value of 64 is 1000000
 
-
 #
 # Approach 2: Recursive
 #
@@ -32,13 +31,10 @@ puts 'Binary value of 64 is ' + decimal_to_binary(64).to_s
 def decimal_to_binary(d)
   binary = (d % 2).to_s
 
-  if d == 0
-    return binary
-  elsif d == 1
-    return 1.to_s
-  else
-    binary += decimal_to_binary(d / 2).to_s
-  end
+  return binary if d == 0
+  return 1.to_s if d == 1
+
+  binary = decimal_to_binary(d / 2).to_s + binary
 
   binary.to_i
 end

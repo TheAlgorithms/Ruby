@@ -6,7 +6,7 @@ def decimal_to_binary(n)
     bin << n % 2
     n = n / 2
   end
-  return bin.reverse.join
+  bin.reverse.join
 end
 
 puts 'Binary value of 4 is ' + decimal_to_binary(4).to_s

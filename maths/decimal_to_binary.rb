@@ -24,6 +24,7 @@ puts 'Binary value of 31 is ' + decimal_to_binary(31).to_s
 puts 'Binary value of 64 is ' + decimal_to_binary(64).to_s
 # Binary value of 64 is 1000000
 
+
 #
 # Approach 2: Recursive
 #

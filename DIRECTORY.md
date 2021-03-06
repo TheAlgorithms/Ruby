@@ -37,6 +37,7 @@
   * [Binary To Decimal](https://github.com/TheAlgorithms/Ruby/blob/master/maths/binary_to_decimal.rb)
   * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
   * [Ceil Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil_test.rb)
+  * [Iterative Decimal To Binary](https://github.com/TheAlgorithms/Ruby/blob/master/maths/iterative_decimal_to_binary.rb)
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
   * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
   * [Square Root Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root_test.rb)

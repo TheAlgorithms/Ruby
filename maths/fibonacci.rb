@@ -4,6 +4,7 @@
 #
 # F(0) = 0, F(1) = 1
 # F(n) = F(n - 1) + F(n - 2), for n > 1.
+# 
 # Given n, calculate F(n).
 
 #
@@ -22,7 +23,7 @@
 # Space complexity: O(1). The space used is the space needed to create the variable
 # to store the golden ratio formula.
 
-def fib(n)
+def fibonacci(n)
   golden_ratio = (1 + 5**0.5) / 2
   ((golden_ratio**n + 1) / 5**0.5).to_i
 end
@@ -30,14 +31,14 @@ end
 n = 2
 # Output: 1
 # Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
-puts(fib(n))
+puts(fibonacci(n))
 
 n = 3
 # Output: 2
 # Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
-puts(fib(n))
+puts(fibonacci(n))
 
 n = 4
 # Output: 3
 # Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
-puts(fib(n))
+puts(fibonacci(n))

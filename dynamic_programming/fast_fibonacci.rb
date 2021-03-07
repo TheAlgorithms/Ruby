@@ -1,6 +1,6 @@
-# Given a number, calculates the fibonacci number.
+# Given a number, calculates the nth fibonacci number.
 
-def fibonacci(number, memo_hash = {})
+def fast_fibonacci(number, memo_hash = {})
     if number == 0 || number == 1
         return number
     end

@@ -20,6 +20,7 @@
 
 # Time complexity: O(1). Constant time complexity since we are using no loops or recursion
 # and the time is based on the result of performing the calculation using Binet's formula.
+# 
 # Space complexity: O(1). The space used is the space needed to create the variable
 # to store the golden ratio formula.
 
@@ -29,16 +30,16 @@ def fibonacci(n)
 end
 
 n = 2
+puts(fibonacci(n))
 # Output: 1
 # Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
-puts(fibonacci(n))
 
 n = 3
+puts(fibonacci(n))
 # Output: 2
 # Explanation: F(3) = F(2) + F(1) = 1 + 1 = 2.
-puts(fibonacci(n))
 
 n = 4
+puts(fibonacci(n))
 # Output: 3
 # Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
-puts(fibonacci(n))

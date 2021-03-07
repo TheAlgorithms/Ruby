@@ -1,10 +1,10 @@
 # Iterative method to convert a given decimal number into binary.
 
 def decimal_to_binary(n)
-  bin = []  
+  bin = []
   until n.zero?
     bin << n % 2
-    n = n / 2
+    n /= 2
   end
   bin.reverse.join
 end

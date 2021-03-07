@@ -1,7 +1,7 @@
 # The Fibonacci numbers, commonly denoted F(n) form a sequence,
 # called the Fibonacci sequence, such that # each number is the sum
 # of the two preceding ones, starting from 0 and 1. That is,
-# 
+#
 # F(0) = 0, F(1) = 1
 # F(n) = F(n - 1) + F(n - 2), for n > 1
 #
@@ -20,22 +20,21 @@
 # Space complexity: O(n). The size of the stack in memory is
 # proportionate to N.
 #
-def fibonacci(n)
-  return n if n <= 1
+def fibonacci(number, memo_hash = {})
+  return number if number <= 1
 
-  cache = {}
-  cache[0] = 0
-  cache[1] = 1
+  memo_hash[0] = 0
+  memo_hash[1] = 1
 
-  memoize(n, cache)
+  memoize(number, memo_hash)
 end
 
-def memoize(n, cache)
-  return cache[n] if cache.keys.include? n
+def memoize(number, memo_hash)
+  return memo_hash[number] if memo_hash.keys.include? number
 
-  cache[n] = memoize(n - 1, cache) + memoize(n - 2, cache)
+  memo_hash[number] = memoize(number - 1, memo_hash) + memoize(number - 2, memo_hash)
 
-  memoize(n, cache)
+  memoize(number, memo_hash)
 end
 
 n = 2

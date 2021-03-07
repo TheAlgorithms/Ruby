@@ -36,7 +36,7 @@ def decimal_to_binary(d)
 
   binary = decimal_to_binary(d / 2).to_s + binary
 
-  binary.to_i
+  binary
 end
 
 puts 'Binary value of 4 is ' + decimal_to_binary(4).to_s

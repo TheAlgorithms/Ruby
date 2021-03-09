@@ -56,3 +56,33 @@ Benchmark.bmbm do |x|
     print find_duplicates_2(long_array)
   end
 end
+
+def find_duplicates_3(array)
+  result_hash = {}
+  result_array = []
+  # loop through array and build a hash with counters 
+  # where the key is the array element and the counter is the value
+  # increase counter when duplicate is found
+  array.each do |num|
+    if result_hash[num].nil? 
+      result_hash[num] = 1
+    else
+      result_hash[num] += 1
+    end
+  end
+  # loop through hash and look for values > 1
+  result_hash.each do |k, v|
+    if v > 1
+      result_array.push(k)
+    end
+  end
+  # return keys
+  result_array
+end
+
+require 'benchmark'
+Benchmark.bmbm do |x|
+  x.report('execute algorithm') do
+    print find_duplicates_3(array)
+  end
+end

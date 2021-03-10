@@ -26,10 +26,9 @@
 # @return {Integer}
 def largest_altitude(gain)
   arr = [0]
-  points = gain.count
 
   # calculate altitude array
-  (1..points).each do |pointer|
+  (1..gain.count).each do |pointer|
     sum = arr[pointer - 1] + gain[pointer - 1]
     arr.push(sum)
   end

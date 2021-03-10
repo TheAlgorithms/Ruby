@@ -6,18 +6,11 @@
 # Input: [4, -1, -9, 2]
 # Output: [1, 4, 16, 81]
 
-# Loop and multiply
+#
+# Approach 1: is using Ruby function (for sure)!
+#
 
-array = [4, -1, -9, 2]
-
-def square_and_sort(array)
-  result_array = []
-
-  array.each do |num|
-    result_array.push(num*num)
-  end
-
-  result_array.sort
+def sorted_squares(nums)
+  nums.map! { |num| num**2 }.sort
 end
-
-print square_and_sort(array)
+print(sorted_squares([4, -1, -9, 2]))

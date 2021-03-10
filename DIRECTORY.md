@@ -40,6 +40,7 @@
   * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
   * [Ceil Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil_test.rb)
   * [Decimal To Binary](https://github.com/TheAlgorithms/Ruby/blob/master/maths/decimal_to_binary.rb)
+  * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/maths/fibonacci.rb)
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
   * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
   * [Square Root Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root_test.rb)

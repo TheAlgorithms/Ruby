@@ -36,7 +36,8 @@ def bubble_sort(array)
 end
 
 #
-# Time complexity analysis for Approach 1 & 2
+# Time complexity: O(n logn), where n is the length of the array.
+# Space complexity: O(n) or O(logn)
 #
 
 def sorted_squares(nums)

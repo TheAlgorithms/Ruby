@@ -4,7 +4,7 @@
 #
 # F(0) = 0, F(1) = 1
 # F(n) = F(n - 1) + F(n - 2), for n > 1.
-# 
+#
 # Given n, calculate F(n).
 
 #
@@ -20,7 +20,7 @@
 
 # Time complexity: O(1). Constant time complexity since we are using no loops or recursion
 # and the time is based on the result of performing the calculation using Binet's formula.
-# 
+#
 # Space complexity: O(1). The space used is the space needed to create the variable
 # to store the golden ratio formula.
 

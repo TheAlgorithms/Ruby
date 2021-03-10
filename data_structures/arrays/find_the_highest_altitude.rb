@@ -18,6 +18,10 @@
 # The highest is 1.
 #
 
+#
+# Approach 1: Creating an additional array
+#
+
 # @param {Integer[]} gain
 # @return {Integer}
 def largest_altitude(gain)
@@ -34,6 +38,32 @@ def largest_altitude(gain)
   max = 0
   arr.each { |i| max = i if max < i }
   max
+end
+
+gain = [-5, 1, 5, 0, -7]
+largest_altitude(gain)
+# Output: 1
+
+gain = [-4, -3, -2, -1, 4, 3, 2]
+largest_altitude(gain)
+# Output: 0
+
+#
+# Approach 2: Without creating an additional array
+#
+
+# @param {Integer[]} gain
+# @return {Integer}
+def largest_altitude(gain)
+  max_alt = alt = 0
+
+  (0...gain.count).each do |i|
+    alt += gain[i]
+
+    max_alt = alt if max_alt < alt
+  end
+
+  max_alt
 end
 
 gain = [-5, 1, 5, 0, -7]

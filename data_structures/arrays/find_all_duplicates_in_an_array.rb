@@ -35,7 +35,9 @@ def find_duplicates(array)
 
   array.count.times do |i|
     array.count.times do |j|
-      result_array.push(current_num) if i != j && current_num == array[j]
+      next if i == j || current_num != array[j]
+
+      result_array.push(current_num)
     end
 
     current_num = array[i + 1]
@@ -71,7 +73,9 @@ def find_duplicates_2(array)
   result_array = []
 
   (1..sorted_array.count).each do |i|
-    result_array.push(sorted_array[i]) if sorted_array[i] == sorted_array[i - 1]
+    next if sorted_array[i] != sorted_array[i - 1]
+
+    result_array.push(sorted_array[i])
   end
 
   result_array.uniq

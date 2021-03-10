@@ -51,8 +51,8 @@ print(sorted_squares([4, -1, -9, 2]))
 #
 # Approach 3: solving without ruby sort method. Using two-pointers
 #
-# Time complexity: O(n)
-# Space complexity: O(n)
+# Time complexity: O(n), where n is the length of the array.
+# Space complexity: O(n), if you take output into account and O(1) otherwise.
 #
 def sorted_squares(nums)
   p1 = 0

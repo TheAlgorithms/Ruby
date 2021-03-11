@@ -26,7 +26,7 @@
 # 
 # Approach 1: Brute Force
 #
-# Time Complexity: O(N^2)
+# Time Complexity: O(N^2), where N is the length of the array
 #
 def two_sum(nums, target)
   result_array = []
@@ -36,9 +36,31 @@ def two_sum(nums, target)
       if i != j && i < j
         current_sum = nums[i] + nums[j]
         if current_sum == target
-          result_array.push(i, j)
-          return result_array
+          return [i, j]
         end
+      end
+    end
+  end
+end
+
+print two_sum([2, 7, 11, 15], 9) 
+# => [0,1]
+print two_sum([3, 2, 4], 6)
+# => [1,2]
+print two_sum([3, 3], 6)
+# => [0,1]
+
+#
+# Approach 2: Define and seek
+#
+# Time Complexity: O(N^2), where N is the length of the array
+#
+def two_sum(nums, target)
+  nums.each_with_index do |num, i|
+    target_difference = target - nums[i]
+    nums.each_with_index do |num, j|
+      if i != j && num == target_difference
+        return [i, j]
       end
     end
   end

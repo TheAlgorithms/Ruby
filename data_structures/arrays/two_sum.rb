@@ -24,7 +24,7 @@
 # @return {Integer[]}
 
 # 
-# Approach 1: Brute Force
+# Approach 1: Brute Force with Addition
 #
 # Time Complexity: O(N^2), where N is the length of the array
 #
@@ -51,7 +51,7 @@ print two_sum([3, 3], 6)
 # => [0,1]
 
 #
-# Approach 2: Define and seek
+# Approach 2: Brute Force with Difference
 #
 # Time Complexity: O(N^2), where N is the length of the array
 #
@@ -63,6 +63,31 @@ def two_sum(nums, target)
         return [i, j]
       end
     end
+  end
+end
+
+print two_sum([2, 7, 11, 15], 9) 
+# => [0,1]
+print two_sum([3, 2, 4], 6)
+# => [1,2]
+print two_sum([3, 3], 6)
+# => [0,1]
+
+#
+# Approach 3: Using a Hash
+#
+# Time Complexity: O(N), where N is the length of the array
+#
+def two_sum(nums, target)
+  hash = {}
+  # create a hash to store values and their indices
+  nums.each_with_index do |num, i|
+    hash[num] = i
+  end
+  # iterate over nums array to find the target (difference between sum target and num)
+  nums.each_with_index do |num, i|
+    difference_target = target - num
+    return [i, hash[difference_target]] if hash[difference_target] && hash[difference_target] != i
   end
 end
 

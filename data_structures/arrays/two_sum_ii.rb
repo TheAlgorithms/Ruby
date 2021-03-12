@@ -28,7 +28,7 @@ def two_sum(numbers, target)
     elsif target > sum
       i += 1
     else
-      return [i, j]
+      return [i + 1, j + 1]
     end
   end
 end
@@ -36,14 +36,14 @@ end
 nums = [2, 7, 11, 15]
 target = 9
 print(two_sum(nums, target))
-# => [0,1]
+# => [1,2]
 
 nums = [2, 3, 4]
 target = 6
 print(two_sum(nums, target))
-# => [0,2]
+# => [1,3]
 
 nums = [-1, 0]
 target = -1
 print(two_sum(nums, target))
-# => [0,1]
+# => [1,2]

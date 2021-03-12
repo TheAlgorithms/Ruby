@@ -67,8 +67,8 @@ print(two_sum([3, 3], 6))
 # Time Complexity: O(N^2), where N is the length of the array
 #
 def two_sum(nums, target)
-  nums.count.times do |i|
-    target_difference = target - nums[i]
+  nums.each_with_index do |num, i|
+    target_difference = target - num
 
     nums.each_with_index do |num, j|
       if i != j && num == target_difference

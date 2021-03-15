@@ -14,5 +14,16 @@
 # Output: 5, nums = [0,1,4,0,3]
 
 #
-# Approach 1: Brute Force
+# Approach 1: Use `delete_if` Ruby method
 #
+# Time complexity: O(n)
+#
+def remove_elements(nums, val)
+  nums.delete_if{ |num| num == val }
+  nums.length
+end
+
+puts remove_elements([3,2,2,3], 3)
+# => 2
+puts remove_elements([0,1,2,2,3,0,4,2], 2)
+# => 5

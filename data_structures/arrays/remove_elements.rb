@@ -27,3 +27,28 @@ puts remove_elements([3,2,2,3], 3)
 # => 2
 puts remove_elements([0,1,2,2,3,0,4,2], 2)
 # => 5
+
+#
+# Approach 2: Use `delete_at`, `unshift`, and `shift` Ruby method
+#
+# Time complexity: O(n)
+#
+def remove_elements(nums, val)
+  result_length = nums.length
+  shift_length = 0
+  nums.each_with_index do |num, i|
+    if num == val 
+      nums.delete_at(i)
+      nums.unshift('removed')
+      result_length -=1
+      shift_length += 1
+    end
+  end
+  nums.shift(shift_length)
+  result_length
+end
+
+puts remove_elements([3,2,2,3], 3)
+# => 2
+puts remove_elements([0,1,2,2,3,0,4,2], 2)
+# => 5

@@ -71,8 +71,8 @@ def remove_element(nums, val)
 
   while pointer1 < pointer2
     if nums[pointer1] == val
-      nums[pointer1] = nums[pointer2 - 1]
       pointer2 -= 1
+      nums[pointer1] = nums[pointer2]
     else
       pointer1 += 1
     end

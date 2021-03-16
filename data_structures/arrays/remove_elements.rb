@@ -59,6 +59,31 @@ puts remove_elements([0,1,2,2,3,0,4,2], 2)
 
 # Complexity analysis
 #
+# Time complexity: O(n).
+# Assume the array has a total of n elements,
+# both i and j traverse at most 2n steps.
+#
+# Space complexity: O(1).
+
+def remove_element(nums, val)
+  pointer1 = 0
+
+  nums.each_with_index do |num, pointer2|
+    if val != num
+      nums[pointer1] = nums[pointer2]
+      pointer1 += 1
+    end
+  end
+
+  pointer1
+end
+
+#
+# Approach 4: Two-pointers (Optimized)
+#
+
+# Complexity analysis
+#
 # Time complexity: O(n). Both i and n traverse at most n steps.
 # In this approach, the number of assignment operations is equal to the
 # number of elements to remove.

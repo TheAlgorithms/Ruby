@@ -78,6 +78,11 @@ def remove_element(nums, val)
   pointer1
 end
 
+puts remove_elements([3,2,2,3], 3)
+# => 2
+puts remove_elements([0,1,2,2,3,0,4,2], 2)
+# => 5
+
 #
 # Approach 4: Two-pointers (Optimized)
 #

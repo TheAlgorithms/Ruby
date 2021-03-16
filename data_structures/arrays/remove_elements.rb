@@ -61,7 +61,7 @@ puts remove_elements([0,1,2,2,3,0,4,2], 2)
 #
 # Time complexity: O(n).
 # Assume the array has a total of n elements,
-# both i and j traverse at most 2n steps.
+# both pointer1 and pointer2 traverse at most 2n steps.
 #
 # Space complexity: O(1).
 
@@ -89,7 +89,7 @@ puts remove_elements([0,1,2,2,3,0,4,2], 2)
 
 # Complexity analysis
 #
-# Time complexity: O(n). Both i and n traverse at most n steps.
+# Time complexity: O(n). Both pointer1 and pointer2 traverse at most n steps.
 # In this approach, the number of assignment operations is equal to the
 # number of elements to remove.
 #

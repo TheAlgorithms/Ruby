@@ -54,8 +54,16 @@ puts remove_elements([0,1,2,2,3,0,4,2], 2)
 # => 5
 
 #
-# Approach 3: Two-pointer
+# Approach 3: Two-pointers
 #
+
+# Complexity analysis
+#
+# Time complexity: O(n). Both i and n traverse at most n steps.
+# In this approach, the number of assignment operations is equal to the
+# number of elements to remove.
+#
+# Space complexity: O(1)
 
 def remove_element(nums, val)
   pointer1 = 0

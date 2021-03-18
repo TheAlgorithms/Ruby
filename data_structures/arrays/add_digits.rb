@@ -15,10 +15,26 @@
 # @return {Integer}
 
 #
-# Approach 1: Brute Force
+# Approach 1: Recursion
+#
+# Time complexity: O(n)
 #
 def add_digits(num)
+  if num.to_s.length < 2
+    return num
+  end
+
+  digits_to_sum = num.to_s.split('')
+  sum = 0
+  digits_to_sum.each do |num|
+    sum += num.to_i
+  end
+
+  add_digits(sum)
 end
 
 puts(add_digits(38))
-# Output: 2
+# => 2
+
+puts(add_digits(284))
+# => 5

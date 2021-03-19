@@ -1,4 +1,4 @@
-# Arrays - Power of 2
+# Power of 2
 #
 # Given an integer n, return true if it is a power of two. Otherwise, return false.
 #

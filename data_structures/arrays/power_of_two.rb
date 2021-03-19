@@ -30,6 +30,7 @@
 # @param {Integer} n
 # @return {Boolean}
 #
+
 # Approach 1: Recursion
 #
 # Time Complexity: O(1)
@@ -42,6 +43,34 @@ def is_power_of_two(n)
   else
     return false
   end
+end
+
+n = 1
+# Output: true
+puts is_power_of_two(n)
+n = 16
+# Output: true
+puts is_power_of_two(n)
+n = 3
+# Output: false
+puts is_power_of_two(n)
+n = 4
+# Output: true
+puts is_power_of_two(n)
+n = 5
+# Output: false
+puts is_power_of_two(n)
+
+#
+# Approach 2: Without recursion
+#
+# Time Complexity: O(n)
+#
+def is_power_of_two(n)
+  while n % 2 == 0 && n != 0
+    n /= 2
+  end
+  n == 1
 end
 
 n = 1

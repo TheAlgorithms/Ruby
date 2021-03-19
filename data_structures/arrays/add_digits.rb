@@ -33,10 +33,10 @@ def add_digits(num)
   add_digits(sum)
 end
 
-# puts(add_digits(38))
+puts(add_digits(38))
 # # => 2
 
-# puts(add_digits(284))
+puts(add_digits(284))
 # # => 5
 
 #

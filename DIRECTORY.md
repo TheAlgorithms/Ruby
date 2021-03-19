@@ -40,6 +40,7 @@
 ## Maths
   * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
   * [Abs Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_test.rb)
+  * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/add_digits.rb)
   * [Aliquot Sum](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot_sum.rb)
   * [Aliquot Sum Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot_sum_test.rb)
   * [Binary To Decimal](https://github.com/TheAlgorithms/Ruby/blob/master/maths/binary_to_decimal.rb)

@@ -26,12 +26,10 @@
 # Space Complexity: O(1).
 
 def add_digits(num)
-  if num == 0
-    return 0
-  elsif num % 9 == 0
-    return 9
-  end
-  return num % 9
+  return 0 if num == 0
+  return 9 if num % 9 == 0
+
+  num % 9
 end
 
 puts(add_digits(38))

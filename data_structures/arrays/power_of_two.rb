@@ -88,3 +88,29 @@ puts is_power_of_two(n)
 n = 5
 # Output: false
 puts is_power_of_two(n)
+
+#
+# Approach 3: Using Math library
+#
+# Time Complexity: O(1)
+#
+def is_power_of_two(n)
+  result_exponent = Math.log(n) / Math.log(2)
+  result_exponent % 1 == 0
+end
+
+n = 1
+# Output: true
+puts is_power_of_two(n)
+n = 16
+# Output: true
+puts is_power_of_two(n)
+n = 3
+# Output: false
+puts is_power_of_two(n)
+n = 4
+# Output: true
+puts is_power_of_two(n)
+n = 5
+# Output: false
+puts is_power_of_two(n)

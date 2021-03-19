@@ -10,7 +10,9 @@
 
 #
 # Approach: Mathematical: Digital Root
+#
 # https://en.wikipedia.org/wiki/Digital_root
+# https://brilliant.org/wiki/digital-root/
 #
 
 #

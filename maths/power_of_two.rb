@@ -114,39 +114,3 @@ puts is_power_of_two(n)
 n = 5
 # Output: false
 puts is_power_of_two(n)
-
-# 
-# Approach 4: Bitwise operators: Turn off the Rightmost 1-bit
-# 
-
-# Note that there are two ways of solving this problem via bitwise operations:
-# 1. How to get / isolate the rightmost 1-bit: x & (-x).
-# 2. How to turn off (= set to 0) the rightmost 1-bit: x & (x - 1).
-# In this approach, we're reproducing item 2.
-
-# Complexity Analysis
-# 
-# Time complexity: O(1).
-# Space complexity: O(1).
-
-def is_power_of_two(n)
-  return false if n < 1
-  
-  n & (n - 1) == 0
-end
-
-n = 1
-# Output: true
-puts is_power_of_two(n)
-n = 16
-# Output: true
-puts is_power_of_two(n)
-n = 3
-# Output: false
-puts is_power_of_two(n)
-n = 4
-# Output: true
-puts is_power_of_two(n)
-n = 5
-# Output: false
-puts is_power_of_two(n)

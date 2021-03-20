@@ -33,15 +33,15 @@
 
 # Approach 1: Recursion
 #
-# Time Complexity: O(1)
+# Time Complexity: O(logn)
 #
 def is_power_of_two(n)
   if n == 1
-    return true
-  elsif n%2 == 0
-    is_power_of_two(n/2)
+    true
+  elsif n % 2 == 0
+    is_power_of_two(n / 2)
   else
-    return false
+    false
   end
 end
 
@@ -97,6 +97,37 @@ puts is_power_of_two(n)
 def is_power_of_two(n)
   result_exponent = Math.log(n) / Math.log(2)
   result_exponent % 1 == 0
+end
+
+n = 1
+# Output: true
+puts is_power_of_two(n)
+n = 16
+# Output: true
+puts is_power_of_two(n)
+n = 3
+# Output: false
+puts is_power_of_two(n)
+n = 4
+# Output: true
+puts is_power_of_two(n)
+n = 5
+# Output: false
+puts is_power_of_two(n)
+
+# 
+# Approach 4: Bitwise operators: Turn off the Rightmost 1-bit
+# 
+
+# Complexity Analysis
+# 
+# Time complexity: O(1).
+# Space complexity: O(1).
+
+def is_power_of_two(n)
+  return false if n < 1
+  
+  n & (n - 1) == 0
 end
 
 n = 1

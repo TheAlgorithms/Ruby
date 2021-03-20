@@ -72,11 +72,6 @@ fizz_buzz(n)
 # Condition 2: 15 % 5 == 0 , num_ans_str += "Buzz"
 # => num_ans_str = "FizzBuzz"
 #
-# So for FizzBuzz we just check for two conditions instead of three
-# conditions as in the first approach.
-#
-# Similarly, for FizzBuzzJazz now we would just have three
-# conditions to check for divisibility.
 
 # Complexity Analysis
 #

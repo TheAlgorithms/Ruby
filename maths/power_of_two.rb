@@ -33,15 +33,15 @@
 
 # Approach 1: Recursion
 #
-# Time Complexity: O(1)
+# Time Complexity: O(logn)
 #
 def is_power_of_two(n)
   if n == 1
-    return true
-  elsif n%2 == 0
-    is_power_of_two(n/2)
+    true
+  elsif n % 2 == 0
+    is_power_of_two(n / 2)
   else
-    return false
+    false
   end
 end
 

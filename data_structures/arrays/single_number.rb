@@ -23,9 +23,30 @@ def single_number(nums)
       result_hash[num] = 1
     end
   end
-  
+
   result_hash.each do |k, v|
     return k if v == 1
+  end
+end
+
+nums = [2, 2, 1]
+puts(single_number(nums))
+# Output: 1
+nums = [4, 1, 2, 1, 2]
+puts(single_number(nums))
+# Output: 4
+nums = [1]
+puts(single_number(nums))
+# Output: 1
+
+#
+# Approach 2: Use Ruby .count()
+#
+# Time Complexity: O(1)
+#
+def single_number(nums)
+  nums.find do |num|
+    nums.count(num) == 1
   end
 end
 

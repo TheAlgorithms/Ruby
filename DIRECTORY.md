@@ -9,6 +9,7 @@
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
     * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
+    * [Single Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/single_number.rb)
     * [Sort Squares Of An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sort_squares_of_an_array.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)
     * [Two Sum Ii](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum_ii.rb)

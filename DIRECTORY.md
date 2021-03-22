@@ -1,4 +1,7 @@
 
+## Bit Manipulation
+  * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/power_of_two.rb)
+
 ## Ciphers
   * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)
 
@@ -7,6 +10,7 @@
     * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/add_digits.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_all_duplicates_in_an_array.rb)
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
+    * [Fizz Buzz](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/fizz_buzz.rb)
     * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
     * [Single Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/single_number.rb)
@@ -50,6 +54,7 @@
   * [Decimal To Binary](https://github.com/TheAlgorithms/Ruby/blob/master/maths/decimal_to_binary.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/maths/fibonacci.rb)
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
+  * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/maths/power_of_two.rb)
   * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
   * [Square Root Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root_test.rb)
   * [Sum Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/sum_of_digits.rb)

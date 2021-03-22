@@ -68,7 +68,7 @@ end
 # Time complexity: O(n log n)
 #
 
-def find_duplicates_2(array)
+def find_duplicates(array)
   sorted_array = array.sort
   result_array = []
 
@@ -98,7 +98,7 @@ end
 # Time complexity: O(n) average case.
 #
 
-def find_duplicates_3(array)
+def find_duplicates(array)
   result_hash = {}
   result_array = []
 

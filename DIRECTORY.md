@@ -13,6 +13,7 @@
     * [Fizz Buzz](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/fizz_buzz.rb)
     * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
+    * [Shuffle Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shuffle_array.rb)
     * [Sort Squares Of An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sort_squares_of_an_array.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)
     * [Two Sum Ii](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum_ii.rb)

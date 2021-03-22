@@ -9,8 +9,26 @@
 # @param {Integer[]} nums
 # @return {Integer}
 
+# 
+# Approach 1: Hash map
+#
+# Time Complexity: O(n)
+#
 def single_number(nums)
+  result_hash = {}
+  nums.each do |num|
+    if result_hash[num]
+      result_hash[num] +=1 
+    else
+      result_hash[num] = 1
+    end
+  end
+  
+  result_hash.each do |k, v|
+    return k if v == 1
+  end
 end
+
 nums = [2, 2, 1]
 puts(single_number(nums))
 # Output: 1

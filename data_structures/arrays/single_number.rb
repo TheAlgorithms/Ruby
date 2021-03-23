@@ -42,7 +42,7 @@ puts(single_number(nums))
 #
 # Approach 2: Use Ruby .count()
 #
-# Time Complexity: O(1)
+# Time Complexity: O(n^2)
 #
 def single_number(nums)
   nums.find do |num|

@@ -1,4 +1,4 @@
-# Challenge name: Richest Customer
+# Challenge name: Richest Customer Wealth
 #
 # You are given an m x n integer grid accounts where accounts[i][j]
 # is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank.
@@ -29,3 +29,28 @@
 # Example 3:
 # Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
 # Output: 17
+
+#
+# Approach 1: Brute Force
+#
+# Time Complexity: O(n)
+#
+def find_richest_customer_wealth(accounts)
+  summed_accounts = []
+  accounts.each do |customer|
+    summed = 0
+    customer.each do |account|
+      summed += account
+    end
+    summed_accounts.push(summed)
+  end
+
+  summed_accounts.sort.pop()
+end
+
+puts find_richest_customer_wealth([[1,2,3],[3,2,1]])
+# => 6
+puts find_richest_customer_wealth([[1,5],[7,3],[3,5]])
+# => 10
+puts find_richest_customer_wealth([[2,8,7],[7,1,3],[1,9,5]])
+# => 17

@@ -14,11 +14,22 @@
 # @return {String}
 
 #
-# Approach 1:
+# Approach 1: Brute Force
 #
-# Time Complexity:
+# Time Complexity: O(n)
 #
 def remove_vowels(s)
+  result_array = []
+  s.downcase
+  start_array = s.split('')
+
+  start_array.each do |letter|
+    if letter != 'a' && letter != 'e' && letter != 'i' && letter != 'o' && letter != 'u'
+      result_array.push(letter)
+    end
+  end
+
+  result_array.join('')
 end
 
 s = 'leetcodeisacommunityforcoders'

@@ -32,6 +32,26 @@ def remove_vowels(s)
   result_array.join('')
 end
 
+# s = 'leetcodeisacommunityforcoders'
+# print(remove_vowels(s))
+# # => "ltcdscmmntyfrcdrs"
+# s = 'aeiou'
+# print(remove_vowels(s))
+# # => ""
+
+#
+# Approach 2: Regex
+#
+# Time Complexity: O(n)
+#
+def remove_vowels(s)
+  vowels = /[aeiou]+/
+  s.scan(vowels).each do |letter|
+    s.sub!(letter, '')
+  end
+  s
+end
+
 s = 'leetcodeisacommunityforcoders'
 print(remove_vowels(s))
 # => "ltcdscmmntyfrcdrs"

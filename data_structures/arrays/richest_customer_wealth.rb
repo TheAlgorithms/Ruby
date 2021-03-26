@@ -58,7 +58,7 @@ puts find_richest_customer_wealth([[2,8,7],[7,1,3],[1,9,5]])
 #
 # Approach 2: Hash
 #
-# Time Complexity:
+# Time Complexity: O(n)
 #
 def find_richest_customer_wealth(accounts)
   result_hash = {}

@@ -32,12 +32,12 @@ def remove_vowels(s)
   result_array.join('')
 end
 
-# s = 'leetcodeisacommunityforcoders'
-# print(remove_vowels(s))
-# # => "ltcdscmmntyfrcdrs"
-# s = 'aeiou'
-# print(remove_vowels(s))
-# # => ""
+s = 'leetcodeisacommunityforcoders'
+print(remove_vowels(s))
+# => "ltcdscmmntyfrcdrs"
+s = 'aeiou'
+print(remove_vowels(s))
+# => ""
 
 #
 # Approach 2: Regex
@@ -45,11 +45,25 @@ end
 # Time Complexity: O(n)
 #
 def remove_vowels(s)
-  vowels = /[aeiou]+/
-  s.scan(vowels).each do |letter|
-    s.sub!(letter, '')
-  end
+  vowels = /[aeiou]/i
+  s.gsub!(vowels, '')
   s
+end
+
+s = 'leetcodeisacommunityforcoders'
+print(remove_vowels(s))
+# => "ltcdscmmntyfrcdrs"
+s = 'aeiou'
+print(remove_vowels(s))
+# => ""
+
+# 
+# Approach 3: Using Ruby .delete() method
+#
+# Time Complexity: O(n)
+#
+def remove_vowels(s)
+  s.downcase.delete('aeiou')
 end
 
 s = 'leetcodeisacommunityforcoders'

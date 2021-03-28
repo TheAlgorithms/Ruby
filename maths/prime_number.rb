@@ -2,30 +2,38 @@
 # Mathematical explanation: A number which has only 2 factors i.e., 1 (one) and itself
 
 # Prime number check function
-def is_prime_number(number)
-  prime_flag = false
-  if number>0
+def prime_number(number)
+  non_prime_flag = false
+  if number > 0
     if number == 1
-      prime_flag = true
+      non_prime_flag = true
+    elsif number == 2
+      non_prime_flag = false
+    elsif number % 2 == 0
+      non_prime_flag = true
     else
-      prime_flag = (2..number/2).any? { |i| number % i == 0 }
+      non_prime_flag = (2..Math.sqrt(number)).any? { |i| number % i == 0 }
     end
   else
-    prime_flag = true
+    non_prime_flag = true
   end
 
-  if !prime_flag
+  if !non_prime_flag
     puts "The given number #{number} is a Prime."
   else
     puts "The given number #{number} is not a Prime."
   end
 end
 
+# Non-prime input
+prime_number(1)
+
 # prime input
-is_prime_number(2)
+# Number 2 is an even prime number
+prime_number(2)
 
 # Non-prime input
-is_prime_number(20)
+prime_number(20)
 
 # Negative input
-is_prime_number(-21)
+prime_number(-21)

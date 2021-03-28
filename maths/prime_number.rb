@@ -3,28 +3,28 @@
 
 # Prime number check function
 def is_prime_number(number)
-  primeFlag = false
+  prime_flag = false
   if number>0
     if number == 1
-    primeFlag = true
+      prime_flag = true
     else
-      factors = 2;
+      factors = 2
       while factors.to_i <= number.to_i/2
         if number.to_i % factors.to_i==0
-        primeFlag = true
-        break
+          prime_flag = true
+          break
         end
         factors+=1
       end
     end
   else
-  primeFlag = true
+    prime_flag = true
   end
 
-  if !primeFlag
-    print "\nThe given number " + number.to_s + " is a Prime."
+  if !prime_flag
+    puts "The given number #{number} is a Prime."
   else
-    print "\nThe given number " + number.to_s + " is not a Prime."
+    puts "The given number #{number} is not a Prime."
   end
 end
 

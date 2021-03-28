@@ -8,14 +8,7 @@ def is_prime_number(number)
     if number == 1
       prime_flag = true
     else
-      factors = 2
-      while factors.to_i <= number.to_i/2
-        if number.to_i % factors.to_i==0
-          prime_flag = true
-          break
-        end
-        factors+=1
-      end
+      prime_flag = (2..number/2).any? { |i| number % i == 0 }
     end
   else
     prime_flag = true

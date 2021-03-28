@@ -3,19 +3,14 @@
 
 # Prime number check function
 def prime_number(number)
-  non_prime_flag = false
-  if number > 0
-    if number == 1
-      non_prime_flag = true
-    elsif number == 2
-      non_prime_flag = false
-    elsif number % 2 == 0
-      non_prime_flag = true
-    else
-      non_prime_flag = (2..Math.sqrt(number)).any? { |i| number % i == 0 }
-    end
-  else
+  if number <= 1
     non_prime_flag = true
+  elsif number == 2
+    non_prime_flag = false
+  elsif number % 2 == 0
+    non_prime_flag = true
+  else
+    non_prime_flag = (2..Math.sqrt(number)).any? { |i| number % i == 0 }
   end
 
   if !non_prime_flag

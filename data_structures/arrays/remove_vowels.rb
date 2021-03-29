@@ -33,7 +33,7 @@ def remove_vowels(s)
 end
 
 s = 'leetcodeisacommunityforcoders'
-print(remove_vowels(s))
+puts(remove_vowels(s))
 # => "ltcdscmmntyfrcdrs"
 s = 'aeiou'
 print(remove_vowels(s))

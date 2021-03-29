@@ -15,6 +15,8 @@
     * [Jewels And Stones](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/jewels_and_stones.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
     * [Remove Vowels](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_vowels.rb)
+    * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/richest_customer_wealth.rb)
+    * [Shuffle Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shuffle_array.rb)
     * [Single Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/single_number.rb)
     * [Sort Squares Of An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sort_squares_of_an_array.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)
@@ -24,6 +26,8 @@
     * [Invert](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/invert.rb)
     * [Postorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/postorder_traversal.rb)
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
+  * Hash Table
+    * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
   * Linked Lists
     * [Circular Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/circular_linked_list.rb)
     * [Doubly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/doubly_linked_list.rb)
@@ -57,6 +61,7 @@
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/maths/fibonacci.rb)
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/maths/power_of_two.rb)
+  * [Prime Number](https://github.com/TheAlgorithms/Ruby/blob/master/maths/prime_number.rb)
   * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
   * [Square Root Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root_test.rb)
   * [Sum Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/sum_of_digits.rb)

@@ -31,21 +31,24 @@
 # Output: 17
 
 #
-# Approach: Brute Force
+# Approach: Hash
 #
 # Time Complexity: O(n)
 #
 def find_richest_customer_wealth(accounts)
-  summed_accounts = []
-  accounts.each do |customer|
-    summed = 0
-    customer.each do |account|
-      summed += account
-    end
-    summed_accounts.push(summed)
+  result_hash = {}
+  accounts.each_with_index do |customer, i|
+    result_hash[i] = customer.sum
   end
 
-  summed_accounts.sort.pop()
+  highest_value = 0
+  result_hash.each do |k, v|
+    if v > highest_value
+      highest_value = v
+    end
+  end
+
+  highest_value
 end
 
 puts find_richest_customer_wealth([[1,2,3],[3,2,1]])

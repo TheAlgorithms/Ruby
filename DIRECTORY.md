@@ -14,6 +14,7 @@
     * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
     * [Jewels And Stones](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/jewels_and_stones.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
+    * [Remove Vowels](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_vowels.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/richest_customer_wealth.rb)
     * [Shuffle Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shuffle_array.rb)
     * [Single Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/single_number.rb)

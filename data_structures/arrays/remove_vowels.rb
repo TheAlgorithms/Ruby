@@ -20,7 +20,7 @@
 #
 def remove_vowels(s)
   result_array = []
-  s.downcase
+  s.downcase!
   start_array = s.split('')
 
   start_array.each do |letter|

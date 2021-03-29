@@ -34,18 +34,18 @@ def shuffle(nums, n)
   result
 end
 
-# nums = [2, 5, 1, 3, 4, 7]
-# n = 3
-# print(shuffle(nums, n))
-# # Output: [2,3,5,4,1,7]
-# nums = [1, 2, 3, 4, 4, 3, 2, 1]
-# n = 4
-# print(shuffle(nums, n))
-# # Output: [1,4,2,3,3,2,4,1]
-# nums = [1, 1, 2, 2]
-# n = 2
-# print(shuffle(nums, n))
-# # Output: [1,2,1,2]
+nums = [2, 5, 1, 3, 4, 7]
+n = 3
+print(shuffle(nums, n))
+# Output: [2,3,5,4,1,7]
+nums = [1, 2, 3, 4, 4, 3, 2, 1]
+n = 4
+print(shuffle(nums, n))
+# Output: [1,4,2,3,3,2,4,1]
+nums = [1, 1, 2, 2]
+n = 2
+print(shuffle(nums, n))
+# Output: [1,2,1,2]
 
 #
 # Approach 2: Use Ruby methods .insert() and .delete_at()
@@ -60,6 +60,39 @@ def shuffle(nums, n)
     current_index += 2
   end
   nums
+end
+
+nums = [2, 5, 1, 3, 4, 7]
+n = 3
+print(shuffle(nums, n))
+# Output: [2,3,5,4,1,7]
+nums = [1, 2, 3, 4, 4, 3, 2, 1]
+n = 4
+print(shuffle(nums, n))
+# Output: [1,4,2,3,3,2,4,1]
+nums = [1, 1, 2, 2]
+n = 2
+print(shuffle(nums, n))
+# Output: [1,2,1,2]
+
+#
+# Approach 3: Two Pointers
+#
+# Time Complexity: O(N)
+#
+
+def shuffle(nums, n)
+  result = []
+  p1 = 0
+  p2 = n
+
+  while p1 < n
+    result.push(nums[p1], nums[p2])
+    p1 +=1
+    p2 +=1
+  end
+
+  result
 end
 
 nums = [2, 5, 1, 3, 4, 7]

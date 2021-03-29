@@ -2,6 +2,7 @@
 #
 # Given a string s, remove the vowels 'a', 'e', 'i', 'o', and 'u'
 # from it, and return the new string.
+#
 # Example 1:
 # Input: s = "leetcodeisacommunityforcoders"
 # Output: "ltcdscmmntyfrcdrs"
@@ -18,6 +19,7 @@
 #
 # Time Complexity: O(n)
 #
+
 def remove_vowels(s)
   result_array = []
   s.downcase!
@@ -57,7 +59,7 @@ s = 'aeiou'
 puts(remove_vowels(s))
 # => ""
 
-# 
+#
 # Approach 3: Using Ruby .delete() method
 #
 # Time Complexity: O(n)

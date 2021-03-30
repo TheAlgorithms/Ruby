@@ -8,7 +8,6 @@
 ## Data Structures
   * Arrays
     * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/add_digits.rb)
-    * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/anagram_checker.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_all_duplicates_in_an_array.rb)
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
     * [Fizz Buzz](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/fizz_buzz.rb)
@@ -19,6 +18,7 @@
     * [Single Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/single_number.rb)
     * [Sort Squares Of An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sort_squares_of_an_array.rb)
     * Strings
+      * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/anagram_checker.rb)
       * [Jewels And Stones](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/jewels_and_stones.rb)
       * [Remove Vowels](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/remove_vowels.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)

@@ -14,7 +14,18 @@
 # @param {String} t
 # @return {Boolean}
 
+#
+# Approach 1: Sort and Compare
+#
+# Time Complexity: O(n log n)
+#
 def is_anagram(s, t)
+  return false if s.length != t.length
+
+  arr1 = s.split('').sort
+  arr2 = t.split('').sort
+
+  arr1 == arr2
 end
 
 s = 'anagram'

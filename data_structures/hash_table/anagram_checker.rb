@@ -17,8 +17,6 @@
 #
 # Approach: Hash table
 #
-
-# 
 # Complexity analysis:
 #
 # Time complexity: O(n). Time complexity is O(n) since accessing the counter
@@ -60,3 +58,74 @@ s = 'a'
 t = 'ab'
 puts(is_anagram(s, t))
 # => false
+
+
+def is_anagram(s, t)
+  s_length = s.length
+  t_length = t.length
+  counter = Hash.new(0)
+
+  return false unless s_length == t_length
+
+  (0...s_length).each do |i|
+    counter[s[i]] += 1
+  end
+
+  (0...s_length).each do |i|
+    counter[t[i]] -= 1
+
+    return false if counter[t[i]] < 0
+  end
+
+  true
+end
+
+s = 'anagram'
+t = 'nagaram'
+puts(is_anagram(s, t))
+# => true
+
+s = 'rat'
+t = 'car'
+puts(is_anagram(s, t))
+# => false
+
+s = 'a'
+t = 'ab'
+puts(is_anagram(s, t))
+# => false
+
+#
+# Approach 2: Hash table
+#
+
+# Algorithm: we could also first increment the counter for s,
+# then decrement the counter for t. If at any point the counter
+# drops below zero, we know that t contains an extra letter,
+# not in s, and return false immediately.
+
+# Complexity analysis:
+#
+# Time complexity: O(n).
+# Space complexity: O(1).
+#
+
+def is_anagram(s, t)
+  s_length = s.length
+  t_length = t.length
+  counter = Hash.new(0)
+
+  return false unless s_length == t_length
+
+  (0...s_length).each do |i|
+    counter[s[i]] += 1
+  end
+
+  (0...s_length).each do |i|
+    counter[t[i]] -= 1
+
+    return false if counter[t[i]] < 0
+  end
+
+  true
+end

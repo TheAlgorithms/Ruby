@@ -17,6 +17,7 @@
 #
 # Approach: Hash table
 #
+
 # Complexity analysis:
 #
 # Time complexity: O(n). Time complexity is O(n) since accessing the counter
@@ -39,42 +40,6 @@ def is_anagram(s, t)
 
   counter.each do |k, v|
     return false unless v == 0
-  end
-
-  true
-end
-
-s = 'anagram'
-t = 'nagaram'
-puts(is_anagram(s, t))
-# => true
-
-s = 'rat'
-t = 'car'
-puts(is_anagram(s, t))
-# => false
-
-s = 'a'
-t = 'ab'
-puts(is_anagram(s, t))
-# => false
-
-
-def is_anagram(s, t)
-  s_length = s.length
-  t_length = t.length
-  counter = Hash.new(0)
-
-  return false unless s_length == t_length
-
-  (0...s_length).each do |i|
-    counter[s[i]] += 1
-  end
-
-  (0...s_length).each do |i|
-    counter[t[i]] -= 1
-
-    return false if counter[t[i]] < 0
   end
 
   true

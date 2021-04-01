@@ -15,20 +15,30 @@
 # @return {Boolean}
 
 #
-# Approach: Sort and Compare
+# Approach: Hash table
 #
 # Complexity analysis:
 #
-# Time Complexity: O(n log n). Assume that n is the length of s, sorting costs O(n log n), and comparing two strings costs O(n). Sorting time dominates and the overall time complexity is O(n log n).
-# Space Complexity: O(1). Space depends on the sorting implementation which, usually, costs O(1) auxiliary space if heapsort is used.
+# Time complexity: O(n). Time complexity is O(n) since accessing the counter table is a constant time operation.
+# Space complexity: O(1). Although we do use extra space, the space complexity is O(1) because the table's size stays constant no matter how large n is.
 #
 def is_anagram(s, t)
-  return false if s.length != t.length
+  s_length = s.length
+  t_length = t.length
+  counter = Hash.new(0)
 
-  arr1 = s.split('').sort
-  arr2 = t.split('').sort
+  return false unless s_length == t_length
 
-  arr1 == arr2
+  (0...s_length).each do |i|
+    counter[s[i]] += 1
+    counter[t[i]] -= 1
+  end
+
+  counter.each do |k, v|
+    return false unless v == 0
+  end
+
+  true
 end
 
 s = 'anagram'

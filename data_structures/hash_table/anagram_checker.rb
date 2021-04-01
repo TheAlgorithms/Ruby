@@ -130,6 +130,21 @@ def is_anagram(s, t)
   true
 end
 
+s = 'anagram'
+t = 'nagaram'
+puts(is_anagram(s, t))
+# => true
+
+s = 'rat'
+t = 'car'
+puts(is_anagram(s, t))
+# => false
+
+s = 'a'
+t = 'ab'
+puts(is_anagram(s, t))
+# => false
+
 #
 # Approach 3: populate 2 hashes and compare them
 #
@@ -141,7 +156,7 @@ def is_anagram(s, t)
   return false if s.count != t.count
 
   hash1 = {}
-  s.chars.each do |value|
+  s.each do |value|
     hash1[value] = if hash1[value]
                      hash1[value] + 1
                    else
@@ -150,7 +165,7 @@ def is_anagram(s, t)
   end
 
   hash2 = {}
-  t.chars.each do |value|
+  t.each do |value|
     hash2[value] = if hash2[value]
                      hash2[value] + 1
                    else
@@ -164,3 +179,18 @@ def is_anagram(s, t)
 
   true
 end
+
+s = 'anagram'
+t = 'nagaram'
+puts(is_anagram(s, t))
+# => true
+
+s = 'rat'
+t = 'car'
+puts(is_anagram(s, t))
+# => false
+
+s = 'a'
+t = 'ab'
+puts(is_anagram(s, t))
+# => false

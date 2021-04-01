@@ -129,3 +129,38 @@ def is_anagram(s, t)
 
   true
 end
+
+#
+# Approach 3: populate 2 hashes and compare them
+#
+
+def is_anagram(s, t)
+  s = s.chars
+  t = t.chars
+
+  return false if s.count != t.count
+
+  hash1 = {}
+  s.chars.each do |value|
+    hash1[value] = if hash1[value]
+                     hash1[value] + 1
+                   else
+                     1
+                   end
+  end
+
+  hash2 = {}
+  t.chars.each do |value|
+    hash2[value] = if hash2[value]
+                     hash2[value] + 1
+                   else
+                     1
+                   end
+  end
+
+  hash1.keys.each do |key|
+    return false if hash2[key] != hash1[key]
+  end
+
+  true
+end

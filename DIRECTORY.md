@@ -32,6 +32,7 @@
     * [Postorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/postorder_traversal.rb)
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
   * Hash Table
+    * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/anagram_checker.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/find_all_duplicates_in_an_array.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/two_sum.rb)

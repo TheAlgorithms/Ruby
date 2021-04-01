@@ -5,6 +5,9 @@
 ## Ciphers
   * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)
 
+## Conversions
+  * [Temperature Conversions](https://github.com/TheAlgorithms/Ruby/blob/master/conversions/temperature_conversions.rb)
+
 ## Data Structures
   * Arrays
     * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/add_digits.rb)

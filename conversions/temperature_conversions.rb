@@ -47,7 +47,7 @@ end
 # fahrenheit -> kelvin = [(value of fahrenheit - 32) * 5 / 9] + 273.15 => K
 def fahrenheit_to_kelvin(fahrenheit_input)
   begin
-    kelvin_output = ((fahrenheit_input - 32) * 5 / 9).round(2).round(2);
+    kelvin_output = ((fahrenheit_input - 32) * 5 / 9).round(2).round(2)
   rescue
     puts "Error: Please provide number only!"
   else

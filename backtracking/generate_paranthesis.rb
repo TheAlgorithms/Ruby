@@ -27,8 +27,8 @@
 
 # Complexity Analysis
 # 
-# Time Complexity: O(4^n/sqrt(n). Each valid sequence has at most n steps during the backtracking procedure.
-# Space Complexity: O(4^n/sqrt(n), as described above, and using O(n) space to store the sequence.
+# Time Complexity: O(4^n/sqrt(n)). Each valid sequence has at most n steps during the backtracking procedure.
+# Space Complexity: O(4^n/sqrt(n)), as described above, and using O(n) space to store the sequence.
 
 # Refer to the attached diagram for recursion,
 # The numbers next to each node are the counts of left and right parantheses

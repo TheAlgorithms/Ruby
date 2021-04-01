@@ -39,7 +39,9 @@ def reorder_log_files(logs)
   dig_logs = []
 
   logs.each do |arr|
-    if arr.split(" ")[1][0] >= '0' && arr.split(" ")[1][0] <= '9'
+    digit = arr.split(" ")[1][0]
+
+    if digit >= '0' && digit <= '9'
       dig_logs << arr
     else
       let_logs << arr

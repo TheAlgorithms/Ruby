@@ -17,7 +17,9 @@
 #
 # Approach 1: Sort and Compare
 #
-# Time Complexity: O(n log n)
+# Complexity analysis:
+#
+# Time Complexity: O(n log n). Assume that n is the length of s, sorting costs O(n log n), and comparing two strings costs O(n). Sorting time dominates and the overall time complexity is O(n log n).
 #
 def is_anagram(s, t)
   return false if s.length != t.length

@@ -1,4 +1,7 @@
 
+## Backtracking
+  * [Generate Paranthesis](https://github.com/TheAlgorithms/Ruby/blob/master/backtracking/generate_paranthesis.rb)
+
 ## Bit Manipulation
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/power_of_two.rb)
 

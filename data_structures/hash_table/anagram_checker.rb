@@ -19,8 +19,11 @@
 #
 # Complexity analysis:
 #
-# Time complexity: O(n). Time complexity is O(n) since accessing the counter table is a constant time operation.
-# Space complexity: O(1). Although we do use extra space, the space complexity is O(1) because the table's size stays constant no matter how large n is.
+# Time complexity: O(n). Time complexity is O(n) since accessing the counter
+# table is a constant time operation.
+# Space complexity: O(1). Although we do use extra space,
+# the space complexity is O(1) because the table's size stays constant no
+# matter how large n is.
 #
 def is_anagram(s, t)
   s_length = s.length
@@ -45,10 +48,12 @@ s = 'anagram'
 t = 'nagaram'
 puts(is_anagram(s, t))
 # => true
+
 s = 'rat'
 t = 'car'
 puts(is_anagram(s, t))
 # => false
+
 s = 'a'
 t = 'ab'
 puts(is_anagram(s, t))

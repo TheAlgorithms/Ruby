@@ -72,3 +72,39 @@ s = 'ab_a'
 puts is_palindrome(s)
 # Output: true
 # Explanation: "aba" is a palindrome.
+
+#
+# Approach 2: Two Pointers
+#
+# Time Complexity: O(n)
+#
+def is_palindrome(s)
+  letters_only = s.downcase.gsub(/[^0-9a-z]/i, '')
+  p1 = 0
+  p2 = letters_only.length - 1
+
+  while p1 < p2
+    if letters_only[p1] == letters_only[p2]
+      p1 += 1
+      p2 -= 1
+    else
+      return false
+    end
+  end
+  true
+end
+
+s = 'A man, a plan, a canal: Panama'
+puts is_palindrome(s)
+# Output: true
+# Explanation: "amanaplanacanalpanama" is a palindrome.
+
+s = 'race a car'
+puts is_palindrome(s)
+# Output: false
+# Explanation: "raceacar" is not a palindrome.
+
+s = 'ab_a'
+puts is_palindrome(s)
+# Output: true
+# Explanation: "aba" is a palindrome.

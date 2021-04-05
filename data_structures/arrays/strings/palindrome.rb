@@ -43,3 +43,32 @@ s = 'ab_a'
 puts is_palindrome(s)
 # Output: true
 # Explanation: "aba" is a palindrome.
+
+#
+# Approach 2: Reversed array
+#
+# Time Complexity: O(n)
+#
+def is_palindrome(s)
+  letters_only_array = s.downcase.gsub(/[^0-9a-z]/i, '').split('')
+  reversed_array = []
+  letters_only_array.each do |letter|
+    reversed_array.unshift(letter)
+  end
+  letters_only_array == reversed_array
+end
+
+s = 'A man, a plan, a canal: Panama'
+puts is_palindrome(s)
+# Output: true
+# Explanation: "amanaplanacanalpanama" is a palindrome.
+
+s = 'race a car'
+puts is_palindrome(s)
+# Output: false
+# Explanation: "raceacar" is not a palindrome.
+
+s = 'ab_a'
+puts is_palindrome(s)
+# Output: true
+# Explanation: "aba" is a palindrome.

@@ -20,12 +20,13 @@
 # @return {Boolean}
 
 #
-# Approach 1: Brute Force
+# Approach 1: Using Ruby method .reverse
 #
-# Time Complexity:
+# Time Complexity: O(n)
 #
 def is_palindrome(s)
-  s.downcase
+  letters_only = s.downcase.gsub(/[^0-9a-z]/i, '')
+  letters_only.reverse == letters_only
 end
 
 s = 'A man, a plan, a canal: Panama'

@@ -8,18 +8,21 @@ def binary_search(array, key)
     return middle if array[middle] == key
 
     if key < array[middle]
-  back = middle - 1
-else
-  front = middle + 1
-end
+      back = middle - 1
+    else
+      front = middle + 1
+    end
   end
+  
   nil
 end
 
 puts "Enter a sorted space-separated list:"
 arr = gets.chomp.split(' ').map(&:to_i)
+
 puts "Enter the value to be searched:"
 value = gets.chomp.to_i
+
 puts if binary_search(arr, value) != nil
   "Found at index #{binary_search(arr, value)}"
 else

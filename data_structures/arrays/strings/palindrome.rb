@@ -76,7 +76,14 @@ puts is_palindrome(s)
 #
 # Approach 2: Two Pointers
 #
-# Time Complexity: O(n)
+
+#
+# Complexity Analysis:
+#
+# Time Complexity: O(n), in length n of the string. We traverse over each
+# character at most once until the two pointers meet in the middle, or when
+# we break and return early.
+# Space Complexity: O(1). No extra space required, at all.
 #
 def is_palindrome(s)
   letters_only = s.downcase.gsub(/[^0-9a-z]/i, '')

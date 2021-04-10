@@ -29,8 +29,8 @@
 
 # Complexity Analysis
 # 
-# Time complexity : O(m*n). The complete nums1 array (of size n) needs to be scanned for all the m elements of nums2 in the worst case.
-# Space complexity : O(1). No additional space since we're swapping elements in nums1 and returning the input array.
+# Time complexity: O(m*n). The complete nums1 array (of size n) needs to be scanned for all the m elements of nums2 in the worst case.
+# Space complexity: O(1). No additional space since we're swapping elements in nums1 and returning the input array.
 
 # @param {Integer[]} nums1
 # @param {Integer[]} nums2

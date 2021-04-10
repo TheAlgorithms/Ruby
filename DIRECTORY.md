@@ -14,6 +14,7 @@
 ## Data Structures
   * Arrays
     * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/add_digits.rb)
+    * [Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/arrays_intersection.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_all_duplicates_in_an_array.rb)
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
     * [Fizz Buzz](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/fizz_buzz.rb)

@@ -47,7 +47,17 @@ puts is_palindrome(s)
 #
 # Approach 2: Reversed array
 #
-# Time Complexity: O(n)
+# Complexity Analysis:
+#
+# Time Complexity: O(n), in length n of the string.
+#
+# We need to iterate through the string: When we filter out non-alphanumeric characters and convert the remaining
+# characters to lower-case. When we reverse the string. When we compare the original and the reversed strings. 
+# Each iteration runs linearly in time (since each character operation completes in constant time). 
+# Thus, the effective run-time complexity is linear.
+#
+# Space Complexity: O(n), in length n of the string. We need O(n) additional
+# space to store the filtered string and the reversed string.
 #
 def is_palindrome(s)
   letters_only_array = s.downcase.gsub(/[^0-9a-z]/i, '').split('')

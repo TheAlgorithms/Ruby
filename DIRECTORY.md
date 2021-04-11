@@ -104,14 +104,14 @@
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_5/sol1.rb)
 
 ## Searches
-  * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/binary_search.rb)
-  * [Depth First Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/depth_first_search.rb)
-  * [Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/double_linear_search.rb)
-  * [Jump Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/jump_search.rb)
-  * [Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/linear_search.rb)
-  * [Recursive Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/recursive_double_linear_search.rb)
-  * [Recursive Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/recursive_linear_search.rb)
-  * [Ternary Search](https://github.com/TheAlgorithms/Ruby/blob/master/Searches/ternary_search.rb)
+  * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/binary_search.rb)
+  * [Depth First Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/depth_first_search.rb)
+  * [Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/double_linear_search.rb)
+  * [Jump Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/jump_search.rb)
+  * [Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/linear_search.rb)
+  * [Recursive Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/recursive_double_linear_search.rb)
+  * [Recursive Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/recursive_linear_search.rb)
+  * [Ternary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/ternary_search.rb)
 
 ## Sorting
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)

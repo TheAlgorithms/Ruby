@@ -2,7 +2,7 @@
 # Addition or sum of numbers means adding each and every element of the inputs
 # Sum or addition of 1 and 3 is 1 + 3 = 4
 
-def self_add(*array)
+def add(*array)
   sum = 0
   array.each { |a| sum+=a }
   puts "The sum of following elements #{array} is #{sum}"
@@ -11,10 +11,10 @@ def self_add(*array)
 end
 
 # Valid inputs
-self_add(1)
-self_add(2, 5, -4)
-self_add(25, 45)
+add(1)
+add(2, 5, -4)
+add(25, 45)
 
 # Invalid inputs
-self_add("1", 2, 3)
-self_add("a", 1)
+add("1", 2, 3)
+add("a", 1)

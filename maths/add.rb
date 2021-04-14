@@ -10,11 +10,25 @@ def add(*array)
     puts "Error: Please provide number only!"
 end
 
+# 
 # Valid inputs
-add(1)
-add(2, 5, -4)
-add(25, 45)
+# 
 
+puts add(1)
+# The sum of following elements [1] is 1
+
+puts add(2, 5, -4)
+# The sum of following elements [2, 5, -4] is 3
+
+puts add(25, 45)
+# The sum of following elements [25, 45] is 70
+
+# 
 # Invalid inputs
-add("1", 2, 3)
-add("a", 1)
+# 
+
+puts add("1", 2, 3)
+# Error: Please provide number only!
+
+puts add("a", 1)
+# Error: Please provide number only!

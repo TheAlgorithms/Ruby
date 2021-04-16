@@ -7,17 +7,38 @@
 # @return {Integer[]}
 
 #
-# Approach 1:
+# Approach 1: Brute Force
 #
-# Time Complexity:
+# Time Complexity: O(n^2)
 #
 def intersect(arr1, arr2)
+  result = []
+
+  if arr1.length < arr2.length
+    shorter = arr1
+    longer = arr2
+  else
+    shorter = arr2
+    longer = arr1
+  end
+
+  shorter.each do |matcher|
+    longer.each do |number|
+      next if number != matcher
+      result.push(number)
+      break
+    end
+  end
+
+  result
 end
+
 nums1 = [1, 2, 2, 1]
 nums2 = [2, 2]
-intersect(nums1, nums2)
+puts intersect(nums1, nums2)
 # => [2,2]
+
 nums1 = [4, 9, 5]
 nums2 = [9, 4, 9, 8, 4]
-intersect(nums1, nums2)
+puts intersect(nums1, nums2)
 # => [4,9]

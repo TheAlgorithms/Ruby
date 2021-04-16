@@ -28,7 +28,7 @@
 # @param {Integer[]} arr2
 # @param {Integer[]} arr3
 # @return {Integer[]}
-def arrays_intersection(arr1, arr2, arr3)
+def sorted_arrays_intersection(arr1, arr2, arr3)
   result = []
 
   # prepare three pointers to iterate through three arrays
@@ -57,11 +57,11 @@ end
 arr1 = [1, 2, 3, 4, 5]
 arr2 = [1, 2, 5, 7, 9]
 arr3 = [1, 3, 4, 5, 8]
-print(arrays_intersection(arr1, arr2, arr3))
+print(sorted_arrays_intersection(arr1, arr2, arr3))
 # Output: [1,5]
 
 arr1 = [197, 418, 523, 876, 1356]
 arr2 = [501, 880, 1593, 1710, 1870]
 arr3 = [521, 682, 1337, 1395, 1764]
-print(arrays_intersection(arr1, arr2, arr3))
+print(sorted_arrays_intersection(arr1, arr2, arr3))
 # Output: []

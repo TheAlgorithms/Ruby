@@ -61,9 +61,48 @@ def intersect(arr1, arr2)
       hash[num] -= 1
     end
   end
+
+  result
+end
+
+nums1 = [1, 2, 2, 1]
+nums2 = [2, 2]
+puts intersect(nums1, nums2)
+# => [2,2]
+
+nums1 = [4, 9, 5]
+nums2 = [9, 4, 9, 8, 4]
+puts intersect(nums1, nums2)
+# => [4,9]
+
+#
+# Approach 3: Two Pointers
+#
+# Time Complexity: O(n log n)
+#
+def intersect(nums1, nums2)
+  result = []
+  p1 = 0
+  p2 = 0
+  nums1 = nums1.sort
+  nums2 = nums2.sort
+  while p1 < nums1.length && p2 < nums2.length
+    if nums1[p1] < nums2[p2]
+      p1 += 1
+    elsif nums1[p1] > nums2[p2]
+      p2 += 1
+    elsif nums1[p1] == nums2[p2]
+      result << nums1[p1]
+      p1 += 1
+      p2 += 1
+    end
+  end
   
   result
 end
+nums1 = [1, 2, 2, 1]
+nums2 = [2, 2]
+intersect(nums1, nums2)
 
 nums1 = [1, 2, 2, 1]
 nums2 = [2, 2]

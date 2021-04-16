@@ -14,7 +14,7 @@
 #
 
 #
-# Approach: Two-pointer
+# Approach: Two-pointers
 #
 
 # Complexity Analysis

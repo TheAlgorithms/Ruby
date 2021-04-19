@@ -78,7 +78,10 @@ puts intersect(nums1, nums2)
 #
 # Approach 3: Two Pointers
 #
-# Time Complexity: O(n log n)
+# Complexity analysis:
+
+# Time Complexity: O(nlogn + mlogm), where n and m are the lengths of the arrays. We sort two arrays independently and then do a linear scan.
+# Space Complexity: from O(logn+logm) to O(n+m), depending on the implementation of the sorting algorithm.
 #
 def intersect(nums1, nums2)
   result = []

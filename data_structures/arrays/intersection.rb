@@ -46,7 +46,14 @@ puts intersect(nums1, nums2)
 #
 # Approach 2: Hash
 #
-# Time Complexity: O(n)
+# Complexity Analysis
+#
+# Time Complexity: O(n+m), where n and m are the lengths of the arrays.
+# We iterate through the first, and then through the second array; insert
+# and lookup operations in the hash map take a constant time.
+#
+# Space Complexity: O(min(n,m)). We use hash map to store numbers (and their
+# counts) from the smaller array.
 #
 def intersect(arr1, arr2)
   result = []

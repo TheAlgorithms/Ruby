@@ -1,30 +1,30 @@
 # A ruby program to find max from a set of elements
 
 # This find_max method will return the max element out of the array
-def self.find_max(*array)
+def find_max(*array)
   max = array[0]
   array.each do |a|
     if a >= max
       max = a
     end
   end
-    return "The Max of the following elements #{array} is #{max}."
+    "The Max of the following elements #{array} is #{max}."
   rescue
-    return "Error: Please provide number only!"
+    "Error: Please provide number only!"
 end
 
 # Max method will return the maximum element from the set of input elements provided
-def self.predefined_max(*array)
-  return "The Max of the following elements #{array} is #{array.max}."
+def predefined_max(*array)
+  "The Max of the following elements #{array} is #{array.max}."
   rescue
-    return "Error: Please provide number only!"
+    "Error: Please provide number only!"
 end
 
 # Sort method will sort the elements in ascending order. Last method will return the end element out of the array
-def self.predefined_sort_last_max(*array)
-  return "The Max of the following elements #{array} is #{array.sort.last}."
+def predefined_sort_last_max(*array)
+  "The Max of the following elements #{array} is #{array.sort.last}."
   rescue
-    return "Error: Please provide number only!"
+    "Error: Please provide number only!"
 end
 
 # Using find_max

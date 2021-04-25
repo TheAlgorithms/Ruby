@@ -48,11 +48,11 @@ def bubble_sort(array)
   array
 end
 
-nums = [2,0,2,1,1,0]
+nums = [2, 0, 2, 1, 1, 0]
 puts sort_colors(nums)
 # Output: [0,0,1,1,2,2]
 
-nums = [2,0,1]
+nums = [2, 0, 1]
 puts sort_colors(nums)
 # Output: [0,1,2]
 

@@ -138,4 +138,5 @@
   * [Selection Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/selection_sort_test.rb)
   * [Shell Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/shell_sort.rb)
   * [Shell Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/shell_sort_test.rb)
+  * [Sort Color](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/sort_color.rb)
   * [Sort Tests](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/sort_tests.rb)

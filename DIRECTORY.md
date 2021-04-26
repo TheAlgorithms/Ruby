@@ -80,6 +80,7 @@
   * [Factorial](https://github.com/TheAlgorithms/Ruby/blob/master/maths/factorial.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/maths/fibonacci.rb)
   * [Find Max](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_max.rb)
+  * [Find Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_min.rb)
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/maths/power_of_two.rb)
   * [Prime Number](https://github.com/TheAlgorithms/Ruby/blob/master/maths/prime_number.rb)

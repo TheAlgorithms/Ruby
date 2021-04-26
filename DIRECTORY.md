@@ -15,6 +15,7 @@
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
     * [Fizz Buzz](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/fizz_buzz.rb)
     * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
+    * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/good_pairs.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/richest_customer_wealth.rb)
     * [Shuffle Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shuffle_array.rb)

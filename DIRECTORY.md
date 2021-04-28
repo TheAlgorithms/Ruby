@@ -53,6 +53,7 @@
   * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
   * [Ceil Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil_test.rb)
   * [Decimal To Binary](https://github.com/TheAlgorithms/Ruby/blob/master/maths/decimal_to_binary.rb)
+  * [Factorial](https://github.com/TheAlgorithms/Ruby/blob/master/maths/factorial.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/maths/fibonacci.rb)
   * [Find Max](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_max.rb)
   * [Find Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_min.rb)

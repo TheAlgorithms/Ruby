@@ -3,7 +3,7 @@
 # Mathematical representation: n! = n * (n - 1) * (n - 2) * ... * 1
 
 #
-# Non-recursive approach
+# Non-recursive and non-iterative approach
 #
 
 def factorial(number)

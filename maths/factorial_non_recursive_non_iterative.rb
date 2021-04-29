@@ -9,12 +9,11 @@
 def factorial(number)
   if number < 0
     "Please check your input number! The given number is a negative number."
+  elsif number == 0
+    "The factorial of #{number} is 1."
   else
-    if number == 0
-      "The factorial of #{number} is 1."
-    else
-      "The factorial of #{number} is #{(1..number).inject(:*)}."
-    end
+    result = (1..number).inject(:*)
+    "The factorial of #{number} is #{result}."
   end
   rescue
     "Error: Please provide integer only!"

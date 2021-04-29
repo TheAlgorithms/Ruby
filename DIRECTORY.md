@@ -31,7 +31,7 @@
       * [Jewels And Stones](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/jewels_and_stones.rb)
       * [Palindrome](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/palindrome.rb)
       * [Remove Vowels](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/remove_vowels.rb)
-    * [Sudoku](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/sudoku.rb)
+    * [Sudoku](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sudoku.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)
     * [Two Sum Ii](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum_ii.rb)
   * Binary Trees

@@ -1,3 +1,20 @@
+# Challenge name: Circular Queue
+#
+# Design the implementation of a circular queue.
+# The circular queue is a linear data structure in which the operations are performed based on FIFO (First In First Out) principle and
+# the last position is connected back to the first position to make a circle. It is also called "Ring Buffer".
+#
+
+#
+# Complexity Analysis
+#
+# Time complexity: O(1).
+# All of the methods in our circular data structure are of constant time complexity.
+#
+# Space Complexity: O(N).
+# The overall space complexity of the data structure is linear, where N is the pre-assigned capacity of the queue. 
+# However, it is worth mentioning that the memory consumption of the data structure remains as its pre-assigned capacity during its entire life cycle.
+
 class CircularQueue
   def initialize(max_size)
     @max_size = max_size
@@ -69,4 +86,3 @@ queue.pop
 
 puts queue.peek
 # => 2
-

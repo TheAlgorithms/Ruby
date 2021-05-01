@@ -50,6 +50,7 @@
     * [Doubly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/doubly_linked_list.rb)
     * [Singly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/singly_linked_list.rb)
   * Queues
+    * [Circular Queue](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/queues/circular_queue.rb)
     * [Queue](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/queues/queue.rb)
   * Stacks
     * [Stack](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/stacks/stack.rb)

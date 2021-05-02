@@ -6,6 +6,7 @@ module WeightConversion
     raise StandardError unless Integer === kilogram_input
 
     gram = kilogram_input * 1000
+
     "#{kilogram_input} kg = #{gram} g"
   end
 
@@ -46,8 +47,10 @@ module WeightConversion
     "#{pound_input} lb = #{kilogram} kg"
   end
 end
-
+# 
 # Valid inputs
+# 
+
 puts WeightConversion.kilogram_to_gram(2)
 # 2 kg = 2000 g
 puts WeightConversion.gram_to_kilogram(3000)
@@ -61,7 +64,10 @@ puts WeightConversion.kilogram_to_pound(1)
 puts WeightConversion.pound_to_kilogram(100)
 # 100 lb = 45.35 kg
 
+# 
 # Invalid inputs
+# 
+
 begin
   puts WeightConversion.kilogram_to_gram("a")
 rescue StandardError

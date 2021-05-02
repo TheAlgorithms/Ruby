@@ -1,5 +1,5 @@
 def binary_and(x, y)
-  raise 'Input must only contain positive integers' if x < 0 or x < 0
+  raise 'Input must only contain positive integers' if x < 0 or y < 0
 
   "0b" + (x & y).to_s(2)
 end
@@ -9,6 +9,7 @@ begin
 rescue => e
   puts e.message
 end
+# Input must only contain positive integers
 
 puts binary_and(1, 1)
 # 0b1

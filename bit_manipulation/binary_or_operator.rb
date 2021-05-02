@@ -9,6 +9,7 @@ begin
 rescue => e
   puts e.message
 end
+# Input must only contain positive integers
 
 puts binary_or(1, 1)
 # 0b1

@@ -18,6 +18,7 @@ begin
 rescue => e
   puts e.message
 end
+# Input must be a positive integer
 
 puts binary_count_trailing_zeroes(0)
 # 1

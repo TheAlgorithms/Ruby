@@ -11,6 +11,7 @@ begin
 rescue => e
   puts e.message
 end
+# Input must be a positive integer
 
 puts binary_count_setbits(0)
 # 0

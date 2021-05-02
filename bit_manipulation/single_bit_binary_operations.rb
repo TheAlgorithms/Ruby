@@ -16,6 +16,14 @@ puts set_bit(8, 3)
 puts set_bit(8, 4)
 # 24
 
+begin
+  puts set_bit(8, -4)
+rescue => e
+  puts e.message
+end
+# position must be >= 0
+
+
 def clear_bit(x, position)
   raise "position must be > 0" if position < 0
 
@@ -33,6 +41,13 @@ puts clear_bit(8, 3)
 
 puts clear_bit(24, 4)
 # 8
+
+begin
+  puts clear_bit(0, -4)
+rescue => e
+  puts e.message
+end
+# position must be > 0
 
 def flip_bit(x, position)
   raise "position must be > 0" if position < 0
@@ -52,6 +67,13 @@ puts flip_bit(8, 3)
 puts flip_bit(24, 4)
 # 8
 
+begin
+  puts flip_bit(0, -4)
+rescue => e
+  puts e.message
+end
+# position must be > 0
+
 def is_bit_set(x, position)
   raise "position must be > 0" if position < 0
 
@@ -69,3 +91,10 @@ puts is_bit_set(8, 3)
 
 puts is_bit_set(24, 4)
 # true
+
+begin
+  puts is_bit_set(0, -4)
+rescue => e
+  puts e.message
+end
+# position must be > 0

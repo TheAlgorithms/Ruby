@@ -3,7 +3,13 @@
   * [Generate Paranthesis](https://github.com/TheAlgorithms/Ruby/blob/master/backtracking/generate_paranthesis.rb)
 
 ## Bit Manipulation
+  * [Binary And Operator](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_and_operator.rb)
+  * [Binary Count Setbits](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_count_setbits.rb)
+  * [Binary Count Trailing Zeroes](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_count_trailing_zeroes.rb)
+  * [Binary Or Operator](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_or_operator.rb)
+  * [Binary Xor Operator](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_xor_operator.rb)
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/power_of_two.rb)
+  * [Single Bit Binary Operations](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/single_bit_binary_operations.rb)
 
 ## Ciphers
   * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)

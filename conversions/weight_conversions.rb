@@ -47,6 +47,7 @@ module WeightConversion
     "#{pound_input} lb = #{kilogram} kg"
   end
 end
+
 # 
 # Valid inputs
 # 

@@ -10,6 +10,7 @@
 
 ## Conversions
   * [Temperature Conversions](https://github.com/TheAlgorithms/Ruby/blob/master/conversions/temperature_conversions.rb)
+  * [Weight Conversions](https://github.com/TheAlgorithms/Ruby/blob/master/conversions/weight_conversions.rb)
 
 ## Data Structures
   * Arrays

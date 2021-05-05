@@ -29,6 +29,7 @@
     * [Next Greater Element](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/next_greater_element.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/richest_customer_wealth.rb)
+    * [Shortest Word Distance](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shortest_word_distance.rb)
     * [Shuffle Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shuffle_array.rb)
     * [Single Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/single_number.rb)
     * [Sort Squares Of An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sort_squares_of_an_array.rb)

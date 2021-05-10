@@ -103,26 +103,6 @@
 ## Other
   * [Fisher Yates](https://github.com/TheAlgorithms/Ruby/blob/master/other/fisher_yates.rb)
 
-## Project Euler
-  * Problem 1
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_1/sol1.rb)
-  * Problem 2
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_2/sol1.rb)
-  * Problem 20
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_20/sol1.rb)
-  * Problem 21
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_21/sol1.rb)
-  * Problem 22
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_22/sol1.rb)
-  * Problem 3
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/sol1.rb)
-    * [Sol2](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_3/sol2.rb)
-  * Problem 4
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_4/sol1.rb)
-    * [Sol2](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_4/sol2.rb)
-  * Problem 5
-    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_5/sol1.rb)
-
 ## Searches
   * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/binary_search.rb)
   * [Depth First Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/depth_first_search.rb)

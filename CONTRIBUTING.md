@@ -50,6 +50,7 @@ Algorithms in this repo should not be how-to examples for existing Ruby packages
 
 #### Other Requirements for Submissions
 
+- If you are submitting code in the `project_euler/` directory, please also read [the dedicated Guideline](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/README.md) before contributing to our Project Euler library.
 - Strictly use snake_case (underscore_separated) in your file_name, as it will be easy to parse in future using scripts.
 - Please avoid creating new directories if at all possible. Try to fit your work into the existing directory structure.
 - If possible, follow the standard *within* the folder you are submitting to.

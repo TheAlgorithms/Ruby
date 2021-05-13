@@ -24,6 +24,7 @@
       * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/anagram_checker.rb)
       * [Jewels And Stones](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/jewels_and_stones.rb)
       * [Remove Vowels](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/remove_vowels.rb)
+      * [Uncommon Words](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/uncommon_words.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)
     * [Two Sum Ii](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum_ii.rb)
   * Binary Trees

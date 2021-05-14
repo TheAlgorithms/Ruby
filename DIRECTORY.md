@@ -25,6 +25,7 @@
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
     * [Fizz Buzz](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/fizz_buzz.rb)
     * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
+    * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/good_pairs.rb)
     * [Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/intersection.rb)
     * [Next Greater Element](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/next_greater_element.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
@@ -51,6 +52,7 @@
     * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/anagram_checker.rb)
     * [Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/arrays_intersection.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/find_all_duplicates_in_an_array.rb)
+    * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/good_pairs.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/two_sum.rb)
   * Linked Lists

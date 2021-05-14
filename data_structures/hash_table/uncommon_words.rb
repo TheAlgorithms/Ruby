@@ -46,3 +46,7 @@ def find_uncommon_words(strA, strB)
 end
 
 puts find_uncommon_words("this apple is sweet", "this apple is sour")
+# => ["sweet", "sour"]
+
+puts find_uncommon_words("apple apple", "banana")
+# => ["banana"]

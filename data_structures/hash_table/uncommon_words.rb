@@ -17,3 +17,32 @@
 # Example 2:
 # Input: A = "apple apple", B = "banana"
 # Output: ["banana"]
+
+#
+# Approach 1: Hash
+#
+# Time Complexitiy: O(n)
+
+def find_uncommon_words(strA, strB)
+  array = strA.concat(" ", strB).split(" ")
+  hash = Hash.new(0)
+  result = []
+
+  array.each do |word|
+    if hash[word]
+      hash[word] += 1
+    else
+      hash[word] = 1
+    end
+  end
+
+  hash.each do |k, v|
+    if v < 2
+      result.push(k)
+    end
+  end
+
+  result
+end
+
+puts find_uncommon_words("this apple is sweet", "this apple is sour")

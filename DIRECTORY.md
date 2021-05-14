@@ -52,6 +52,7 @@
     * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/anagram_checker.rb)
     * [Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/arrays_intersection.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/find_all_duplicates_in_an_array.rb)
+    * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/good_pairs.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/two_sum.rb)
   * Linked Lists

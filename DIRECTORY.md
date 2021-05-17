@@ -78,6 +78,7 @@
   * [Binary To Decimal](https://github.com/TheAlgorithms/Ruby/blob/master/maths/binary_to_decimal.rb)
   * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
   * [Ceil Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil_test.rb)
+  * [Count Sorted Vowel Strings](https://github.com/TheAlgorithms/Ruby/blob/master/maths/count_sorted_vowel_strings.rb)
   * [Decimal To Binary](https://github.com/TheAlgorithms/Ruby/blob/master/maths/decimal_to_binary.rb)
   * [Factorial](https://github.com/TheAlgorithms/Ruby/blob/master/maths/factorial.rb)
   * [Factorial Non Recursive Non Iterative](https://github.com/TheAlgorithms/Ruby/blob/master/maths/factorial_non_recursive_non_iterative.rb)

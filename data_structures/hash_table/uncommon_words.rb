@@ -29,11 +29,7 @@ def find_uncommon_words(strA, strB)
   result = []
 
   array.each do |word|
-    if hash[word]
-      hash[word] += 1
-    else
-      hash[word] = 1
-    end
+    hash[word] += 1
   end
 
   hash.each do |k, v|

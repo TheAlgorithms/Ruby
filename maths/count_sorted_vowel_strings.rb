@@ -37,7 +37,7 @@
 # The problem is a variant of finding Combinations.
 # Mathematically, the problem can be described as,
 # given 5 vowels (let k = 5), we want to find the
-# number of combinations using only nn vowels. Also,
+# number of combinations using only n vowels. Also,
 # we can repeat each of those vowels multiple times.
 #
 

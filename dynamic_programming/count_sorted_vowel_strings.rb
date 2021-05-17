@@ -30,6 +30,17 @@
 # Approach: Using Recursion + Memoization, Top Down Dynamic Programming
 #
 
+# 
+# Algorithm: Dynamic Programming state transition.
+# 
+# F(0) = 1
+# F(n)a = F(n-1)a + F(n-1)e + F(n-1)i + F(n-1)o +F(n-1)u
+# F(n)e = F(n-1)e + F(n-1)i + F(n-1)o + F(n-1)u
+# F(n)i = F(n-1)i + F(n-1)o +F(n-1)u
+# F(n)o = F(n-1)o + F(n-1)u
+# F(n)u = F(n-1)u
+# 
+
 # @param {Integer} n
 # @return {Integer}
 

@@ -55,6 +55,7 @@
     * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/good_pairs.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/two_sum.rb)
+    * [Uncommon Words](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/uncommon_words.rb)
   * Linked Lists
     * [Circular Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/circular_linked_list.rb)
     * [Doubly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/doubly_linked_list.rb)

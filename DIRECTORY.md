@@ -3,7 +3,13 @@
   * [Generate Paranthesis](https://github.com/TheAlgorithms/Ruby/blob/master/backtracking/generate_paranthesis.rb)
 
 ## Bit Manipulation
+  * [Binary And Operator](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_and_operator.rb)
+  * [Binary Count Setbits](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_count_setbits.rb)
+  * [Binary Count Trailing Zeroes](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_count_trailing_zeroes.rb)
+  * [Binary Or Operator](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_or_operator.rb)
+  * [Binary Xor Operator](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/binary_xor_operator.rb)
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/power_of_two.rb)
+  * [Single Bit Binary Operations](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/single_bit_binary_operations.rb)
 
 ## Ciphers
   * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)
@@ -19,10 +25,12 @@
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
     * [Fizz Buzz](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/fizz_buzz.rb)
     * [Get Products Of All Other Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/get_products_of_all_other_elements.rb)
+    * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/good_pairs.rb)
     * [Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/intersection.rb)
     * [Next Greater Element](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/next_greater_element.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/richest_customer_wealth.rb)
+    * [Shortest Word Distance](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shortest_word_distance.rb)
     * [Shuffle Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/shuffle_array.rb)
     * [Single Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/single_number.rb)
     * [Sort Squares Of An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sort_squares_of_an_array.rb)
@@ -32,6 +40,7 @@
       * [Jewels And Stones](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/jewels_and_stones.rb)
       * [Palindrome](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/palindrome.rb)
       * [Remove Vowels](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/remove_vowels.rb)
+    * [Sudoku](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sudoku.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)
     * [Two Sum Ii](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum_ii.rb)
   * Binary Trees
@@ -43,13 +52,16 @@
     * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/anagram_checker.rb)
     * [Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/arrays_intersection.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/find_all_duplicates_in_an_array.rb)
+    * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/good_pairs.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/two_sum.rb)
+    * [Uncommon Words](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/uncommon_words.rb)
   * Linked Lists
     * [Circular Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/circular_linked_list.rb)
     * [Doubly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/doubly_linked_list.rb)
     * [Singly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/singly_linked_list.rb)
   * Queues
+    * [Circular Queue](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/queues/circular_queue.rb)
     * [Queue](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/queues/queue.rb)
   * Stacks
     * [Stack](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/stacks/stack.rb)
@@ -63,6 +75,7 @@
 
 ## Dynamic Programming
   * [Coin Change](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/coin_change.rb)
+  * [Count Sorted Vowel Strings](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/count_sorted_vowel_strings.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/fibonacci.rb)
 
 ## Maths
@@ -79,9 +92,10 @@
   * [Binary To Decimal](https://github.com/TheAlgorithms/Ruby/blob/master/maths/binary_to_decimal.rb)
   * [Ceil](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil.rb)
   * [Ceil Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/ceil_test.rb)
+  * [Count Sorted Vowel Strings](https://github.com/TheAlgorithms/Ruby/blob/master/maths/count_sorted_vowel_strings.rb)
   * [Decimal To Binary](https://github.com/TheAlgorithms/Ruby/blob/master/maths/decimal_to_binary.rb)
   * [Factorial](https://github.com/TheAlgorithms/Ruby/blob/master/maths/factorial.rb)
-  * [Factorial Non-recursive and Non-iterative](https://github.com/TheAlgorithms/Ruby/blob/master/maths/factorial_non_recursive_non_iterative.rb)
+  * [Factorial Non Recursive Non Iterative](https://github.com/TheAlgorithms/Ruby/blob/master/maths/factorial_non_recursive_non_iterative.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/maths/fibonacci.rb)
   * [Find Max](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_max.rb)
   * [Find Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_min.rb)
@@ -89,6 +103,7 @@
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/maths/power_of_two.rb)
   * [Prime Number](https://github.com/TheAlgorithms/Ruby/blob/master/maths/prime_number.rb)
+  * [Roman To Integer](https://github.com/TheAlgorithms/Ruby/blob/master/maths/roman_to_integer.rb)
   * [Square Root](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root.rb)
   * [Square Root Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/square_root_test.rb)
   * [Sum Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/sum_of_digits.rb)
@@ -127,18 +142,26 @@
   * [Ternary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/ternary_search.rb)
 
 ## Sorting
+  * [Bead Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bead_sort.rb)
+  * [Bead Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bead_sort_test.rb)
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)
   * [Bogo Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort_test.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort.rb)
   * [Bubble Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort_test.rb)
   * [Bucket Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bucket_sort.rb)
   * [Bucket Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bucket_sort_test.rb)
+  * [Cocktail Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/cocktail_sort.rb)
+  * [Cocktail Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/cocktail_sort_test.rb)
+  * [Comb Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/comb_sort.rb)
+  * [Comb Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/comb_sort_test.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort.rb)
   * [Heap Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort_test.rb)
   * [Insertion Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/insertion_sort.rb)
   * [Insertion Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/insertion_sort_test.rb)
   * [Merge Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/merge_sort.rb)
   * [Merge Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/merge_sort_test.rb)
+  * [Pancake Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/pancake_sort.rb)
+  * [Pancake Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/pancake_sort_test.rb)
   * [Quicksort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/quicksort.rb)
   * [Quicksort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/quicksort_test.rb)
   * [Radix Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/radix_sort.rb)

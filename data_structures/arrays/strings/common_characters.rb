@@ -9,11 +9,43 @@
 # You may return the answer in any order.
 #
 # Example 1:
-#
 # Input: ["bella","label","roller"]
 # Output: ["e","l","l"]
 #
 # Example 2:
-#
 # Input: ["cool","lock","cook"]
 # Output: ["c","o"]
+
+#
+# Approach 1: Hash
+#
+# Time Complexity: O(n)
+#
+def common_characters(arr)
+  target_count = arr.count
+
+  hash = Hash.new(0)
+  (0...target_count).each do |i|
+    arr[i].split('').each do |letter|
+      hash[letter] += 1
+    end
+  end
+
+  result = []
+  hash.each do |k, v|
+    while v >= target_count
+      if v >= target_count
+        result << k
+        v -= target_count
+      end
+    end
+  end
+
+  result
+end
+
+puts common_characters(["bella","label","roller"])
+# => ["e","l","l"]
+
+puts common_characters(["cool","lock","cook"])
+# => ["c","o"]

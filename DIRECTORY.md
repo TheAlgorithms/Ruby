@@ -79,6 +79,7 @@
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/fibonacci.rb)
 
 ## Maths
+  * [Abs Max](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_max.rb)
   * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
   * [Abs Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_test.rb)
   * [Add](https://github.com/TheAlgorithms/Ruby/blob/master/maths/add.rb)

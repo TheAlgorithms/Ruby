@@ -80,6 +80,7 @@
 
 ## Maths
   * [Abs Max](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_max.rb)
+  * [Abs Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_min.rb)
   * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
   * [Abs Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_test.rb)
   * [Add](https://github.com/TheAlgorithms/Ruby/blob/master/maths/add.rb)

@@ -84,6 +84,7 @@
   * [Abs Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_min.rb)
   * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)
   * [Abs Max](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_max.rb)
+  * [Abs Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_min.rb)
   * [Abs Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_test.rb)
   * [Add](https://github.com/TheAlgorithms/Ruby/blob/master/maths/add.rb)
   * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/add_digits.rb)

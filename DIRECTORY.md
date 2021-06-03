@@ -75,6 +75,7 @@
 
 ## Other
   * [Fisher Yates](https://github.com/TheAlgorithms/Ruby/blob/master/other/fisher_yates.rb)
+  * [Number of Days](https://github.com/TheAlgorithms/Ruby/blob/master/other/number_of_days.rb)
 
 ## Project Euler
   * Problem 1

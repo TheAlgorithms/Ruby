@@ -79,6 +79,7 @@
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/fibonacci.rb)
 
 ## Maths
+  * [3N Plus 1 or Collatz Conjecture](https://github.com/TheAlgorithms/Ruby/blob/master/maths/3nPlus1.rb)
   * [Abs Max](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_max.rb)
   * [Abs Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs_min.rb)
   * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)

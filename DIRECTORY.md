@@ -32,12 +32,12 @@
     * [Postorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/postorder_traversal.rb)
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
   * Hash Table
+    * [Common Characters](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/common_characters.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/find_all_duplicates_in_an_array.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/two_sum.rb)
   * Linked Lists
     * [Circular Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/circular_linked_list.rb)
-    * [Common Characters](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/common_characters.rb)
     * [Doubly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/doubly_linked_list.rb)
     * [Singly Linked List](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/linked_lists/singly_linked_list.rb)
   * Queues

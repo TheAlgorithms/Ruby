@@ -25,21 +25,28 @@
 
 def get_num(row, col)
   return 1 if row == 0 || col == 0 || row == col
+
   get_num(row - 1, col - 1) + get_num(row - 1, col)
 end
+
 def get_row(row_index)
   result = []
+
   (row_index + 1).times do |i|
     result.push(get_num(row_index, i))
   end
+
   result
 end
+
 row_index = 3
 print(get_row(row_index))
 # => [1,3,3,1]
+
 row_index = 0
 print(get_row(row_index))
 # => [1]
+
 row_index = 1
 print(get_row(row_index))
 # => [1,1]

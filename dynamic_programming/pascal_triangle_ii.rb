@@ -87,6 +87,18 @@ def generate(num_rows)
   result
 end
 
+row_index = 3
+print(get_row(row_index))
+# => [1,3,3,1]
+
+row_index = 0
+print(get_row(row_index))
+# => [1]
+
+row_index = 1
+print(get_row(row_index))
+# => [1,1]
+
 #
 # Approach 3: Memory-efficient Dynamic Programming
 #

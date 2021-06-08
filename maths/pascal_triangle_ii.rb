@@ -1,6 +1,5 @@
-# Challenge name: Pascal's triangle ii
-#
-# Given an integer row_index, return the rowIndexth (0-indexed) row of the Pascal's triangle.
+# Given an integer row_index, return the rowIndexth (0-indexed) row of the Pascal's triangle. 
+
 # Example 1:
 #
 # Input: row_index = 3
@@ -17,11 +16,9 @@
 # Output: [1,1]
 
 # Complexity Analysis
+# 
 # Time complexity: O(k).
-# Each term is calculated once, in constant time.
-
 # Space complexity: O(k).
-# No extra space required other than that required to hold the output.
 
 def get_row(row_index)
   (0..row_index).map {|num| combination(row_index, num) }
@@ -32,7 +29,7 @@ def combination(num1, num2)
 end
 
 def factorial(num)
-  (1..num).inject(1) {|res, i| res * i }
+  (1..num).inject(1) { |res, i| res * i }
 end
 
 row_index = 3

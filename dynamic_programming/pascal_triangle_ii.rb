@@ -51,3 +51,41 @@ def generate(num_rows)
 
   result
 end
+
+#
+# Approach 2: Memory-efficient Dynamic Programming
+#
+
+# Complexity Analysis
+#
+# Time complexity: O(k^2).
+# Space complexity: O(k).
+
+# @param {Integer} row_index
+# @return {Integer[]}
+def get_row(row_index)
+  pascal = [[1]]
+
+  (1..row_index).each do |i|
+    pascal[i] = []
+    pascal[i][0] = pascal[i][i] = 1
+
+    (1...i).each do |j|
+      pascal[i][j] = pascal[i - 1][j - 1] + pascal[i - 1][j]
+    end
+  end
+
+  pascal[row_index]
+end
+
+row_index = 3
+print(get_row(row_index))
+# => [1,3,3,1]
+
+row_index = 0
+print(get_row(row_index))
+# => [1]
+
+row_index = 1
+print(get_row(row_index))
+# => [1,1]

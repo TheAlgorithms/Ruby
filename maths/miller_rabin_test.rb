@@ -5,6 +5,7 @@ require_relative './miller_rabin'
 
 class MillerRabinTest < Minitest::Test
   def test_prime_nums
+    assert Primes::MillerRabin.prime? 2
     assert Primes::MillerRabin.prime? 3
     assert Primes::MillerRabin.prime? 7
     assert Primes::MillerRabin.prime? 97

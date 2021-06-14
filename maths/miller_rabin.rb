@@ -3,6 +3,7 @@ module Primes
     module_function
 
     def prime?(num, precision = 10)
+      return true if num == 2
       return false if num.even? || num <= 1
 
       d = num - 1

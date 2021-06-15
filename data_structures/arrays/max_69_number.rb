@@ -17,3 +17,24 @@
 # Input: num = 9996
 # Output: 9999
 # Explanation: Changing the last digit 6 to 9 results in the maximum number.
+
+#
+# Approach 1: Logical Approach
+# Explanation: Changing the first available 6 to a 9 will give the max number
+#
+def max_number(num)
+  arr = num.to_s.split('')
+
+  arr.each_with_index do |num, i|
+    if num == '6'
+      arr[i] = '9'
+      return arr.join.to_i
+    end
+  end
+end
+
+puts max_number(9669)
+# => 9969
+
+puts max_number(9996)
+# => 9999

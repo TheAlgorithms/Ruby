@@ -15,7 +15,7 @@
 # @return {Boolean}
 
 #
-# Approach 1: Sort and Compare
+# Approach: Sort and Compare
 #
 # Complexity analysis:
 #

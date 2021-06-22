@@ -22,3 +22,42 @@
 # t.length == s.length
 # s and t consist of any valid ascii character.
 
+# Approach 1: Hash Map
+# Time Complexity: O(N)
+
+def isomorphic_strings_check(s, t)
+  # store character mappings
+  map = {}
+  # store already mapped characters
+  set = []
+
+  (0..s.length - 1).each do |i|
+    # store characters to compare
+    char1 = s[i]
+    char2 = t[i]
+
+    # if char1 is mapped
+    if map[char1] 
+      # return false if char1 is mapped to a different character than already present
+      return false if map[char1] != char2
+    # if char1 is not mapped
+    else
+      # return false if char2 is already mapped to a different character
+      return false if set.include?(char2)
+      # checks passed: add new character map and track that char2 has been mapped
+      map[char1] = char2
+      set << char2
+    end
+
+  end
+  return true
+end
+
+puts isomorphic_strings_check("egg", "add")
+# => true
+
+puts isomorphic_strings_check("foo", "bar")
+# => false
+
+puts isomorphic_strings_check("paper", "title")
+# => true

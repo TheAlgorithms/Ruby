@@ -51,6 +51,7 @@
   * Hash Table
     * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/anagram_checker.rb)
     * [Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/arrays_intersection.rb)
+    * [Common Characters](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/common_characters.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/find_all_duplicates_in_an_array.rb)
     * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/good_pairs.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
@@ -77,6 +78,7 @@
   * [Coin Change](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/coin_change.rb)
   * [Count Sorted Vowel Strings](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/count_sorted_vowel_strings.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/fibonacci.rb)
+  * [Pascal Triangle Ii](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/pascal_triangle_ii.rb)
 
 ## Maths
   * [3N Plus 1 or Collatz Conjecture](https://github.com/TheAlgorithms/Ruby/blob/master/maths/3nPlus1.rb)
@@ -103,6 +105,7 @@
   * [Find Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_min.rb)
   * [Lucas Series](https://github.com/TheAlgorithms/Ruby/blob/master/maths/lucas_series.rb)
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
+  * [Pascal Triangle Ii](https://github.com/TheAlgorithms/Ruby/blob/master/maths/pascal_triangle_ii.rb)
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/maths/power_of_two.rb)
   * [Prime Number](https://github.com/TheAlgorithms/Ruby/blob/master/maths/prime_number.rb)
   * [Roman To Integer](https://github.com/TheAlgorithms/Ruby/blob/master/maths/roman_to_integer.rb)

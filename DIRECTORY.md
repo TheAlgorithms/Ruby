@@ -36,6 +36,7 @@
     * [Sort Squares Of An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sort_squares_of_an_array.rb)
     * [Sorted Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/sorted_arrays_intersection.rb)
     * Strings
+      * [Almost Palindrome Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/almost_palindrome_checker.rb)
       * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/anagram_checker.rb)
       * [Jewels And Stones](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/jewels_and_stones.rb)
       * [Palindrome](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/strings/palindrome.rb)

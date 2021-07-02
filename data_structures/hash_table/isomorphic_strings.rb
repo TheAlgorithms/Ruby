@@ -24,6 +24,7 @@
 
 # Approach 1: Hash Map
 # Time Complexity: O(N)
+# Space Complexity: O(N)
 
 def isomorphic_strings_check(s, t)
   # store character mappings

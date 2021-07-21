@@ -55,6 +55,7 @@
     * [Common Characters](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/common_characters.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/find_all_duplicates_in_an_array.rb)
     * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/good_pairs.rb)
+    * [Isomorphic Strings](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/isomorphic_strings.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/richest_customer_wealth.rb)
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/two_sum.rb)
     * [Uncommon Words](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/uncommon_words.rb)

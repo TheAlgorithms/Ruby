@@ -15,7 +15,7 @@
 
 
 #
-# Approach 1: Using Ruby built-in Date.parse
+# Approach 1: Using Ruby built-in feature Date.parse
 # Time complexity: O(1)
 # Space complexity: O(1)
 #

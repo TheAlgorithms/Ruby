@@ -15,10 +15,11 @@
 
 
 #
-# Approach 1: Using Date.parse
+# Approach 1: Using Ruby built-in Date.parse
 # Time complexity: O(1)
 # Space complexity: O(1)
 #
+
 require 'date'
 
 def number_of_days(date1, date2)

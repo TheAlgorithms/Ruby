@@ -30,7 +30,7 @@ def fibonacci(number, memo_hash = {})
 end
 
 def memoize(number, memo_hash)
-  return memo_hash[number] if memo_hash.keys.include? number
+  return memo_hash[number] if memo_hash.key? number
 
   memo_hash[number] = memoize(number - 1, memo_hash) + memoize(number - 2, memo_hash)
 

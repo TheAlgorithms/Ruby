@@ -28,7 +28,7 @@
 
 
 
-#DFS, Recursive Bottom Up Approach - O(n^2) Time / O(1) Space
+#DFS, Recursive Bottom Up Approach - O(n*m) Time / O(1) Space
 #Init num_of_islands = 0, return if the grid is empty
 #Start a double loop with index to iterate through each plot (each value is a plot of either water or land in this case)
 #if the plot is land, dfs(grid, x, y)

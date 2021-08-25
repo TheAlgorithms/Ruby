@@ -37,6 +37,8 @@
 # @param {ListNode} head
 # @return {ListNode}
 def reverse_list(head)
+    return nil if head.nil?
+
     current = head
     prev = nil
     

@@ -41,7 +41,7 @@ def climb_stairs(n)
     memo[0] = 1
     memo[1] = 1
     
-    return memo[n] if n <= 1 && n >= 0
+    return memo[n] if n == 0 || n == 1
     
     (2..n).each do |n|
       recurse(n, memo)
@@ -56,3 +56,16 @@ def recurse(n, memo)
     
     memo[n] = recurse(n - 1, memo) + recurse(n - 2, memo)
 end
+
+
+puts climb_stairs(2)
+# => 2
+
+puts climb_stairs(4)
+# => 5
+
+puts climb_stairs(10)
+# => 89
+
+puts climb_stairs(45)
+# => 1836311903

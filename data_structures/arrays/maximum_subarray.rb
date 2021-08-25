@@ -21,7 +21,7 @@
 
 
 
-#Sliding Window Approach - O(n) Time / O(1) Space
+#Dynamic Programming Approach (Kadane's Algorithm) - O(n) Time / O(1) Space
 #Init max_sum as first element
 #Return first element if the array length is 1
 #Init current_sum as 0
@@ -29,7 +29,7 @@
 #if current_sum < 0, then reset it to 0 (to eliminate any negative prefixes)
 #current_sum += num
 #max_sum = current_sum if current_sum is greater than max_sum
-#Return max_sum         
+#Return max_sum   
 
 
 # @param {Integer[]} nums

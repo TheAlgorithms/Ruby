@@ -78,6 +78,7 @@
   * [Lcm](https://github.com/TheAlgorithms/Ruby/blob/master/discrete_mathematics/lcm.rb)
 
 ## Dynamic Programming
+  * [Climbing Stairs](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/climbing_stairs.rb)
   * [Coin Change](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/coin_change.rb)
   * [Count Sorted Vowel Strings](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/count_sorted_vowel_strings.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/fibonacci.rb)

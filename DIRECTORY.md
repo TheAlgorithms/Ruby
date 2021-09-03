@@ -20,6 +20,7 @@
 
 ## Data Structures
   * Arrays
+    * [3Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/3sum.rb)
     * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/add_digits.rb)
     * [Find All Duplicates In An Array](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_all_duplicates_in_an_array.rb)
     * [Find The Highest Altitude](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/find_the_highest_altitude.rb)
@@ -28,6 +29,8 @@
     * [Good Pairs](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/good_pairs.rb)
     * [Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/intersection.rb)
     * [Max 69 Number](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/max_69_number.rb)
+    * [Maximum Product Subarray](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/maximum_product_subarray.rb)
+    * [Maximum Subarray](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/maximum_subarray.rb)
     * [Next Greater Element](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/next_greater_element.rb)
     * [Remove Elements](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/remove_elements.rb)
     * [Richest Customer Wealth](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/richest_customer_wealth.rb)

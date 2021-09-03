@@ -28,8 +28,8 @@
 #
 def shuffle(nums, n)
   result = []
-  (0..n-1).count do |i|
-    result.push(nums[i], nums[i+n])
+  (0..n - 1).count do |i|
+    result.push(nums[i], nums[i + n])
   end
   result
 end
@@ -55,7 +55,7 @@ print(shuffle(nums, n))
 
 def shuffle(nums, n)
   current_index = 1
-  (0..n-1).each do |i|
+  (0..n - 1).each do |i|
     nums.insert(current_index, nums.delete_at(i + n))
     current_index += 2
   end
@@ -88,8 +88,8 @@ def shuffle(nums, n)
 
   while p1 < n
     result.push(nums[p1], nums[p2])
-    p1 +=1
-    p2 +=1
+    p1 += 1
+    p2 += 1
   end
 
   result

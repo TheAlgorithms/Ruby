@@ -69,6 +69,7 @@ end
 
 def generate(num_rows)
   return [[1]] if num_rows < 1
+
   result = [[1], [1, 1]]
 
   (2...num_rows + 1).each do |row|

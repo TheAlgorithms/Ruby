@@ -1,7 +1,7 @@
 def comb_sort(array)
   gap = array.length
   swaps = true
-  while gap > 1 or swaps
+  while (gap > 1) || swaps
     gap = [1, (gap / 1.25).to_i].max
     swaps = false
     0.upto(array.length - gap - 1) do |i|

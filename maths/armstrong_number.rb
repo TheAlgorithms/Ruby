@@ -11,9 +11,9 @@ def armstrong_number(number)
   num = number
   sum = 0
   len = number.digits.count
-  while(number != 0)
+  while number != 0
     remainder = number % 10
-    sum += remainder ** len
+    sum += remainder**len
     number /= 10
   end
 
@@ -22,8 +22,8 @@ def armstrong_number(number)
   else
     "The number #{num} is not an Armstrong number."
   end
-  rescue
-    "Error: Please provide number only!"
+rescue StandardError
+  'Error: Please provide number only!'
 end
 
 #
@@ -50,8 +50,8 @@ puts armstrong_number(123)
 #
 # Invalid inputs
 #
-puts armstrong_number("153")
+puts armstrong_number('153')
 # Error: Please provide number only!
 
-puts armstrong_number("a")
+puts armstrong_number('a')
 # Error: Please provide number only!

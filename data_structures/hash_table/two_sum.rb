@@ -48,9 +48,7 @@ def two_sum(nums, target)
   nums.each_with_index do |num, i|
     difference_target = target - num
 
-    if hash[difference_target] && hash[difference_target] != i
-      return [i, hash[difference_target]]
-    end
+    return [i, hash[difference_target]] if hash[difference_target] && hash[difference_target] != i
   end
 end
 

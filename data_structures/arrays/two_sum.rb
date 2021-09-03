@@ -71,9 +71,7 @@ def two_sum(nums, target)
     target_difference = target - num
 
     nums.each_with_index do |num, j|
-      if i != j && num == target_difference
-        return [i, j]
-      end
+      return [i, j] if i != j && num == target_difference
     end
   end
 end

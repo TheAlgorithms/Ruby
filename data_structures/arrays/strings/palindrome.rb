@@ -52,8 +52,8 @@ puts is_palindrome(s)
 # Time Complexity: O(n), in length n of the string.
 #
 # We need to iterate through the string: When we filter out non-alphanumeric characters and convert the remaining
-# characters to lower-case. When we reverse the string. When we compare the original and the reversed strings. 
-# Each iteration runs linearly in time (since each character operation completes in constant time). 
+# characters to lower-case. When we reverse the string. When we compare the original and the reversed strings.
+# Each iteration runs linearly in time (since each character operation completes in constant time).
 # Thus, the effective run-time complexity is linear.
 #
 # Space Complexity: O(n), in length n of the string. We need O(n) additional

@@ -9,7 +9,7 @@
 # @param {Integer[]} nums
 # @return {Integer}
 
-# 
+#
 # Approach 1: Hash map
 #
 # Time Complexity: O(n)
@@ -18,7 +18,7 @@ def single_number(nums)
   result_hash = {}
   nums.each do |num|
     if result_hash[num]
-      result_hash[num] +=1 
+      result_hash[num] += 1
     else
       result_hash[num] = 1
     end

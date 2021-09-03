@@ -23,12 +23,12 @@
 # For number 2 in the first array, the next greater number for it in the second array is 3.
 # For number 4 in the first array, there is no next greater number for it in the second array, so output -1.
 
-# 
+#
 # Approach: Brute Force
-# 
+#
 
 # Complexity Analysis
-# 
+#
 # Time complexity: O(m*n). The complete nums1 array (of size n) needs to be scanned for all the m elements of nums2 in the worst case.
 # Space complexity: O(1). No additional space since we're swapping elements in nums1 and returning the input array.
 

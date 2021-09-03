@@ -6,8 +6,8 @@ module AverageMedian
     if n.instance_of? Integer
       if n == array.size
         array.sort
-        if array.size % 2 == 0
-          mid_element_1 = array.size/2
+        if array.size.even?
+          mid_element_1 = array.size / 2
           mid_element_2 = mid_element_1 + 1
           puts "The average median of the following elements #{array} is #{(array[mid_element_1 - 1] + array[mid_element_2 - 1]) / 2}."
         else
@@ -20,14 +20,14 @@ module AverageMedian
     else
       raise
     end
-    rescue
-      puts "Error: Please provide number only!"
+  rescue StandardError
+    puts 'Error: Please provide number only!'
   end
 end
 
-# 
+#
 # Valid inputs
-# 
+#
 
 puts AverageMedian.average_median(2, 3, 1)
 # The average median of the following elements [3, 1] is 2.
@@ -41,14 +41,14 @@ puts AverageMedian.average_median(3, 2, 2, 2)
 puts AverageMedian.average_median(1, 5)
 # The average median of the following elements [5] is 5.
 
-# 
+#
 # Invalid inputs
-# 
+#
 
 puts AverageMedian.average_median(2, 3, 1, 5)
 # Provide the required 2 elements properly!
 
-puts AverageMedian.average_median(2, 3, "a")
+puts AverageMedian.average_median(2, 3, 'a')
 # Traceback (most recent call last):
 #         4: from /Users/voliveira/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `<main>'
 #         3: from /Users/voliveira/.rvm/rubies/ruby-2.7.0/bin/irb:23:in `load'
@@ -56,5 +56,5 @@ puts AverageMedian.average_median(2, 3, "a")
 #         1: from (irb):30
 # NameError (undefined local variable or method `verageMedian' for main:Object)
 
-puts AverageMedian.average_median("a", 1, 2)
+puts AverageMedian.average_median('a', 1, 2)
 # Error: Please provide number only!

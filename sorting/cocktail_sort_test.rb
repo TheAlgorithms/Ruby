@@ -9,4 +9,3 @@ class TestInsertionSort < Minitest::Test
     cocktail_sort(input)
   end
 end
-

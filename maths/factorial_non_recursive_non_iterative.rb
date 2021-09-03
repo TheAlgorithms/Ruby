@@ -8,15 +8,15 @@
 
 def factorial(number)
   if number < 0
-    "Please check your input number! The given number is a negative number."
+    'Please check your input number! The given number is a negative number.'
   elsif number == 0
     "The factorial of #{number} is 1."
   else
     result = (1..number).inject(:*)
     "The factorial of #{number} is #{result}."
   end
-  rescue
-    "Error: Please provide integer only!"
+rescue StandardError
+  'Error: Please provide integer only!'
 end
 
 # Valid inputs
@@ -36,8 +36,8 @@ puts factorial(-5)
 # Please check your input number! The given number is a negative number.
 
 # Invalid inputs
-puts factorial("a")
+puts factorial('a')
 # Error: Please provide integer only!
 
-puts factorial("2")
+puts factorial('2')
 # Error: Please provide integer only!

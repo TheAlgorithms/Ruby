@@ -3,15 +3,15 @@
 
 # Prime number check function
 def prime_number(number)
-  if number <= 1
-    non_prime_flag = true
-  elsif number == 2
-    non_prime_flag = false
-  elsif number % 2 == 0
-    non_prime_flag = true
-  else
-    non_prime_flag = (2..Math.sqrt(number)).any? { |i| number % i == 0 }
-  end
+  non_prime_flag = if number <= 1
+                     true
+                   elsif number == 2
+                     false
+                   elsif number.even?
+                     true
+                   else
+                     (2..Math.sqrt(number)).any? { |i| number % i == 0 }
+                   end
 
   if !non_prime_flag
     puts "The given number #{number} is a Prime."

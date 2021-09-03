@@ -19,13 +19,13 @@
 # Time complexity: O(n)
 #
 def remove_elements(nums, val)
-  nums.delete_if{ |num| num == val }
+  nums.delete_if { |num| num == val }
   nums.length
 end
 
-puts remove_elements([3,2,2,3], 3)
+puts remove_elements([3, 2, 2, 3], 3)
 # => 2
-puts remove_elements([0,1,2,2,3,0,4,2], 2)
+puts remove_elements([0, 1, 2, 2, 3, 0, 4, 2], 2)
 # => 5
 
 #
@@ -37,20 +37,20 @@ def remove_elements(nums, val)
   result_length = nums.length
   shift_length = 0
   nums.each_with_index do |num, i|
-    if num == val
-      nums.delete_at(i)
-      nums.unshift('removed')
-      result_length -=1
-      shift_length += 1
-    end
+    next unless num == val
+
+    nums.delete_at(i)
+    nums.unshift('removed')
+    result_length -= 1
+    shift_length += 1
   end
   nums.shift(shift_length)
   result_length
 end
 
-puts remove_elements([3,2,2,3], 3)
+puts remove_elements([3, 2, 2, 3], 3)
 # => 2
-puts remove_elements([0,1,2,2,3,0,4,2], 2)
+puts remove_elements([0, 1, 2, 2, 3, 0, 4, 2], 2)
 # => 5
 
 #
@@ -78,9 +78,9 @@ def remove_element(nums, val)
   pointer1
 end
 
-puts remove_elements([3,2,2,3], 3)
+puts remove_elements([3, 2, 2, 3], 3)
 # => 2
-puts remove_elements([0,1,2,2,3,0,4,2], 2)
+puts remove_elements([0, 1, 2, 2, 3, 0, 4, 2], 2)
 # => 5
 
 #
@@ -111,7 +111,7 @@ def remove_element(nums, val)
   pointer1
 end
 
-puts remove_elements([3,2,2,3], 3)
+puts remove_elements([3, 2, 2, 3], 3)
 # => 2
-puts remove_elements([0,1,2,2,3,0,4,2], 2)
+puts remove_elements([0, 1, 2, 2, 3, 0, 4, 2], 2)
 # => 5

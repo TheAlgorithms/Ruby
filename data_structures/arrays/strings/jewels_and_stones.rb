@@ -30,23 +30,21 @@
 # Time Complexity: O(n^2)
 #
 
-def find_jewels(jewels, stones) 
+def find_jewels(jewels, stones)
   jewels_array = jewels.split('')
   stones_array = stones.split('')
   result = 0
   jewels_array.each do |jewel|
     stones_array.each do |stone|
-      if jewel == stone
-        result += 1
-      end
+      result += 1 if jewel == stone
     end
   end
   result
 end
 
-puts find_jewels("aA", "aAAbbbb")
+puts find_jewels('aA', 'aAAbbbb')
 # => 3
-puts find_jewels("z", "ZZ")
+puts find_jewels('z', 'ZZ')
 # => 0
 
 #
@@ -62,7 +60,7 @@ def find_jewels(jewels, stones)
   result = 0
 
   stones_array.each do |stone|
-    if result_hash[stone] 
+    if result_hash[stone]
       result_hash[stone] += 1
     else
       result_hash[stone] = 1
@@ -80,7 +78,7 @@ def find_jewels(jewels, stones)
   result
 end
 
-puts find_jewels("aA", "aAAbbbb")
+puts find_jewels('aA', 'aAAbbbb')
 # => 3
-puts find_jewels("z", "ZZ")
+puts find_jewels('z', 'ZZ')
 # => 0

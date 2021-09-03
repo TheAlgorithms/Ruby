@@ -44,8 +44,8 @@ def common_characters(arr)
   result
 end
 
-puts common_characters(["bella","label","roller"])
+puts common_characters(%w[bella label roller])
 # => ["e","l","l"]
 
-puts common_characters(["cool","lock","cook"])
+puts common_characters(%w[cool lock cook])
 # => ["c","o"]

@@ -1,4 +1,4 @@
-# Given an integer row_index, return the rowIndexth (0-indexed) row of the Pascal's triangle. 
+# Given an integer row_index, return the rowIndexth (0-indexed) row of the Pascal's triangle.
 
 # Example 1:
 #
@@ -16,12 +16,12 @@
 # Output: [1,1]
 
 # Complexity Analysis
-# 
+#
 # Time complexity: O(k).
 # Space complexity: O(k).
 
 def get_row(row_index)
-  (0..row_index).map {|num| combination(row_index, num) }
+  (0..row_index).map { |num| combination(row_index, num) }
 end
 
 def combination(num1, num2)

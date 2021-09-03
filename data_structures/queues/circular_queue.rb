@@ -12,7 +12,7 @@
 # All of the methods in our circular data structure are of constant time complexity.
 #
 # Space Complexity: O(N).
-# The overall space complexity of the data structure is linear, where N is the pre-assigned capacity of the queue. 
+# The overall space complexity of the data structure is linear, where N is the pre-assigned capacity of the queue.
 # However, it is worth mentioning that the memory consumption of the data structure remains as its pre-assigned capacity during its entire life cycle.
 
 class CircularQueue
@@ -38,8 +38,7 @@ class CircularQueue
   end
 
   def add(x)
-    raise "Queue is at max capacity" if size == max_size
-
+    raise 'Queue is at max capacity' if size == max_size
 
     queue[back] = x
     @back = (back + 1) % max_size
@@ -47,7 +46,7 @@ class CircularQueue
   end
 
   def pop
-    raise "Queue is empty" if size == 0
+    raise 'Queue is empty' if size == 0
 
     temp = queue[front]
     queue[front] = nil
@@ -62,7 +61,7 @@ queue = CircularQueue.new(3)
 
 begin
   queue.pop
-rescue => e
+rescue StandardError => e
   puts e.message
 end
 
@@ -72,7 +71,7 @@ queue.add(3)
 
 begin
   queue.add(4)
-rescue => e
+rescue StandardError => e
   puts e.message
 end
 

@@ -38,7 +38,7 @@
 def is_power_of_two(n)
   if n == 1
     true
-  elsif n % 2 == 0
+  elsif n.even?
     is_power_of_two(n / 2)
   else
     false
@@ -67,9 +67,7 @@ puts is_power_of_two(n)
 # Time Complexity: O(n)
 #
 def is_power_of_two(n)
-  while n % 2 == 0 && n != 0
-    n /= 2
-  end
+  n /= 2 while n.even? && n != 0
   n == 1
 end
 

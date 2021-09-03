@@ -25,6 +25,7 @@ def intersect(arr1, arr2)
   shorter.each do |matcher|
     longer.each do |number|
       next if number != matcher
+
       result.push(number)
       break
     end
@@ -60,7 +61,7 @@ def intersect(arr1, arr2)
 
   hash = Hash.new(0)
 
-  arr2.each {|num| hash[num] += 1 }
+  arr2.each { |num| hash[num] += 1 }
 
   arr1.each do |num|
     if hash.has_key?(num)
@@ -107,7 +108,7 @@ def intersect(nums1, nums2)
       p2 += 1
     end
   end
-  
+
   result
 end
 nums1 = [1, 2, 2, 1]

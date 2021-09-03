@@ -3,10 +3,10 @@
 
 def abs_min(x, y)
   num = x - y
-  min_value = ((x + y - num.abs()) / 2)
+  min_value = ((x + y - num.abs) / 2)
   "The Abs Min of #{x} and #{y} is #{min_value}."
-  rescue
-    "Error: Provide number only!"
+rescue StandardError
+  'Error: Provide number only!'
 end
 
 #
@@ -24,11 +24,11 @@ puts abs_min(9, -121)
 #
 # Invalid inputs
 #
-puts abs_min(2, "-1")
+puts abs_min(2, '-1')
 # Error: Provide number only!
 
-puts abs_min("3", "5")
+puts abs_min('3', '5')
 # Error: Provide number only!
 
-puts abs_min("a", "5")
+puts abs_min('a', '5')
 # Error: Provide number only!

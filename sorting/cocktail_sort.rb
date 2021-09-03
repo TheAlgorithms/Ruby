@@ -11,7 +11,10 @@ def cocktail_sort(array)
       end
     end
     break unless swapped
-    start, finish, way = swapped, start, -way
+
+    finish = start
+    start = swapped
+    way = -way
   end
   array
 end

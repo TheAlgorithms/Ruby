@@ -38,7 +38,7 @@ def is_anagram(s, t)
     counter[t[i]] -= 1
   end
 
-  counter.each do |k, v|
+  counter.each do |_k, v|
     return false unless v == 0
   end
 

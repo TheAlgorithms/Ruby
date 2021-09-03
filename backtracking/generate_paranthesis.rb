@@ -26,7 +26,7 @@
 # brackets.
 
 # Complexity Analysis
-# 
+#
 # Time Complexity: O(4^n/sqrt(n)). Each valid sequence has at most n steps during the backtracking procedure.
 # Space Complexity: O(4^n/sqrt(n)), as described above, and using O(n) space to store the sequence.
 
@@ -37,7 +37,7 @@
 # @return {String[]}
 def generate_parenthesis(n)
   parenthesis = []
-  backtrack(parenthesis, "", 0, 0, n)
+  backtrack(parenthesis, '', 0, 0, n)
   parenthesis
 end
 
@@ -47,13 +47,9 @@ def backtrack(parenthesis, curr, open, close, max)
     return
   end
 
-  if open < max
-    backtrack(parenthesis, curr + "(", open + 1, close, max)
-  end
+  backtrack(parenthesis, curr + '(', open + 1, close, max) if open < max
 
-  if close < open
-    backtrack(parenthesis, curr + ")", open, close + 1, max)
-  end
+  backtrack(parenthesis, curr + ')', open, close + 1, max) if close < open
 end
 
 n = 3

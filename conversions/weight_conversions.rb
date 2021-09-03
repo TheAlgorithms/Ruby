@@ -3,7 +3,7 @@
 module WeightConversion
   # Kilogram -> Gram = (kilogram_value * 1000) grams
   def self.kilogram_to_gram(kilogram_input)
-    raise StandardError unless Integer === kilogram_input
+    raise StandardError unless kilogram_input.is_a?(Integer)
 
     gram = kilogram_input * 1000
 
@@ -40,7 +40,7 @@ module WeightConversion
 
   # Pound -> Kilogram = (pound_input / 2.205) kg
   def self.pound_to_kilogram(pound_input)
-    raise StandardError unless Integer === pound_input
+    raise StandardError unless pound_input.is_a?(Integer)
 
     kilogram = (pound_input / 2.205).round(2)
 
@@ -48,9 +48,9 @@ module WeightConversion
   end
 end
 
-# 
+#
 # Valid inputs
-# 
+#
 
 puts WeightConversion.kilogram_to_gram(2)
 # 2 kg = 2000 g
@@ -65,42 +65,42 @@ puts WeightConversion.kilogram_to_pound(1)
 puts WeightConversion.pound_to_kilogram(100)
 # 100 lb = 45.35 kg
 
-# 
+#
 # Invalid inputs
-# 
+#
 
 begin
-  puts WeightConversion.kilogram_to_gram("a")
+  puts WeightConversion.kilogram_to_gram('a')
 rescue StandardError
-  puts "Error: Please provide number only!"
+  puts 'Error: Please provide number only!'
 end
 
 begin
-  puts WeightConversion.kilogram_to_gram("3000")
+  puts WeightConversion.kilogram_to_gram('3000')
 rescue StandardError
-  puts "Error: Please provide number only!"
+  puts 'Error: Please provide number only!'
 end
 
 begin
-  puts WeightConversion.kilogram_to_gram("16")
+  puts WeightConversion.kilogram_to_gram('16')
 rescue StandardError
-  puts "Error: Please provide number only!"
+  puts 'Error: Please provide number only!'
 end
 
 begin
-  puts WeightConversion.kilogram_to_gram("x ")
+  puts WeightConversion.kilogram_to_gram('x ')
 rescue StandardError
-  puts "Error: Please provide number only!"
+  puts 'Error: Please provide number only!'
 end
 
 begin
-  puts WeightConversion.kilogram_to_gram("weight")
+  puts WeightConversion.kilogram_to_gram('weight')
 rescue StandardError
-  puts "Error: Please provide number only!"
+  puts 'Error: Please provide number only!'
 end
 
 begin
-  puts WeightConversion.kilogram_to_gram("100")
+  puts WeightConversion.kilogram_to_gram('100')
 rescue StandardError
-  puts "Error: Please provide number only!"
+  puts 'Error: Please provide number only!'
 end

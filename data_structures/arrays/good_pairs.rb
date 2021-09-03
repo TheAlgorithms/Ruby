@@ -19,9 +19,8 @@ def num_identical_pairs(nums)
     target = num
     nums.each_with_index do |num, j|
       next if i >= j
-      if num == target
-        count += 1
-      end
+
+      count += 1 if num == target
     end
   end
   count

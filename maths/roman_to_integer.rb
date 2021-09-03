@@ -10,7 +10,7 @@
 # C             100
 # D             500
 # M             1000
-# 
+#
 # For example, 2 is written as II in Roman numeral, just two one's added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
 #
 # Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not IIII. Instead, the number four is written as IV. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as IX. There are six instances where subtraction is used:
@@ -36,13 +36,13 @@
 # Because only a constant number of single-value variables are used, the space complexity is O(1).
 
 ROM_NUMS = {
-  "I" => 1,
-  "V" => 5,
-  "X" => 10,
-  "L" => 50,
-  "C" => 100,
-  "D" => 500,
-  "M" => 1000
+  'I' => 1,
+  'V' => 5,
+  'X' => 10,
+  'L' => 50,
+  'C' => 100,
+  'D' => 500,
+  'M' => 1000
 }
 
 # Now, recall that each symbol adds its own value, except for when a smaller
@@ -61,7 +61,7 @@ def roman_to_int(s)
 
   s.chars.each_with_index do |el, i|
     # subtractive case: if at least 2 symbols remaining AND value of s[i] < value of s[i + 1]
-    if ROM_NUMS[s[i + 1]] && ROM_NUMS[el] < ROM_NUMS[s[i+1]]
+    if ROM_NUMS[s[i + 1]] && ROM_NUMS[el] < ROM_NUMS[s[i + 1]]
       temp = ROM_NUMS[el]
     else
       # Else this is NOT the subtractive case.
@@ -73,24 +73,24 @@ def roman_to_int(s)
   res
 end
 
-s = "III"
+s = 'III'
 puts roman_to_int(s)
 # Output: 3
 
-s = "IV"
+s = 'IV'
 puts roman_to_int(s)
 # Output: 4
 
-s = "IX"
+s = 'IX'
 puts roman_to_int(s)
 # Output: 9
 
-s = "LVIII"
+s = 'LVIII'
 puts roman_to_int(s)
 # Output: 58
 # Explanation: L = 50, V= 5, III = 3.
 
-s = "MCMXCIV"
+s = 'MCMXCIV'
 puts roman_to_int(s)
 # Output: 1994
 # Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.

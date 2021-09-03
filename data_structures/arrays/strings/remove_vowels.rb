@@ -26,9 +26,7 @@ def remove_vowels(s)
   start_array = s.split('')
 
   start_array.each do |letter|
-    if letter != 'a' && letter != 'e' && letter != 'i' && letter != 'o' && letter != 'u'
-      result_array.push(letter)
-    end
+    result_array.push(letter) if letter != 'a' && letter != 'e' && letter != 'i' && letter != 'o' && letter != 'u'
   end
 
   result_array.join('')

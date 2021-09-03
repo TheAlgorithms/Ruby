@@ -26,7 +26,6 @@
 # Input: n = 33
 # Output: 66045
 
-
 #
 # Approach: Math
 #

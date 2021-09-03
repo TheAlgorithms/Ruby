@@ -20,9 +20,7 @@
 # Time complexity: O(n)
 #
 def add_digits(num)
-  if num.to_s.length < 2
-    return num
-  end
+  return num if num.to_s.length < 2
 
   digits_to_sum = num.to_s.split('')
   sum = 0

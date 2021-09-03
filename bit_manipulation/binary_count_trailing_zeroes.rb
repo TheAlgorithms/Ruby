@@ -5,7 +5,7 @@ def binary_count_trailing_zeroes(x)
 
   count = 0
   binary.chars.reverse_each do |char|
-    break if char == "1"
+    break if char == '1'
 
     count += 1
   end
@@ -15,7 +15,7 @@ end
 
 begin
   binary_count_trailing_zeroes(-1)
-rescue => e
+rescue StandardError => e
   puts e.message
 end
 # Input must be a positive integer
@@ -32,5 +32,5 @@ puts binary_count_trailing_zeroes(1024)
 puts binary_count_trailing_zeroes(54)
 # 1
 
-puts binary_count_trailing_zeroes(121024)
+puts binary_count_trailing_zeroes(121_024)
 # 6

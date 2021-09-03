@@ -8,7 +8,7 @@ end
 
 begin
   binary_count_setbits(-1)
-rescue => e
+rescue StandardError => e
   puts e.message
 end
 # Input must be a positive integer

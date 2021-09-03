@@ -1,5 +1,6 @@
 def pancake_sort(array)
   return array if array.length <= 1
+
   (array.length - 1).downto(1) do |index|
     max_index = array[0..index].index(array[0..index].max)
     next if max_index == index

@@ -5,15 +5,15 @@ module AverageMean
   def self.average_mean(n, *array)
     if n.instance_of? Integer
       if n == array.size
-        puts "The average mean of the following elements #{array} is #{array.sum/array.size}."
+        puts "The average mean of the following elements #{array} is #{array.sum / array.size}."
       else
         puts "Provide the required #{n} elements properly!"
       end
     else
       raise
     end
-    rescue
-      puts "Error: Please provide number only!"
+  rescue StandardError
+    puts 'Error: Please provide number only!'
   end
 end
 
@@ -24,5 +24,5 @@ AverageMean.average_mean(3, 2, 2, 2)
 
 # Invalid inputs
 AverageMean.average_mean(2, 3, 1, 5)
-AverageMean.average_mean(2, 3, "a")
-AverageMean.average_mean("a", 1, 2)
+AverageMean.average_mean(2, 3, 'a')
+AverageMean.average_mean('a', 1, 2)

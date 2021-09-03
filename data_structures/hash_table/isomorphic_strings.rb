@@ -2,7 +2,7 @@
 #
 # Given two strings s and t, determine if they are isomorphic.
 # Two strings s and t are isomorphic if the characters in s can be replaced to get t.
-# All occurrences of a character must be replaced with another character while preserving the order of characters. 
+# All occurrences of a character must be replaced with another character while preserving the order of characters.
 # No two characters may map to the same character, but a character may map to itself.
 #
 # Example 1:
@@ -38,27 +38,27 @@ def isomorphic_strings_check(s, t)
     char2 = t[i]
 
     # if char1 is mapped
-    if map[char1] 
+    if map[char1]
       # return false if char1 is mapped to a different character than already present
       return false if map[char1] != char2
     # if char1 is not mapped
     else
       # return false if char2 is already mapped to a different character
       return false if set.include?(char2)
+
       # checks passed: add new character map and track that char2 has been mapped
       map[char1] = char2
       set << char2
     end
-
   end
-  return true
+  true
 end
 
-puts isomorphic_strings_check("egg", "add")
+puts isomorphic_strings_check('egg', 'add')
 # => true
 
-puts isomorphic_strings_check("foo", "bar")
+puts isomorphic_strings_check('foo', 'bar')
 # => false
 
-puts isomorphic_strings_check("paper", "title")
+puts isomorphic_strings_check('paper', 'title')
 # => true

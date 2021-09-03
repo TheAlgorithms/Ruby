@@ -14,7 +14,7 @@ def collatz_conjecture(number)
   while number > 1
     if number.even?
       number /= 2
-      nums.push number
+      nums.push(number)
     else
       number = 3 * number + 1
       nums.push(number)

@@ -25,7 +25,7 @@ def angle_clock(hour, minutes)
   # 3. The difference between the two angles is the angle between the two hands.
 
   # validate the input
-  print("Wrong input") if h < 0 || m < 0 || h > 12 || m > 60
+  print('Wrong input') if h < 0 || m < 0 || h > 12 || m > 60
 
   h = 0 if h == 12
   if m == 60

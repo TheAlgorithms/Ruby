@@ -97,6 +97,7 @@
   * [Add Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/add_digits.rb)
   * [Aliquot Sum](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot_sum.rb)
   * [Aliquot Sum Test](https://github.com/TheAlgorithms/Ruby/blob/master/maths/aliquot_sum_test.rb)
+  * [Angle Between Hands Of A Clock](https://github.com/TheAlgorithms/Ruby/blob/master/maths/angle_between_hands_of_a_clock.rb)
   * [Armstrong Number](https://github.com/TheAlgorithms/Ruby/blob/master/maths/armstrong_number.rb)
   * [Average Mean](https://github.com/TheAlgorithms/Ruby/blob/master/maths/average_mean.rb)
   * [Average Median](https://github.com/TheAlgorithms/Ruby/blob/master/maths/average_median.rb)

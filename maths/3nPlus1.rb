@@ -8,20 +8,22 @@
 
 def collatz_conjecture(number)
   n = number
-  nums = Array.new
-  nums.push number
+  nums = []
+  nums.push(number)
+
   while number > 1
-    if number % 2 == 0
+    if number.even?
       number /= 2
       nums.push number
     else
       number = 3 * number + 1
-      nums.push number
+      nums.push(number)
     end
   end
-  "The 3N + 1 series of #{n} is #{nums.to_s}."
-  rescue
-    "Error: Please provide number only!"
+
+  "The 3N + 1 series of #{n} is #{nums}."
+rescue StandardError
+  'Error: Please provide number only!'
 end
 
 # Valid inputs
@@ -35,8 +37,8 @@ puts collatz_conjecture(100)
 # The 3N + 1 series of 100 is [100, 50, 25, 76, 38, 19, 58, 29, 88, 44, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1].
 
 # Invalid inputs
-puts collatz_conjecture("12")
+puts collatz_conjecture('12')
 # Error: Please provide number only!
 
-puts collatz_conjecture("a")
+puts collatz_conjecture('a')
 # Error: Please provide number only!

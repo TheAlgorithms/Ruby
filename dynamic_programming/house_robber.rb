@@ -47,3 +47,41 @@ puts rob(nums)
 nums = [2, 7, 9, 3, 1]
 puts rob(nums)
 # Output: 12
+
+#
+# Approach 2: Optimized Dynamic Programming
+#
+
+# Time Complexity
+#
+# Time Complexity: O(N) since we have a loop from N−2 and we use the precalculated
+# values of our dynamic programming table to calculate the current value in the table
+# which is a constant time operation.
+#
+# Space Complexity: O(1) since we are not using a table to store our values.
+# Simply using two variables will suffice for our calculations.
+#
+
+def rob(nums)
+  dp = Array.new(nums.size + 1)
+
+  (nums.size + 1).times do |i|
+    dp[i] = if i == 0
+              0
+            elsif i == 1
+              nums[0]
+            else
+              [dp[i - 2] + nums[i - 1], dp[i - 1]].max
+            end
+  end
+
+  dp[-1]
+end
+
+nums = [1, 2, 3, 1]
+puts rob(nums)
+# Output: 4
+
+nums = [2, 7, 9, 3, 1]
+puts rob(nums)
+# Output: 12

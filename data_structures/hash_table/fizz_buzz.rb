@@ -8,21 +8,6 @@
 # Approach 1: Hash it!
 #
 
-# Intuition
-#
-# This approach is an optimization over approach 2. When the
-# number of mappings are limited, approach 2 looks good. But What
-# if you decide to add too many mappings?
-#
-# Having a condition for every mapping is not feasible or may be
-# we can say the code might get ugly and tough to maintain.
-#
-# What if tomorrow we have to change a mapping or maybe delete
-# a mapping? Are we going to change the code every time we have a
-# modification in the mappings?
-#
-# We don't have to. We can put all these mappings in a Hash Table.
-
 # Complexity Analysis
 
 # Time Complexity: O(N)

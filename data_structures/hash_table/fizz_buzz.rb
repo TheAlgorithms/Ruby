@@ -15,13 +15,8 @@
 
 # @param {Integer} n
 # @return {String[]}
-def fizz_buzz(n)
-  str = []
-  fizz_buzz = {}
-  fizz_buzz[3] = 'Fizz'
-  fizz_buzz[5] = 'Buzz'
-
-  n.times do |i|
+def fizz_buzz(n, fizz_buzz = { 3 => 'Fizz', 5 => 'Buzz' })
+  n.times.map do |i|
     i += 1
     num_str = ''
 
@@ -29,12 +24,8 @@ def fizz_buzz(n)
       num_str += value if i % key == 0
     end
 
-    num_str = i.to_s if num_str == ''
-
-    str.push(num_str)
+    num_str.empty? ? i.to_s : num_str
   end
-
-  str
 end
 
 n = 15

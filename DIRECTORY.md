@@ -90,6 +90,9 @@
   * [Ones And Zeros](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/ones_and_zeros.rb)
   * [Pascal Triangle Ii](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/pascal_triangle_ii.rb)
 
+## Electronics
+  * [Ohms Law](https://github.com/TheAlgorithms/Ruby/blob/master/electronics/ohms_law.rb)
+
 ## Maths
   * [3Nplus1](https://github.com/TheAlgorithms/Ruby/blob/master/maths/3nPlus1.rb)
   * [Abs](https://github.com/TheAlgorithms/Ruby/blob/master/maths/abs.rb)

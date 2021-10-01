@@ -12,6 +12,8 @@
   * [Single Bit Binary Operations](https://github.com/TheAlgorithms/Ruby/blob/master/bit_manipulation/single_bit_binary_operations.rb)
 
 ## Ciphers
+  * [Caesar](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/caesar.rb)
+  * [Caesar Test](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/caesar_test.rb)
   * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)
   * [Rsa](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/rsa.rb)
 

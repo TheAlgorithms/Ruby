@@ -13,6 +13,7 @@
 
 ## Ciphers
   * [Merkle Hellman Cryptosystem](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/merkle_hellman_cryptosystem.rb)
+  * [Rsa](https://github.com/TheAlgorithms/Ruby/blob/master/ciphers/rsa.rb)
 
 ## Conversions
   * [Temperature Conversions](https://github.com/TheAlgorithms/Ruby/blob/master/conversions/temperature_conversions.rb)

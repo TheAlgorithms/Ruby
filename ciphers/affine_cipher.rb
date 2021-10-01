@@ -9,8 +9,7 @@ end
 class AffineCipher
   ALPHABET = ('a'..'z').to_a
   LETTERS_COUNT = ALPHABET.count
-
-  # @param
+  
   def initialize(key:, shift:, message:)
     raise CoprimeError unless coprime?(key)
 

@@ -56,6 +56,8 @@
     * [Invert](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/invert.rb)
     * [Postorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/postorder_traversal.rb)
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
+  * Disjoint Sets
+    * [Disjoint Sets](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/disjoint_sets/disjoint_sets.rb)
   * Hash Table
     * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/anagram_checker.rb)
     * [Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/arrays_intersection.rb)

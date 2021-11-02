@@ -3,13 +3,13 @@
 # Reference: https://en.wikipedia.org/wiki/Ohm's_law
 
 def ohms_law(i, r)
-  if(i > 0 && r > 0)
+  if i > 0 && r > 0
     "The voltage for given #{i} ampheres current and #{r} ohms resistance is #{r * i} volts."
   else
     raise
   end
-  rescue
-    "Error: Please provide valid inputs only!"
+rescue StandardError
+  'Error: Please provide valid inputs only!'
 end
 
 # Valid inputs
@@ -25,7 +25,7 @@ puts(ohms_law(5, -10))
 # Error: Please provide valid inputs only!
 puts(ohms_law(-5, -10))
 # Error: Please provide valid inputs only!
-puts(ohms_law(5, "10"))
+puts(ohms_law(5, '10'))
 # Error: Please provide valid inputs only!
-puts(ohms_law("a", 10))
+puts(ohms_law('a', 10))
 # Error: Please provide valid inputs only!

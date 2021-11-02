@@ -30,4 +30,3 @@ class CaesarCipher
     end.join
   end
 end
-

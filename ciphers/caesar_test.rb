@@ -19,4 +19,3 @@ class CaesarCipherTest < Minitest::Test
     assert_equal decrypted, plaintext
   end
 end
-

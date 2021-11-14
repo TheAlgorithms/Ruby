@@ -90,6 +90,7 @@
   * [Climbing Stairs](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/climbing_stairs.rb)
   * [Coin Change](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/coin_change.rb)
   * [Count Sorted Vowel Strings](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/count_sorted_vowel_strings.rb)
+  * [Editdistance](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/editdistance.rb)
   * [Fibonacci](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/fibonacci.rb)
   * [House Robber](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/house_robber.rb)
   * [Knapsack](https://github.com/TheAlgorithms/Ruby/blob/master/dynamic_programming/knapsack.rb)

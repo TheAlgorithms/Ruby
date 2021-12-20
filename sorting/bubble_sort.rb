@@ -1,19 +1,21 @@
 def bubble_sort(array)
-  n = array.length
-  loop do
-    swapped = false
-
-    (n - 1).times do |i|
-      if array[i] > array[i + 1]
-        array[i], array[i + 1] = array[i + 1], array[i]
-        swapped = true
+  array_length = array.length
+  return array if array_length <= 1
+  unsorted_until_index = array_length - 1
+  sorted = false
+  until sorted
+    sorted = true
+    for i in (0..unsorted_until_index)
+      if array[i+1]
+        if array[i] > array[i+1]
+          array[i], array[i+1] = array[i+1], array[i]
+          sorted = false
+        end
       end
     end
-
-    break unless swapped
+    unsorted_until_index -= 1
   end
-
-  array
+  return array
 end
 
 if $0 == __FILE__

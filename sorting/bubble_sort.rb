@@ -5,12 +5,10 @@ def bubble_sort(array)
   sorted = false
   until sorted
     sorted = true
-    for i in (0..unsorted_until_index)
-      if array[i+1]
-        if array[i] > array[i+1]
-          array[i], array[i+1] = array[i+1], array[i]
-          sorted = false
-        end
+    0.upto(unsorted_until_index - 1) do |i|
+      if array[i] > array[i+1]
+        array[i], array[i+1] = array[i+1], array[i]
+        sorted = false
       end
     end
     unsorted_until_index -= 1

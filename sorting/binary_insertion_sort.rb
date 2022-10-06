@@ -1,9 +1,4 @@
-# Ruby implementation
-# of binary insertion sort algorithm
-
-
-
-require 'pry'
+# Ruby implementation of binary insertion sort algorithm
 
 def binary_search(arr, val, start, stop)
   while start <= stop

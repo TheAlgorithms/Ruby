@@ -172,6 +172,8 @@
 ## Sorting
   * [Bead Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bead_sort.rb)
   * [Bead Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bead_sort_test.rb)
+  * [Binary Insertion Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/binary_insertion_sort.rb)
+  * [Binary Insertion Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/binary_insertion_sort_test.rb)
   * [Bogo Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort.rb)
   * [Bogo Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bogo_sort_test.rb)
   * [Bubble Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/bubble_sort.rb)

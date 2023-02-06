@@ -22,10 +22,20 @@ class TestMaxHeap < Minitest::Test
     assert heap.max == 4
   end
 
+  def test_max_returns_nil_if_empty_heap
+    heap = MaxHeap.new
+    assert heap.max.nil?
+  end
+
   def test_extract_max_returns_and_removes_maximum_heap_element
     heap = MaxHeap.new([4, 1, 3])
     assert heap.extract_max == 4
     assert heap.to_array == [3, 1]
+  end
+
+  def test_extract_max_returns_nil_if_empty_heap
+    heap = MaxHeap.new
+    assert heap.extract_max.nil?
   end
 
   def test_insert_adds_element_to_appropriate_position

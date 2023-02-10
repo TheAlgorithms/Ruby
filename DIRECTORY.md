@@ -205,3 +205,7 @@
   * [Shell Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/shell_sort_test.rb)
   * [Sort Color](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/sort_color.rb)
   * [Sort Tests](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/sort_tests.rb)
+
+## Strings
+  * [Max K Most Frequent Words](https://github.com/TheAlgorithms/Ruby/blob/master/strings/max_k_most_frequent_words.rb)
+  * [Max K Most Frequent Words Test](https://github.com/TheAlgorithms/Ruby/blob/master/strings/max_k_most_frequent_words_test.rb)

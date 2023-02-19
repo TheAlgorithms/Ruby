@@ -153,6 +153,8 @@
     * [Sol2](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_004/sol2.rb)
   * Problem 005
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_005/sol1.rb)
+  * Problem 007
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_007/sol1.rb)
   * Problem 020
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_020/sol1.rb)
   * Problem 021

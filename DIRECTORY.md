@@ -159,6 +159,8 @@
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_021/sol1.rb)
   * Problem 022
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_022/sol1.rb)
+  * Problem 025
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_025/sol1.rb)    
 
 ## Searches
   * [Binary Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/binary_search.rb)

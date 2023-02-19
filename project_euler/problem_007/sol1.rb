@@ -36,5 +36,5 @@ def solution?(nth)
   primes[primes.length - 1]
 end
 
-answer = solution?(1001)
+answer = solution?(10001)
 p answer

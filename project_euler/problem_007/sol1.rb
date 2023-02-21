@@ -24,7 +24,8 @@ def is_prime?(number)
     result = value
 end
 
-def solution?(nth)
+def solution?()
+  nth = 10001
   primes = Array.new()
   num = 2
   while primes.length < nth
@@ -36,5 +37,5 @@ def solution?(nth)
   primes[primes.length - 1]
 end
 
-answer = solution?(10001)
+answer = solution?()
 p answer

@@ -16,7 +16,7 @@
 
 #Which starting number, under one million, produces the longest chain?
 
-def solution?()
+def solution()
   index_best_result = 0
   for num in 2..1000000
     index_candidate = 0
@@ -37,6 +37,6 @@ def solution?()
   result = value
 end
 
-answer = solution?()
+answer = solution()
 p answer
   

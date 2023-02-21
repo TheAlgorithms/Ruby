@@ -18,13 +18,12 @@
 #The 12th term, F12, is the first term to contain three digits.
 #What is the index of the first term in the Fibonacci sequence to contain 1000 digits?
 
-def solution?()
+def solution(num_digits = 1000)
   #Fn = Fn−1 + Fn−2, where F1 = 1 and F2 = 1.
   resultn1 = 1
   resultn2 = 1
   result = 2
   index = 3
-  num_digits = 1000
   value = true
   while value
     resultn2 = resultn1
@@ -40,6 +39,6 @@ def solution?()
   res = index
 end
 
-answer = solution?()
+answer = solution()
 p answer
   

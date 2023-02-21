@@ -22,7 +22,8 @@ def is_prime?(number)
     result = value
 end
 
-def solution?(max_total)
+def solution?()
+  max_total = 2000000
   sum = 1
   num = 2
   value = 1
@@ -38,5 +39,5 @@ def solution?(max_total)
   result = sum
 end
 
-answer = solution?(2000000)
+answer = solution?()
 p answer

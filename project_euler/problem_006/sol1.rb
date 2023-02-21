@@ -11,7 +11,8 @@
 #Find the difference between the sum of the squares of the first one
 #hundred natural numbers and the square of the sum.
 
-def solution?(num)
+def solution?()
+	num = 10
 	x = 1
 	y = 1
 	result = 1
@@ -28,8 +29,5 @@ def solution?(num)
 	r_sum_n_pow2 - r_n_pow2_plus_n_pow2
 end
 
-answer = 0
-answer = solution?(10)
-
-
+answer = solution?()
 p answer

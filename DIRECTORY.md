@@ -161,6 +161,8 @@
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_007/sol1.rb)
   * Problem 010
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_010/sol1.rb)
+  * Problem 014
+    * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_014/sol1.rb)
   * Problem 020
     * [Sol1](https://github.com/TheAlgorithms/Ruby/blob/master/project_euler/problem_020/sol1.rb)
   * Problem 021

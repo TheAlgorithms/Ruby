@@ -39,4 +39,3 @@ end
 
 answer = solution()
 p answer
-  

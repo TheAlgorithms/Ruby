@@ -2,7 +2,7 @@
 #Summation of primes
 #The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 #Find the sum of all the primes below two million.
-#References: - https://en.wikipedia.org/wiki/Prime_number
+#References:  https://en.wikipedia.org/wiki/Prime_number
 def is_prime?(number)   
     value = true
     if number > 1 and number < 4

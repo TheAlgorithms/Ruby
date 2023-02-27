@@ -199,6 +199,8 @@
   * [Cocktail Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/cocktail_sort_test.rb)
   * [Comb Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/comb_sort.rb)
   * [Comb Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/comb_sort_test.rb)
+  * [Counting Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/counting_sort.rb)
+  * [Counting Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/counting_sort_test.rb)
   * [Heap Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort.rb)
   * [Heap Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/heap_sort_test.rb)
   * [Insertion Sort](https://github.com/TheAlgorithms/Ruby/blob/master/sorting/insertion_sort.rb)

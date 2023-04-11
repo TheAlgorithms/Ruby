@@ -52,6 +52,8 @@
     * [Two Sum](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum.rb)
     * [Two Sum Ii](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/arrays/two_sum_ii.rb)
   * Binary Trees
+    * [Avl Tree](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/avl_tree.rb)
+    * [Avl Tree Test](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/avl_tree_test.rb)
     * [Bst](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/bst.rb)
     * [Bst Test](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/bst_test.rb)
     * [Inorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/inorder_traversal.rb)

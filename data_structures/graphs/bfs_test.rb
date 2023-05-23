@@ -18,7 +18,7 @@ class TestBfs < Minitest::Test
     }
   end
 
-  def test_bfs_visits_undirected_graph_fully
+  def test_bfs_visits_graph_fully
     graph = UnweightedGraph.new(nodes: [:u, :v, :w, :x], directed: false)
     graph.add_edge(:u, :v)
     graph.add_edge(:u, :w)
@@ -41,7 +41,7 @@ class TestBfs < Minitest::Test
     }
   end
 
-  def test_bfs_visits_undirected_graph_partially
+  def test_bfs_visits_graph_partially
     graph = UnweightedGraph.new(nodes: [:u, :v, :w, :x, :y, :z], directed: false)
     graph.add_edge(:u, :v)
     graph.add_edge(:w, :x)
@@ -63,5 +63,16 @@ class TestBfs < Minitest::Test
       :y => 1,
       :z => 2
     }
+  end
+
+  def test_bfs_visits_with_node_consumer
+    graph = UnweightedGraph.new(nodes: [:u, :v, :w], directed: false)
+    graph.add_edge(:u, :v)
+    graph.add_edge(:u, :w)
+
+    visit_order = []
+    bfs(graph, :w, ->(node) { visit_order.append(node) })
+
+    assert visit_order == [:w, :u, :v]
   end
 end

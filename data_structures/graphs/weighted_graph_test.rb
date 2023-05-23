@@ -78,7 +78,7 @@ class TestWeightedGraph < Minitest::Test
     assert graph.edges(:v).empty?
   end
 
-  def test_add_edge_adds_edge_to_directed_weighted_graph
+  def test_add_edge_adds_edge_to_undirected_weighted_graph
     graph = WeightedGraph.new(nodes: [:u, :v], directed: false)
     graph.add_edge(:u, :v, 2)
 

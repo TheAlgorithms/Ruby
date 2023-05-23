@@ -72,7 +72,7 @@ class TestUnweightedGraph < Minitest::Test
     assert graph.neighbors(:v).empty?
   end
 
-  def test_add_edge_adds_edge_to_directed_unweighted_graph
+  def test_add_edge_adds_edge_to_undirected_unweighted_graph
     graph = UnweightedGraph.new(nodes: [:u, :v], directed: false)
     graph.add_edge(:u, :v)
 

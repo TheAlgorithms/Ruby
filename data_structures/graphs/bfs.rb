@@ -25,33 +25,36 @@ end
 ##
 # Performs a breadth-first search for the provided graph, starting at the given node.
 # Returns the search result (see GraphBfsResult).
-# Nodes are consumed upon discovery using the provided node consumer (nothing, by default).
+# Nodes are consumed using the provided consumers upon being first seen, or being completely visited
+# (nothing, by default).
 #
 # The algorithm has a time complexity of O(|V| + |E|), where:
 # - |V| is the number of nodes in the graph;
 # - |E| is the number of edges in the graph.
 
-def bfs(graph, start_node, node_consumer=method(:do_nothing_on_node))
+def bfs(graph, start_node, seen_node_consumer: method(:do_nothing_on_node), visited_node_consumer: method(:do_nothing_on_node))
   seen = Set[]
   visited = Set[]
   parents = { start_node => nil }
   distances = { start_node => 0 }
 
   seen.add(start_node)
+  seen_node_consumer.call(start_node)
   q = Queue.new
   q.push(start_node)
   until q.empty?
     node = q.pop
-    node_consumer.call(node)
     for neighbor in graph.neighbors(node)
       unless seen.include?(neighbor)
         seen.add(neighbor)
         distances[neighbor] = distances[node] + 1
         parents[neighbor] = node
+        seen_node_consumer.call(neighbor)
         q.push(neighbor)
       end
     end
     visited.add(node)
+    visited_node_consumer.call(node)
   end
 
   GraphBfsResult.new(visited, parents, distances)

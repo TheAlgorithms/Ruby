@@ -62,6 +62,11 @@
     * [Preorder Traversal](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/binary_trees/preorder_traversal.rb)
   * Disjoint Sets
     * [Disjoint Sets](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/disjoint_sets/disjoint_sets.rb)
+  * Graphs
+    * [Unweighted Graph](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/unweighted_graph.rb)
+    * [Unweighted Graph Test](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/unweighted_graph_test.rb)
+    * [Weighted Graph](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/weighted_graph.rb)
+    * [Weighted Graph Test](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/weighted_graph_test.rb)
   * Hash Table
     * [Anagram Checker](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/anagram_checker.rb)
     * [Arrays Intersection](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/hash_table/arrays_intersection.rb)

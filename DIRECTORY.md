@@ -63,6 +63,8 @@
   * Disjoint Sets
     * [Disjoint Sets](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/disjoint_sets/disjoint_sets.rb)
   * Graphs
+    * [Topological Sort](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/topological_sort.rb)
+    * [Topological Sort Test](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/topological_sort_test.rb)
     * [Unweighted Graph](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/unweighted_graph.rb)
     * [Unweighted Graph Test](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/unweighted_graph_test.rb)
     * [Weighted Graph](https://github.com/TheAlgorithms/Ruby/blob/master/data_structures/graphs/weighted_graph.rb)

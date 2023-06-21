@@ -1,11 +1,11 @@
-name: test
+name: Build/test code
 on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: ruby/setup-ruby@master
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
       - name: Run tests

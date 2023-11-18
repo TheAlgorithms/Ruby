@@ -1,5 +1,9 @@
 # The Algorithms - Ruby
 
+<a href="https://gitpod.io/#https://github.com/TheAlgorithms/Ruby">
+    <img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square" height="20" alt="Gitpod Ready-to-Code">
+</a>
+
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/#TheAlgorithms_community:gitter.im)&nbsp;
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/TheAlgorithms/Ruby/blob/master/CONTRIBUTING.md)&nbsp;
 ![](https://img.shields.io/github/repo-size/TheAlgorithms/Ruby.svg?label=Repo%20size&style=flat-square)&nbsp;

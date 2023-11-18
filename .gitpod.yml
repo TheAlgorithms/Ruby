@@ -1,0 +1,3 @@
+tasks:
+    - name: Static Server
+      command: rake test

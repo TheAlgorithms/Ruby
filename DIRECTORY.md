@@ -236,5 +236,6 @@
 ## Strings
   * [Boyer Moore Horspool Search](https://github.com/TheAlgorithms/Ruby/blob/master/strings/boyer_moore_horspool_search.rb)
   * [Boyer Moore Horspool Search Test](https://github.com/TheAlgorithms/Ruby/blob/master/strings/boyer_moore_horspool_search_test.rb)
+  * [Hamming Distance](https://github.com/TheAlgorithms/Ruby/blob/master/strings/hamming_distance.rb)
   * [Max K Most Frequent Words](https://github.com/TheAlgorithms/Ruby/blob/master/strings/max_k_most_frequent_words.rb)
   * [Max K Most Frequent Words Test](https://github.com/TheAlgorithms/Ruby/blob/master/strings/max_k_most_frequent_words_test.rb)

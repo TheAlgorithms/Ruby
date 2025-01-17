@@ -1,0 +1,3 @@
+tasks:
+    - name: Run Tests
+      command: rake test

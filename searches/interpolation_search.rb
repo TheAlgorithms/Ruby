@@ -18,7 +18,7 @@ def interpolation_search(array, target)
 
     value_range = array[right] - array[left]
     if value_range.zero?
-      return array[left] == target ? left : -1
+      return -1
     end
 
     position = left + ((target - array[left]) * (right - left) / value_range)

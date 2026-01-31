@@ -141,6 +141,7 @@
   * [Find Min](https://github.com/TheAlgorithms/Ruby/blob/master/maths/find_min.rb)
   * [Lucas Series](https://github.com/TheAlgorithms/Ruby/blob/master/maths/lucas_series.rb)
   * [Number Of Digits](https://github.com/TheAlgorithms/Ruby/blob/master/maths/number_of_digits.rb)
+  * [Palindrome](https://github.com/TheAlgorithms/Ruby/blob/master/maths/palindrome.rb)
   * [Pascal Triangle Ii](https://github.com/TheAlgorithms/Ruby/blob/master/maths/pascal_triangle_ii.rb)
   * [Power Of Two](https://github.com/TheAlgorithms/Ruby/blob/master/maths/power_of_two.rb)
   * [Prime Number](https://github.com/TheAlgorithms/Ruby/blob/master/maths/prime_number.rb)

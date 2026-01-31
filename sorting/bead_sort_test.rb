@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require_relative './sort_tests'
 require_relative './bead_sort'
 
-class TestInsertionSort < Minitest::Test
+class TestBeadSort < Minitest::Test
   include SortTests
 
   def sort(input)

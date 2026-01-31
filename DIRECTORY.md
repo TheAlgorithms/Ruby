@@ -189,6 +189,8 @@
   * [Depth First Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/depth_first_search.rb)
   * [Double Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/double_linear_search.rb)
   * [Fibonacci Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/fibonacci_search.rb)
+  * [Interpolation Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/interpolation_search.rb)
+  * [Interpolation Search Test](https://github.com/TheAlgorithms/Ruby/blob/master/searches/interpolation_search_test.rb)
   * [Jump Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/jump_search.rb)
   * [Linear Search](https://github.com/TheAlgorithms/Ruby/blob/master/searches/linear_search.rb)
   * [Number Of Islands](https://github.com/TheAlgorithms/Ruby/blob/master/searches/number_of_islands.rb)

@@ -35,15 +35,15 @@ module TemperatureConversion
 
   # fahrenheit -> kelvin = [(value of fahrenheit - 32) * 5 / 9] + 273.15 => K
   def self.fahrenheit_to_kelvin(fahrenheit_input)
-    kelvin_output = ((fahrenheit_input - 32) * 5 / 9).round(2).round(2)
+    kelvin_output = (((fahrenheit_input - 32) * 5 / 9) + 273.15).round(2)
     puts "#{fahrenheit_input}°F = #{kelvin_output}K"
   rescue StandardError
     puts 'Error: Please provide number only!'
   end
 
-  # kelvin -> fahrenheit = [(value of kelvin - 32) * 5 / 9] + 273.15 => K
+  # kelvin -> fahrenheit = [(value of kelvin - 273.15) * 9 / 5)] + 32) => K
   def self.kelvin_to_fahrenheit(kelvin_input)
-    fahrenheit_output = (((kelvin_input - 273.15) * 9 / 5) + 32).round(2).round(2)
+    fahrenheit_output = (((kelvin_input - 273.15) * 9 / 5) + 32).round(2)
     puts "#{kelvin_input}K = #{fahrenheit_output}°F"
   rescue StandardError
     puts 'Error: Please provide number only!'
